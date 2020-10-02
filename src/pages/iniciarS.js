@@ -9,7 +9,7 @@ class IniciarS extends React.Component {
         <div className="row">
           <div className="col">
             <h1>Bienvenid@ a COOK TO WORK</h1>
-            <br/>
+            <br />
             <h1>Inicie sesión aquí</h1>
             <Form>
               <Form.Group controlId="formBasicEmail">
@@ -27,19 +27,18 @@ class IniciarS extends React.Component {
               <Form.Group controlId="formBasicCheckbox">
                 <Form.Check type="checkbox" label="Check me out" />
               </Form.Group>
-              <Button variant="primary" type="submit">
-                Submit
+              <Button type="button" className="btn btn-dark">
+                <a href="/inicio">Iniciar sesión como usuario</a>
+              </Button>
+              <br />
+              <Button type="button" className="btn btn-dark">
+                <a href="/inicio">Iniciar sesión como administrador</a>
+              </Button>
+              <br />
+              <Button type="button" className="btn btn-dark">
+                <a href="/inicio">Registrarse</a>
               </Button>
             </Form>
-            <button type="button" className="btn btn-dark">
-              <a href="/inicio">Iniciar sesión como usuario</a>
-            </button>
-            <button type="button" className="btn btn-dark">
-              <a href="/inicio">Iniciar sesión como administrador</a>
-            </button>
-            <button type="button" className="btn btn-dark">
-              <a href="/inicio">Registrarse</a>
-            </button>
           </div>
         </div>
       </div>

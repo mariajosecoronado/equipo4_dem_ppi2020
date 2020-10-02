@@ -1,0 +1,23 @@
+.titulo { 
+  margin-top: 10px;
+background-color: #33FF46 ;
+padding: 10px;
+border: 1px solid #33FF46 ;
+border-radius: 50px;
+  color: rgb(70, 70, 70);
+}
+.Perfil-enlace{
+  color: gray
+ }
+ .foto-perfil{
+   border: 1px solid white;
+   border-radius: 200px;
+ width: 30px;
+ }
+ .encabezado{
+   margin-top: 20px;
+  color: black;
+ }
+ .Perfil-enlace{
+  color: gray
+ }
