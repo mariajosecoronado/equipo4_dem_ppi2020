@@ -16,20 +16,21 @@ class Registro extends React.Component {
               <Form>
                 <Form.Group controlId="formBasicEmail">
                   <Form.Label>NOMBRE</Form.Label>
-                  <Form.Control type="email" placeholder="Enter email" />
-                  <Form.Text className="text-muted">
-                    We'll never share your email with anyone else.
-                  </Form.Text>
+                  <Form.Control type="email" placeholder="Ingrese su nombre" />
                 </Form.Group>
 
                 <Form.Group controlId="formBasicPassword">
                   <Form.Label>APELLIDO</Form.Label>
-                  <Form.Control type="password" placeholder="Password" />
+                  <Form.Control
+                    type="password"
+                    placeholder="Ingrese su apellido"
+                  />
                 </Form.Group>
-                <Form.Group controlId="formBasicPassword">
+                <Form.Group controlId="formBasicEmail">
                   <Form.Label>CORREO</Form.Label>
-                  <Form.Control type="password" placeholder="Password" />
+                  <Form.Control type="email" placeholder="Ingrese su nombre" />
                 </Form.Group>
+
                 <Form.Group controlId="formBasicPassword">
                   <Form.Label>CONTRASEÑA</Form.Label>
                   <Form.Control type="password" placeholder="Password" />
