@@ -5,7 +5,7 @@ import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 
-class listaDulce_admin extends React.Component {
+class listaSalado extends React.Component {
   render() {
     return (
       <div>
@@ -37,7 +37,7 @@ class listaDulce_admin extends React.Component {
         <>
           <Card>
             <Card.Body>
-              <Card.Text>RECETA SALADA</Card.Text>
+              <Card.Text>RECETA DULCE</Card.Text>
             </Card.Body>
             <Card.Img variant="bottom" />
             <img
@@ -51,7 +51,7 @@ class listaDulce_admin extends React.Component {
           <br />
           <Card>
             <Card.Body>
-              <Card.Text>RECETA SALADA</Card.Text>
+              <Card.Text>RECETA DULCE</Card.Text>
             </Card.Body>
             <Card.Img variant="bottom" />
             <img
@@ -65,7 +65,7 @@ class listaDulce_admin extends React.Component {
           <br />
           <Card>
             <Card.Body>
-              <Card.Text>RECETA SALADA</Card.Text>
+              <Card.Text>RECETA DULCE</Card.Text>
             </Card.Body>
             <Card.Img variant="bottom" />
             <img
@@ -79,7 +79,7 @@ class listaDulce_admin extends React.Component {
           <br />
           <Card>
             <Card.Body>
-              <Card.Text>RECETA SALADA</Card.Text>
+              <Card.Text>RECETA DULCE</Card.Text>
             </Card.Body>
             <Card.Img variant="bottom" />
             <img
@@ -93,7 +93,7 @@ class listaDulce_admin extends React.Component {
           <br />
           <Card>
             <Card.Body>
-              <Card.Text>RECETA SALADA</Card.Text>
+              <Card.Text>RECETA DULCE</Card.Text>
             </Card.Body>
             <Card.Img variant="bottom" />
             <img
@@ -107,7 +107,7 @@ class listaDulce_admin extends React.Component {
           <br />
           <Card>
             <Card.Body>
-              <Card.Text>RECETA SALADA</Card.Text>
+              <Card.Text>RECETA DULCE</Card.Text>
             </Card.Body>
             <Card.Img variant="bottom" />
             <img
@@ -124,4 +124,4 @@ class listaDulce_admin extends React.Component {
   }
 }
 
-export default listaDulce_admin;
+export default listaSalado;

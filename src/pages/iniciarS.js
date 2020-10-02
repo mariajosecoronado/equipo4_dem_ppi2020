@@ -2,7 +2,7 @@ import React from "react";
 import "../style/style.css";
 import { Form, Button } from "react-bootstrap";
 
-class IniciarS extends React.Component {
+class iniciarS extends React.Component {
   render() {
     return (
       <div className="container-fluid ">
@@ -44,4 +44,4 @@ class IniciarS extends React.Component {
   }
 }
 
-export default IniciarS;
+export default iniciarS;

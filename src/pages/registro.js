@@ -2,7 +2,7 @@ import React from "react";
 import "../style/style.css";
 import { Form, Button } from "react-bootstrap";
 
-class Registro extends React.Component {
+class registro extends React.Component {
   render() {
     return (
       <div className="container-fluid ">
@@ -55,4 +55,4 @@ class Registro extends React.Component {
   }
 }
 
-export default Registro;
+export default registro;

@@ -37,44 +37,86 @@ class listaSalado_admin extends React.Component {
         <>
           <Card>
             <Card.Body>
-              <Card.Text>RECETAS</Card.Text>
+              <Card.Text>RECETA SALADA</Card.Text>
             </Card.Body>
-            <Card.Img variant="bottom" src="holder.js/100px180" />
+            <Card.Img variant="bottom" />
+            <img
+              className="d-block w-100"
+              src="https://image.freepik.com/vector-gratis/chica-profesional-chef-cucharon-manos-ocupacion-cocina-menu-cocina-vajilla-cocina-panaderia-caricatura-ilustracion-logotipo_56104-57.jpg"
+              alt=""
+              width="200"
+              height="400"
+            />
           </Card>
           <br />
           <Card>
             <Card.Body>
-              <Card.Text>RECETAS</Card.Text>
+              <Card.Text>RECETA SALADA</Card.Text>
             </Card.Body>
-            <Card.Img variant="bottom" src="holder.js/100px180" />
+            <Card.Img variant="bottom" />
+            <img
+              className="d-block w-100"
+              src="https://image.freepik.com/vector-gratis/chica-profesional-chef-cucharon-manos-ocupacion-cocina-menu-cocina-vajilla-cocina-panaderia-caricatura-ilustracion-logotipo_56104-57.jpg"
+              alt=""
+              width="200"
+              height="400"
+            />
           </Card>
           <br />
           <Card>
             <Card.Body>
-              <Card.Text>RECETAS</Card.Text>
+              <Card.Text>RECETA SALADA</Card.Text>
             </Card.Body>
-            <Card.Img variant="bottom" src="holder.js/100px180" />
+            <Card.Img variant="bottom" />
+            <img
+              className="d-block w-100"
+              src="https://image.freepik.com/vector-gratis/chica-profesional-chef-cucharon-manos-ocupacion-cocina-menu-cocina-vajilla-cocina-panaderia-caricatura-ilustracion-logotipo_56104-57.jpg"
+              alt=""
+              width="200"
+              height="400"
+            />
           </Card>
           <br />
           <Card>
             <Card.Body>
-              <Card.Text>RECETAS</Card.Text>
+              <Card.Text>RECETA SALADA</Card.Text>
             </Card.Body>
-            <Card.Img variant="bottom" src="holder.js/100px180" />
+            <Card.Img variant="bottom" />
+            <img
+              className="d-block w-100"
+              src="https://image.freepik.com/vector-gratis/chica-profesional-chef-cucharon-manos-ocupacion-cocina-menu-cocina-vajilla-cocina-panaderia-caricatura-ilustracion-logotipo_56104-57.jpg"
+              alt=""
+              width="200"
+              height="400"
+            />
           </Card>
           <br />
           <Card>
             <Card.Body>
-              <Card.Text>RECETAS</Card.Text>
+              <Card.Text>RECETA SALADA</Card.Text>
             </Card.Body>
-            <Card.Img variant="bottom" src="holder.js/100px180" />
+            <Card.Img variant="bottom" />
+            <img
+              className="d-block w-100"
+              src="https://image.freepik.com/vector-gratis/chica-profesional-chef-cucharon-manos-ocupacion-cocina-menu-cocina-vajilla-cocina-panaderia-caricatura-ilustracion-logotipo_56104-57.jpg"
+              alt=""
+              width="200"
+              height="400"
+            />
           </Card>
           <br />
           <Card>
             <Card.Body>
-              <Card.Text>RECETAS</Card.Text>
+              <Card.Text>RECETA SALADA</Card.Text>
             </Card.Body>
-            <Card.Img variant="bottom" src="holder.js/100px180" />
+            <Card.Img variant="bottom" />
+            <img
+              className="d-block w-100"
+              src="https://image.freepik.com/vector-gratis/chica-profesional-chef-cucharon-manos-ocupacion-cocina-menu-cocina-vajilla-cocina-panaderia-caricatura-ilustracion-logotipo_56104-57.jpg"
+              alt=""
+              width="200"
+              height="400"
+            />
           </Card>
         </>
       </div>
