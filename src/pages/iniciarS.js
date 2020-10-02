@@ -8,37 +8,38 @@ class IniciarS extends React.Component {
       <div className="container-fluid ">
         <div className="row">
           <div className="col">
-            <h1>Bienvenid@ a COOK TO WORK</h1>
-            <br />
-            <h1>Inicie sesión aquí</h1>
-            <Form>
-              <Form.Group controlId="formBasicEmail">
-                <Form.Label>Correo</Form.Label>
-                <Form.Control type="email" placeholder="Enter email" />
-                <Form.Text className="text-muted">
-                  We'll never share your email with anyone else.
-                </Form.Text>
-              </Form.Group>
+            <h1>
+              BIENVENID@ A COOK TO WORK <br />
+              INICIE SESIÓN AQUÍ
+            </h1>
+            <div>
+              <Form>
+                <Form.Group controlId="formBasicEmail">
+                  <Form.Label>CORREO</Form.Label>
+                  <Form.Control type="email" placeholder="Enter email" />
+                  <Form.Text className="text-muted">
+                    We'll never share your email with anyone else.
+                  </Form.Text>
+                </Form.Group>
 
-              <Form.Group controlId="formBasicPassword">
-                <Form.Label>Contraseña</Form.Label>
-                <Form.Control type="password" placeholder="Password" />
-              </Form.Group>
-              <Form.Group controlId="formBasicCheckbox">
-                <Form.Check type="checkbox" label="Check me out" />
-              </Form.Group>
-              <Button type="button" className="btn btn-dark">
-                <a href="/inicio">Iniciar sesión como usuario</a>
-              </Button>
-              <br />
-              <Button type="button" className="btn btn-dark">
-                <a href="/inicio">Iniciar sesión como administrador</a>
-              </Button>
-              <br />
-              <Button type="button" className="btn btn-dark">
-                <a href="/inicio">Registrarse</a>
-              </Button>
-            </Form>
+                <Form.Group controlId="formBasicPassword">
+                  <Form.Label>CONTRASEÑA</Form.Label>
+                  <Form.Control type="password" placeholder="Password" />
+                </Form.Group>
+                <Form.Group controlId="formBasicCheckbox">
+                  <Form.Check type="checkbox" label="Check me out" />
+                </Form.Group>
+                <Button type="button" className="btn btn-dark">
+                  <a href="/inicio">INICIAR SESÓN COMO USUARIO</a>
+                </Button>
+                <Button type="button" className="btn btn-dark">
+                  <a href="/inicio_admin">INICIAR SESÓN COMO ADMINISTRADOR </a>
+                </Button>
+                <Button type="button" className="btn btn-dark">
+                  <a href="/registro">REGISTRARSE</a>
+                </Button>
+              </Form>
+            </div>
           </div>
         </div>
       </div>

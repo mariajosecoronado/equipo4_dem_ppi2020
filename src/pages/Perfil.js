@@ -1,17 +1,23 @@
 import React from "react";
 import "../style/style.css";
+import { Container } from "react-bootstrap";
+import { Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 
 class perfil extends React.Component {
   render() {
     return (
       <div className="container-fluid ">
         <div className="row">
-          <div className="col">
-            <h1>Hola, soy la vista de menú</h1>
-            <button type="button" className="btn btn-dark">
-              <a href="/registro">Devolver</a>
-            </button>
-          </div>
+          <div className="col"></div>
+          <Container>
+            <Row>
+              <Col xs={6} md={4}>
+                <Image src="holder.js/171x180" roundedCircle />
+              </Col>
+            </Row>
+          </Container>
         </div>
       </div>
     );

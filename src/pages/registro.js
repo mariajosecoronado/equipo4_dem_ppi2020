@@ -15,7 +15,7 @@ class Registro extends React.Component {
             <div>
               <Form>
                 <Form.Group controlId="formBasicEmail">
-                  <Form.Label>Email address</Form.Label>
+                  <Form.Label>NOMBRE</Form.Label>
                   <Form.Control type="email" placeholder="Enter email" />
                   <Form.Text className="text-muted">
                     We'll never share your email with anyone else.
@@ -23,20 +23,30 @@ class Registro extends React.Component {
                 </Form.Group>
 
                 <Form.Group controlId="formBasicPassword">
-                  <Form.Label>Password</Form.Label>
+                  <Form.Label>APELLIDO</Form.Label>
                   <Form.Control type="password" placeholder="Password" />
                 </Form.Group>
-                <Form.Group controlId="formBasicCheckbox">
-                  <Form.Check type="checkbox" label="Check me out" />
+                <Form.Group controlId="formBasicPassword">
+                  <Form.Label>CORREO</Form.Label>
+                  <Form.Control type="password" placeholder="Password" />
                 </Form.Group>
-                <Button variant="primary" type="submit">
-                Submit
-              </Button>
+                <Form.Group controlId="formBasicPassword">
+                  <Form.Label>CONTRASEÑA</Form.Label>
+                  <Form.Control type="password" placeholder="Password" />
+                </Form.Group>
+                <Form.Group controlId="formBasicPassword">
+                  <Form.Label>CONFIRMAR CONTRASEÑA</Form.Label>
+                  <Form.Control type="password" placeholder="Password" />
+                </Form.Group>
+
+                <Button type="button" className="btn btn-dark">
+                  <a href="/inicio">ATRÁS</a>
+                </Button>
+                <Button type="button" className="btn btn-dark">
+                  <a href="/iniciarS">REGISTRARSE</a>
+                </Button>
               </Form>
             </div>
-            <button type="button" className="btn btn-dark">
-              <a href="/iniciarS">REGISTRARSE</a>
-            </button>
           </div>
         </div>
       </div>

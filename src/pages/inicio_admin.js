@@ -8,7 +8,7 @@ import { CardDeck } from "react-bootstrap";
 import { Jumbotron } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 
-class inicio extends React.Component {
+class inicio_admin extends React.Component {
   render() {
     return (
       <div>
@@ -150,4 +150,4 @@ class inicio extends React.Component {
   }
 }
 
-export default inicio;
+export default inicio_admin;
