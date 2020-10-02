@@ -8,6 +8,10 @@ import Inicio from "../pages/inicio";
 import Inicio_admin from "../pages/inicio_admin";
 import Perfil from "../pages/Perfil";
 import IniciarS from "../pages/iniciarS";
+import ListaDulce from "../pages/listaDulce";
+import ListaSalado from "../pages/listaSalado";
+import ListaDulce_admin from "../pages/listaDulce_admin";
+import ListaSalado_admin from "../pages/listaSalado_admin";
 
 const App = () => {
   return (
@@ -21,6 +25,10 @@ const App = () => {
         <Route exact path="/Perfil" component={Perfil} />
         <Route exact path="/inicio_admin" component={Inicio_admin} />
         <Route exact path="/iniciarS" component={IniciarS} />
+        <Route exact path="/listaDulce" component={ListaDulce} />
+        <Route exact path="/listaSalado" component={ListaSalado} />
+        <Route exact path="/listaDulce_admin" component={ListaDulce_admin} />
+        <Route exact path="/listaSalado_admin" component={ListaSalado_admin} />
       </Switch>
     </BrowserRouter>
   );
