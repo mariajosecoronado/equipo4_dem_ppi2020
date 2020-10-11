@@ -33,18 +33,26 @@ class registro extends React.Component {
 
                 <Form.Group controlId="formBasicPassword">
                   <Form.Label>CONTRASEÑA</Form.Label>
-                  <Form.Control type="password" placeholder="Password" />
+                  <Form.Control
+                    type="password"
+                    placeholder="Ingrese su contraseña"
+                  />
                 </Form.Group>
                 <Form.Group controlId="formBasicPassword">
                   <Form.Label>CONFIRMAR CONTRASEÑA</Form.Label>
-                  <Form.Control type="password" placeholder="Password" />
+                  <Form.Control
+                    type="password"
+                    placeholder="Confirme su contraseña"
+                  />
                 </Form.Group>
 
                 <Button type="button" className="btn btn-dark">
-                  <a href="/inicio">ATRÁS</a>
-                </Button>
-                <Button type="button" className="btn btn-dark">
                   <a href="/iniciarS">REGISTRARSE</a>
+                </Button>
+                <br></br>
+                <br></br>
+                <Button type="button" className="btn btn-dark">
+                  <a href="/inicio">ATRÁS</a>
                 </Button>
               </Form>
             </div>

@@ -15,21 +15,20 @@ class iniciarS extends React.Component {
             <div>
               <Form>
                 <Form.Group controlId="formBasicEmail">
-                  <Form.Label>CORREO</Form.Label>
-                  <Form.Control type="email" placeholder="Enter email" />
+                  <Form.Control type="email" placeholder="Correo:" />
                 </Form.Group>
 
                 <Form.Group controlId="formBasicPassword">
-                  <Form.Label>CONTRASEÑA</Form.Label>
-                  <Form.Control type="password" placeholder="Password" />
+                  <Form.Control type="password" placeholder="Contraseña:" />
                 </Form.Group>
+                <p>¿Has olvidado tu contraseña?</p>
 
                 <Button type="button" className="btn btn-dark">
-                  <a href="/inicio">INICIAR SESÓN COMO USUARIO</a>
+                  <a href="/inicio">INICIAR SESIÓN COMO USUARIO</a>
                 </Button>
                 <br />
                 <Button type="button" className="btn btn-dark">
-                  <a href="/inicio_admin">INICIAR SESÓN COMO ADMINISTRADOR </a>
+                  <a href="/inicio_admin">INICIAR SESIÓN COMO ADMINISTRADOR </a>
                 </Button>
                 <br />
                 <Button type="button" className="btn btn-dark">
