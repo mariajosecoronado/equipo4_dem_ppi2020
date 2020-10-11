@@ -21,9 +21,13 @@ class inicio extends React.Component {
                 </h1>
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-              <h1 className="titulo">COOK TO WORK</h1>
-            </Nav.Item>
+            <img
+              className="d-block w-100"
+              src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
+              alt="logo"
+              width="100"
+              height="250"
+            />
             <Nav.Item>
               <Nav.Link eventKey="Busqueda" className="encabezado">
                 <h1>
@@ -126,20 +130,22 @@ class inicio extends React.Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card>
-              <Card.Img
-                variant="top"
-                src="https://cdn.queapetito.com/wp-content/uploads/2019/01/quiches-600x469.jpg"
-              />
-              <Card.Body>
-                <Card.Title>Recetas saladas</Card.Title>
-                <Card.Text>
-                  Podrás sorprender a tu familia con una variedad de comidas en
-                  donde ellos serán los afortunados de probar las mejores
-                  recetas vistas en Cook to Work.{" "}
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <Nav.Link href="listaSalado">
+              <Card>
+                <Card.Img
+                  variant="top"
+                  src="https://cdn.queapetito.com/wp-content/uploads/2019/01/quiches-600x469.jpg"
+                />
+                <Card.Body>
+                  <Card.Title>Recetas saladas</Card.Title>
+                  <Card.Text>
+                    Podrás sorprender a tu familia con una variedad de comidas
+                    en donde ellos serán los afortunados de probar las mejores
+                    recetas vistas en Cook to Work.{" "}
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Nav.Link>
           </CardDeck>
         </div>
         <br></br>

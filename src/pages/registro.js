@@ -14,9 +14,9 @@ class registro extends React.Component {
             </h1>
             <div>
               <Form>
-                <Form.Group controlId="formBasicEmail">
+                <Form.Group  controlId="formBasicEmail">
                   <Form.Label>NOMBRE</Form.Label>
-                  <Form.Control type="email" placeholder="Ingrese su nombre" />
+                  <Form.Control className="campo-registro" type="email" placeholder="Ingrese su nombre" />
                 </Form.Group>
 
                 <Form.Group controlId="formBasicPassword">
