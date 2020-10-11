@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/style.css";
-import {} from "react-bootstrap";
+import { Spinner } from "react-bootstrap";
 
 class Inicio extends React.Component {
   render() {
@@ -27,6 +27,12 @@ class Inicio extends React.Component {
             </div>
             <div className="row">
               <div className="col text-center">
+                <br />
+                <br />
+                <br />
+                <Spinner animation="border" role="status">
+                  <span className="sr-only">Loading...</span>
+                </Spinner>
                 <br />
                 <br />
                 <br />
