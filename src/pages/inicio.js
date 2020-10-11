@@ -13,7 +13,7 @@ class inicio extends React.Component {
     return (
       <div>
         <>
-          <Nav className="justify-content-center " activeKey="/home">
+          <Nav className="justify-content-center " activeKey="/menu">
             <Nav.Item>
               <Nav.Link eventKey="link-1" className="encabezado">
                 <h1>
@@ -37,10 +37,19 @@ class inicio extends React.Component {
             <Nav.Item></Nav.Item>
           </Nav>
 
-          <Nav className="justify-content-end" activeKey="/home">
+          <Nav className="justify-content-end" href="/Perfil">
             <Nav.Item>
-              <Nav.Link eventKey="link-1" className="perfil-enlace">
-                Mi perfil <img className="foto-perfil" alt="foto de perfil" />
+              <Nav.Link
+                eventKey="link-1"
+                className="perfil-enlace"
+                href="Perfil"
+              >
+                Mi perfil{" "}
+                <img
+                  className="foto-perfil"
+                  alt="foto de perfil"
+                  src="https://benidorm.org/wp-content/img/cabecera/perfil-anonimo.jpg"
+                />
               </Nav.Link>
             </Nav.Item>
             <div></div>

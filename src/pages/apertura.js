@@ -23,7 +23,7 @@ class Inicio extends React.Component {
                 <br />
                 <br />
                 <br />
-                <h3>Click aquí!</h3>
+                <h3>Clic aquí!</h3>
               </div>
             </div>
             <div className="row">
@@ -36,12 +36,6 @@ class Inicio extends React.Component {
                     <span className="sr-only">Loading...</span>
                   </Spinner>
                 </Nav.Link>
-                <br />
-                <br />
-                <br />
-                <button type="button" className="btn btn-dark">
-                  <a href="/menu">Inicio</a>
-                </button>
                 <br />
                 <br />
                 <br />
