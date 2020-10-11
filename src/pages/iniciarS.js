@@ -2,12 +2,14 @@ import React from "react";
 import "../style/style.css";
 import { Form, Button } from "react-bootstrap";
 
+
 class iniciarS extends React.Component {
   render() {
     return (
       <div className="container-fluid ">
         <div className="row">
           <div className="col">
+          
             <h1>
               BIENVENID@ A COOK TO WORK <br />
               INICIE SESIÓN AQUÍ
@@ -16,6 +18,9 @@ class iniciarS extends React.Component {
               <Form>
                 <Form.Group controlId="formBasicEmail">
                   <Form.Control type="email" placeholder="Correo:" />
+                 
+           
+              
                 </Form.Group>
 
                 <Form.Group controlId="formBasicPassword">

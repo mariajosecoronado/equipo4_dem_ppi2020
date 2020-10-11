@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/style.css";
 import { Spinner } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 
 class Inicio extends React.Component {
   render() {
@@ -30,9 +31,11 @@ class Inicio extends React.Component {
                 <br />
                 <br />
                 <br />
-                <Spinner animation="border" role="status">
-                  <span className="sr-only">Loading...</span>
+                <Nav.Link activeKey="/inicio">
+                <Spinner animation="border" role="status"  >
+                  <span className="sr-only" >Loading...</span>
                 </Spinner>
+                </Nav.Link>
                 <br />
                 <br />
                 <br />
