@@ -47,7 +47,6 @@ class inicio extends React.Component {
             <Nav.Item></Nav.Item>
           </Nav>
         </>
-
         <div className="container2">
           <Carousel className="caru-tamaño">
             <Carousel.Item>
