@@ -31,10 +31,10 @@ class Inicio extends React.Component {
                 <br />
                 <br />
                 <br />
-                <Nav.Link activeKey="/inicio">
-                <Spinner animation="border" role="status"  >
-                  <span className="sr-only" >Loading...</span>
-                </Spinner>
+                <Nav.Link href="/menu">
+                  <Spinner animation="border" role="status">
+                    <span className="sr-only">Loading...</span>
+                  </Spinner>
                 </Nav.Link>
                 <br />
                 <br />
