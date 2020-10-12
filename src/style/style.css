@@ -73,7 +73,10 @@
 }
 .Busqueda{
   background-color: #7cf388;
-  
+  border: 2px solid rgb(8, 8, 8);
+  justify-content: center;
+  text-align: right;
+  text-align: center;
 }
 .Lupa{
   margin-top: 20px;
@@ -133,6 +136,8 @@
   border: 1px solid white;
   background-color: #14dd28;
   text-align: right;
+  height:50px;
+  width:300px;
 }
 .boton-reportes_admin{
   display: flex;
@@ -140,5 +145,8 @@
   border: 1px solid white;
   background-color: #14dd28;
   text-align: right;
-  height:20px;
+  height:50px;
+  width:300px;
 }
+
+

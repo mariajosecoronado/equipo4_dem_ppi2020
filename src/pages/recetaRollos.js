@@ -35,6 +35,29 @@ class recetaRollos extends React.Component {
         <Nav className="justify-content-end" activeKey="/home">
           <Nav.Item></Nav.Item>
         </Nav>
+        <br />
+        <div className="fotoperfil">
+          <img
+            className="fotoperfil"
+            src="https://recetasfacil.online/wp-content/uploads/2018/12/Recetas-f%C3%A1ciles-de-pollo-para-ni%C3%B1os-e1544662062923.jpg"
+            alt="logo"
+            width="400"
+            height="200"
+          />
+        </div>
+        <div className="unotitulo">
+          <h6> Publicado el 12/10/2020 </h6>
+        </div>
+
+        <div className="fotoperfil2">
+        <img
+            className="fotoperfil"
+            src="https://recetasfacil.online/wp-content/uploads/2018/12/Recetas-f%C3%A1ciles-de-pollo-para-ni%C3%B1os-e1544662062923.jpg"
+            alt="logo"
+            width="90"
+            height="100"
+          />
+          </div>
 
         <footer className="header">
           CONTÁCTENOS

@@ -30,7 +30,9 @@ class buscar_admin extends React.Component {
 
           </Nav>
           <Form inline>
-      <FormControl type="text" placeholder="Search" className="Busqueda" />
+      <FormControl type="text" placeholder="Search" className="Busqueda"
+      width="200"
+      height="150" />
       <Nav.Item>
               <Nav.Link eventKey="Busqueda" className="Lupa">
                 <h1>
