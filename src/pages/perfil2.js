@@ -39,6 +39,28 @@ class perfil2 extends React.Component {
         <Nav className="justify-content-end" activeKey="/home">
           <Nav.Item></Nav.Item>
         </Nav>
+        <br />
+        <div className="fotoperfil">
+          <img
+            className="fotoperfil"
+            src="https://www.lapi.com.mx/image.ashx?s=57067&im=115321&t=p"
+            alt="logo"
+            width="150"
+            height="170"
+          />
+        </div>
+
+
+<footer className="header">
+  CONTÁCTENOS
+  <button className="button">
+    {" "}
+    <Nav.Link href="/mensaje" className="black">
+      CLICK AQUÍ
+    </Nav.Link>{" "}
+  </button>
+  <Nav.Link href="/mensaje" className="black"></Nav.Link>{" "}
+</footer>
 
     </div>;
   }
