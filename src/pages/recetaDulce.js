@@ -53,7 +53,7 @@ class recetaDulce extends React.Component {
               <Nav.Item>
                 <Nav.Link
                   eventKey="link-1"
-                  href="Perfil"
+                  href="Perfil2"
                   className="perfil-enlace  black"
                 >
                   <img
@@ -99,6 +99,17 @@ class recetaDulce extends React.Component {
           <button>Descargar</button>
           <button>Compartir</button>
         </div>
+        <br></br>
+        <footer className="header">
+          CONTÁCTENOS
+          <button className="button">
+            {" "}
+            <Nav.Link href="/mensaje" className="black">
+              CLICK AQUÍ
+            </Nav.Link>{" "}
+          </button>
+          <Nav.Link href="/mensaje" className="black"></Nav.Link>{" "}
+        </footer>
       </div>
     );
   }
