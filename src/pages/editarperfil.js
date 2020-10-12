@@ -53,6 +53,11 @@ class editarPerfil extends React.Component {
 
           <input placeholder="Edita tu nombre"></input>
         </div>
+        <div className="input">
+          <BsFillChatQuoteFill />
+
+          <input placeholder="Edita tu correo"></input>
+        </div>
         <br></br>
 
         <footer className="header">
