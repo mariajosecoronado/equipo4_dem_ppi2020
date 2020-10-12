@@ -22,6 +22,7 @@ import Botones_mensajes_admin from "../pages/botones_mensajes_admin";
 import Buscar_admin from "../pages/buscar_admin";
 import Buscar from "../pages/buscar";
 import perfil2 from "../pages/perfil2";
+import editarPerfil from "../pages/editarperfil";
 import recetaRollos from "../pages/recetaRollos";
 import Receta_reportada_admin from "../pages/receta_reportada_admin"
 const App = () => {
@@ -46,6 +47,8 @@ const App = () => {
         <Route exact path="/recetaDulce" component={recetaDulce} />
         <Route exact path="/mensajes_admin" component={Mensajes_admin} />
         <Route exact path="/receta_reportada_admin" component={Receta_reportada_admin} />
+        <Route exact path="/editarperfil" component={editarPerfil} />
+        <Route exact path="/recetaRollos" component={recetaRollos} />
         <Route
           exact
           path="/botones_mensajes_admin"

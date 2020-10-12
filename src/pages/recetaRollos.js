@@ -79,11 +79,20 @@ class recetaRollos extends React.Component {
         </div>
         <div className="public-flex">
           <Card border="success" style={{ width: "18rem" }}>
-            <Card.Header>Ingredientes</Card.Header>
+            <Card.Header>Ingredientes para 4 personas</Card.Header>
             <Card.Body>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              
+
+-4 filetes de pechuga de pollo.<br></br>
+.Queso cremoso loncheado o troceado fino a tu gusto, gouda, edam…<br></br>
+Lonchas de jamón ibérico curado para cubrir los filetes<br></br>
+1 cebolla<br></br>
+Una zanahoria<br></br>
+1 vasito de oloroso seco (150 ml)<br></br>
+Una hoja de laurel<br></br>
+Sal y pimienta<br></br>
+Aceite de oliva
               </Card.Text>
             </Card.Body>
           </Card>
