@@ -16,6 +16,7 @@ import Mensajes_admin from "../pages/mensajes_admin";
 import Mensaje_reporte_admin from "../pages/mensaje_reporte_admin";
 import mensaje from "../pages/mensaje";
 import recetaDulce from "../pages/recetaDulce";
+import recetaSalada from "../pages/recetaSalada";
 import Botones_mensajes_admin from "../pages/botones_mensajes_admin";
 import Buscar_admin from "../pages/buscar_admin";
 
@@ -32,6 +33,7 @@ const App = () => {
         <Route exact path="/inicio_admin" component={Inicio_admin} />
         <Route exact path="/iniciarS" component={IniciarS} />
         <Route exact path="/listaDulce" component={ListaDulce} />
+        <Route exact path="/recetaSalada" component={recetaSalada} />
         <Route exact path="/listaSalado" component={ListaSalado} />
         <Route exact path="/listaDulce_admin" component={ListaDulce_admin} />
         <Route exact path="/listaSalado_admin" component={ListaSalado_admin} />

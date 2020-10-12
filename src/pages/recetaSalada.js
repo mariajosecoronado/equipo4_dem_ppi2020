@@ -94,18 +94,17 @@ class recetaSalada extends React.Component {
             </Card.Body>
           </Card>
         </div>
-        <div className="public-flex">
+        <div className="boton">
           <button className="button">Descargar</button>
           <button className="report">Reportar</button>
         </div>
         <div className="input">
-          <h5>
-            <BsFillChatQuoteFill />
-          </h5>
+          <BsFillChatQuoteFill />
+
           <input placeholder="Deja un comentario aquí"></input>
         </div>
-
-        <br></br>
+        <br />
+        <br />
         <footer className="header">
           CONTÁCTENOS
           <button className="button">
