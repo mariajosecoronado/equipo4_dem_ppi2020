@@ -3,8 +3,6 @@ import "../style/style.css";
 import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
-import { Card } from "react-bootstrap";
-import { Button } from "react-bootstrap";
 
 class perfil extends React.Component {
   render() {
@@ -49,23 +47,17 @@ class perfil extends React.Component {
             width="130"
             height="150"
           />
-          
         </div>
 
         <div className="unotitulo">
           <h6> Nombre persona </h6>
         </div>
         <div className="tituloR">
-        
           <h6> Recetas reportadas</h6>
         </div>
-
-        
       </div>
     );
   }
 }
 
 export default perfil;
-
-

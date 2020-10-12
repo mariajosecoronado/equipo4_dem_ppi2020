@@ -5,12 +5,12 @@ import { Card } from "react-bootstrap";
 import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
-import { BsFillChatDotsFill } from "react-icons/bs";
+import { AiOutlineWarning } from "react-icons/bs";
 import ReactPlayer from "react-player";
 
 import {} from "react-bootstrap";
 
-class recetaDulce extends React.Component {
+class Receta_reportada_admin extends React.Component {
   render() {
     return (
       <div>
@@ -104,29 +104,15 @@ class recetaDulce extends React.Component {
           </Card>
         </div>
         <div className="boton">
-          <button className="button">Descargar</button>
+         <AiOutlineWarning/>
           <button className="report">Reportar</button>
         </div>
 
-        <div>
-          <BsFillChatDotsFill />
-          <input placeholder="Deja un comentario" />
-        </div>
-        <br />
-        <br />
-        <footer className="header">
-          CONTÁCTENOS
-          <button className="button">
-            {" "}
-            <Nav.Link href="/mensaje" className="black">
-              CLICK AQUÍ
-            </Nav.Link>{" "}
-          </button>
-          <Nav.Link href="/mensaje" className="black"></Nav.Link>{" "}
-        </footer>
+     
+      
       </div>
     );
   }
 }
 
-export default recetaDulce;
+export default Receta_reportada_admin;

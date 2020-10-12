@@ -135,6 +135,8 @@
 .tituloR {
   display: flex;
   justify-content: center;
+  background-color: rgb(247, 20, 20);
+  
 }
 .boton-mensajes_admin{
   display: flex;
