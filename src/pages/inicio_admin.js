@@ -7,6 +7,7 @@ import { Carousel } from "react-bootstrap";
 import { CardDeck } from "react-bootstrap";
 import { Jumbotron } from "react-bootstrap";
 import { Card } from "react-bootstrap";
+import { AiOutlineMessage } from "react-icons/ai";
 
 class inicio_admin extends React.Component {
   render() {
@@ -48,12 +49,10 @@ class inicio_admin extends React.Component {
                 href="Perfil"
                 className="perfil-enlace  black"
               >
-                Mi perfil{" "}
-                <img
-                  className="foto-perfil"
-                  alt="foto de perfil"
-                  src="https://benidorm.org/wp-content/img/cabecera/perfil-anonimo.jpg"
-                />
+               <h1>
+                  <AiOutlineMessage/>
+                </h1> 
+                
               </Nav.Link>
             </Nav.Item>
             <div></div>

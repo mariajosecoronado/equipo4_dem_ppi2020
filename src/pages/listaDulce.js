@@ -13,7 +13,7 @@ class listaDulce extends React.Component {
         <>
           <Nav className="justify-content-center " activeKey="/home">
             <Nav.Item>
-              <Nav.Link eventKey="link-1" className="encabezado">
+              <Nav.Link eventKey="link-1" className="encabezado" href="menu">
                 <h1>
                   <BsList />
                 </h1>
@@ -41,13 +41,15 @@ class listaDulce extends React.Component {
         </>
         <br></br>
         <CardDeck>
-          <Card>
-            <Card.Title>RECETAS DULCES</Card.Title>
-            <Card.Img
-              variant="top"
-              src="https://saposyprincesas.elmundo.es/wp-content/uploads/2019/04/golosinas-caseras-que-parecen-oreo.jpg"
-            />
-          </Card>
+          <Nav.Link className="black" href="recetaDulce">
+            <Card>
+              <Card.Title>RECETAS DULCES</Card.Title>
+              <Card.Img
+                variant="top"
+                src="https://saposyprincesas.elmundo.es/wp-content/uploads/2019/04/golosinas-caseras-que-parecen-oreo.jpg"
+              />
+            </Card>
+          </Nav.Link>
           <br></br>
           <Card>
             <Card.Title>RECETAS DULCES</Card.Title>

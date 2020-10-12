@@ -15,7 +15,7 @@ class inicio extends React.Component {
         <>
           <Nav className="justify-content-center " activeKey="/home">
             <Nav.Item>
-              <Nav.Link eventKey="link-1" className="encabezado">
+              <Nav.Link eventKey="link-1" className="encabezado" href="menu">
                 <h1>
                   <BsList />
                 </h1>
@@ -170,7 +170,7 @@ class inicio extends React.Component {
               CLICK AQUÍ
             </Nav.Link>{" "}
           </button>
-          b <Nav.Link href="/mensaje" className="black"></Nav.Link> b{" "}
+           <Nav.Link href="/mensaje" className="black"></Nav.Link> {" "}
         </footer>
       </div>
     );
