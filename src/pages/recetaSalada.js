@@ -4,7 +4,6 @@ import { Nav } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
-import ReactPlayer from "react-player";
 import { BsFillChatQuoteFill } from "react-icons/bs";
 
 import {} from "react-bootstrap";
