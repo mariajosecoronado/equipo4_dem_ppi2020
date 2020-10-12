@@ -95,9 +95,15 @@ class perfil extends React.Component {
 
             />
 
-          </d
+          </div>
 
-          <br> </br>
+<div>
+<h6> Alejandro Pérez </h6>
+
+      <br></br><div>
+<h6> Alejandro Pérez </h6>
+      <br></br>
+
 
 
           <div className="public-flex">
