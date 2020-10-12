@@ -116,6 +116,40 @@ class inicio extends React.Component {
         </div>
         <div>
           <CardDeck>
+<<<<<<< Codesandbox
+            <Card>
+              <Card.Img
+                variant="top"
+                src="https://truffle-assets.imgix.net/1t1bxm43v4e3_7ffgxAJg64K8UAwOimWYya_twix-caseros_landscapeThumbnail_es.jpeg"
+              />
+              <Card.Body>
+                <Card.Title>Recetas dulces</Card.Title>
+                <Card.Text>
+                  Sabemos que a la mayoría de personas les encanta la comida
+                  dulce y para este caso tenemos muchas recetas de este tipo que
+                  sabemos que te encantarán,¡Anímate a prepararlas!.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+             <Nav href="listaSala">
+            <Card>
+              <Card.Img
+                variant="top"
+                src="https://cdn.queapetito.com/wp-content/uploads/2019/01/quiches-600x469.jpg"
+              />
+              <Card.Body>
+                <Card.Title>Recetas saladas</Card.Title>
+                <Card.Text>
+                  Podrás sorprender a tu familia con una variedad de comidas en
+                  donde ellos serán los afortunados de probar las mejores
+                  recetas vistas en Cook to Work.{" "}
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            </Nav>
+          </CardDeck>
+          
+=======
             <Nav.Link href="listaDulce">
               <Card>
                 <Card.Img
@@ -148,6 +182,7 @@ class inicio extends React.Component {
                 </Card.Body>
               </Card>
             </Nav.Link>
+>>>>>>> GitHub
           </CardDeck>
         </div>
         <br></br>

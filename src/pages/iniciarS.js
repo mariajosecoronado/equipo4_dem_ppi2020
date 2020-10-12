@@ -36,16 +36,16 @@ class iniciarS extends React.Component {
                 
                 <p className="O-contraseña">¿Has olvidado tu contraseña?</p>
 
-                <Button type="button" className="btn btn-dark">
-                  <a href="/inicio">INICIAR SESIÓN COMO USUARIO</a>
+                <Button href="/inicio" className="boton-I">
+                   INICIAR SESIÓN COMO USUARIO
                 </Button>
                 <br />
-                <Button type="button" className="btn btn-dark">
-                  <a href="/inicio_admin">INICIAR SESIÓN COMO ADMINISTRADOR </a>
+                <Button  href="/inicio_admin" className="boton-I">
+                 INICIAR SESIÓN COMO ADMINISTRADOR
                 </Button>
                 <br />
-                <Button type="button" className="btn btn-dark">
-                  <a href="/registro">REGISTRARSE</a>
+                <Button  href="/registro" className="boton-I">
+                 REGISTRARSE
                 </Button>
               </Form>
             </div>

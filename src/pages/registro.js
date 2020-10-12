@@ -46,13 +46,13 @@ class registro extends React.Component {
                   />
                 </Form.Group>
 
-                <Button type="button" className="btn btn-dark">
-                  <a href="/iniciarS">REGISTRARSE</a>
+                <Button href="/iniciarS" className="boton-I">
+                  REGISTRARSE
                 </Button>
                 <br></br>
                 <br></br>
-                <Button type="button" className="btn btn-dark">
-                  <a href="/inicio">ATRÁS</a>
+                <Button href="/inicio" className="boton-I">
+                  ATRÁS
                 </Button>
               </Form>
             </div>

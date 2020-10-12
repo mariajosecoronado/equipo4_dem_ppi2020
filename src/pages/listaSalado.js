@@ -113,7 +113,7 @@ class listaSalado extends React.Component {
         </CardDeck>
         <br></br>
         <footer className="header">
-          CONTÁCTENOS<button> CLICK AQUÍ </button>
+          CONTÁCTENOS<button className="button"> CLICK AQUÍ </button>
         </footer>
       </div>
     );

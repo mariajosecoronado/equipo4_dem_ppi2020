@@ -25,21 +25,45 @@
   border: 2px solid #33ff46;
   margin-top: 4px;
   border-radius: 4px;
-  
 }
 .campo-registro {
-  
   border: 2px solid #33ff46;
   margin-top: 2px;
   border-radius: 2px;
 }
-.O-contraseña{
-color: #2ecc3e;
-}
-.titulo-IR{
+.O-contraseña {
   text-align: center;
-  }
-
-.mensajes_admin{
-text-align: center;
+  color: #2ecc3e;
 }
+.titulo-IR {
+  text-align: center;
+}
+.boton-I {
+  border: 1px solid white;
+  background-color: #14dd28;
+  text-align: right;
+}
+.mensajes_admin {
+  text-align: center;
+}
+.card_mensaje1_admin {
+  border: 2px solid #33ff46;
+}
+.card_mensaje2_admin {
+  border: 2px solid #33ff46;
+  margin-top: 2px;
+  border-radius: 2px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #33ff46;
+  padding: 15px;
+}
+.button{
+  border: 1px solid white;
+background-color: green;
+}
+
+
