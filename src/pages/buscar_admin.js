@@ -3,7 +3,8 @@ import "../style/style.css";
 import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
-
+import { Form,FormControl } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
 
 class buscar_admin extends React.Component {
@@ -27,6 +28,12 @@ class buscar_admin extends React.Component {
               width="200"
               height="150"
             />
+          <Form inline>
+      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+      <Button variant="outline-success">Search</Button>
+    </Form>
+
+
             <Nav.Item>
               <Nav.Link eventKey="Busqueda" className="encabezado">
                 <h1>
