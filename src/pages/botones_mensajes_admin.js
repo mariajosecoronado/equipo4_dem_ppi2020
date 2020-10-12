@@ -1,20 +1,11 @@
 import React from "react";
 import "../style/style.css";
 
-
-
 class botones_mensajes_admin extends React.Component {
   render() {
     return (
       <div>
-        
-                <h1>
-                  holu
-                </h1>
-              
-
-          
-
+        <h1>hhi</h1>
       </div>
     );
   }
