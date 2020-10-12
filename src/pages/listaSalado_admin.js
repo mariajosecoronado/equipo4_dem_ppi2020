@@ -4,6 +4,7 @@ import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
 import { Card } from "react-bootstrap";
+import { CardDeck } from "react-bootstrap";
 
 class listaSalado_admin extends React.Component {
   render() {
@@ -18,9 +19,13 @@ class listaSalado_admin extends React.Component {
                 </h1>
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-              <h1 className="titulo">COOK TO WORK</h1>
-            </Nav.Item>
+            <img
+              className="icon-p"
+              src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
+              alt="logo"
+              width="200"
+              height="150"
+            />
             <Nav.Item>
               <Nav.Link eventKey="Busqueda" className="encabezado">
                 <h1>
@@ -34,91 +39,71 @@ class listaSalado_admin extends React.Component {
             <Nav.Item></Nav.Item>
           </Nav>
         </>
-        <>
+        <br></br>
+        <CardDeck>
           <Card>
-            <Card.Body>
-              <Card.Text>RECETA SALADA</Card.Text>
-            </Card.Body>
-            <Card.Img variant="bottom" />
-            <img
-              className="d-block w-100"
-              src="https://image.freepik.com/vector-gratis/chica-profesional-chef-cucharon-manos-ocupacion-cocina-menu-cocina-vajilla-cocina-panaderia-caricatura-ilustracion-logotipo_56104-57.jpg"
-              alt=""
-              width="200"
-              height="400"
+            <Card.Title>RECETAS SALADAS</Card.Title>
+            <Card.Img
+              variant="top"
+              src="https://live.mrf.io/statics/i/ps/www.cocinacaserayfacil.net/wp-content/uploads/2020/02/Almuerzos-faciles-y-rapidos-de-hacer.jpg?width=1200&enable=upscale"
             />
+
+            
           </Card>
-          <br />
+          <br></br>
           <Card>
-            <Card.Body>
-              <Card.Text>RECETA SALADA</Card.Text>
-            </Card.Body>
-            <Card.Img variant="bottom" />
-            <img
-              className="d-block w-100"
-              src="https://image.freepik.com/vector-gratis/chica-profesional-chef-cucharon-manos-ocupacion-cocina-menu-cocina-vajilla-cocina-panaderia-caricatura-ilustracion-logotipo_56104-57.jpg"
-              alt=""
-              width="200"
-              height="400"
+            <Card.Title>RECETAS SALADAS</Card.Title>
+            <Card.Img
+              variant="top"
+              src="https://sevilla.abc.es/gurme/wp-content/uploads/sites/24/2014/04/receta-tortilla-calabacin.jpg"
             />
+
+            
           </Card>
-          <br />
+          <br></br>
           <Card>
-            <Card.Body>
-              <Card.Text>RECETA SALADA</Card.Text>
-            </Card.Body>
-            <Card.Img variant="bottom" />
-            <img
-              className="d-block w-100"
-              src="https://image.freepik.com/vector-gratis/chica-profesional-chef-cucharon-manos-ocupacion-cocina-menu-cocina-vajilla-cocina-panaderia-caricatura-ilustracion-logotipo_56104-57.jpg"
-              alt=""
-              width="200"
-              height="400"
+            <Card.Title>RECETAS SALADAS</Card.Title>
+            <Card.Img
+              variant="top"
+              src="https://animalgourmet.com/wp-content/uploads/2020/04/recetas-faciles-y-economicas-1-e1586898220791.jpg"
             />
+
+            
           </Card>
-          <br />
+        </CardDeck>
+        <br></br>
+        <CardDeck>
           <Card>
-            <Card.Body>
-              <Card.Text>RECETA SALADA</Card.Text>
-            </Card.Body>
-            <Card.Img variant="bottom" />
-            <img
-              className="d-block w-100"
-              src="https://image.freepik.com/vector-gratis/chica-profesional-chef-cucharon-manos-ocupacion-cocina-menu-cocina-vajilla-cocina-panaderia-caricatura-ilustracion-logotipo_56104-57.jpg"
-              alt=""
-              width="200"
-              height="400"
+            <Card.Title>RECETAS SALADAS</Card.Title>
+            <Card.Img
+              variant="top"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRYcrzVqHcrlaTt8V-jjJ9bbsQ-SsR5cWv_eA&usqp=CAU"
             />
+
+            
           </Card>
-          <br />
+          <br></br>
           <Card>
-            <Card.Body>
-              <Card.Text>RECETA SALADA</Card.Text>
-            </Card.Body>
-            <Card.Img variant="bottom" />
-            <img
-              className="d-block w-100"
-              src="https://image.freepik.com/vector-gratis/chica-profesional-chef-cucharon-manos-ocupacion-cocina-menu-cocina-vajilla-cocina-panaderia-caricatura-ilustracion-logotipo_56104-57.jpg"
-              alt=""
-              width="200"
-              height="400"
+            <Card.Title>RECETAS SALADAS</Card.Title>
+            <Card.Img
+              variant="top"
+              src="https://www.clara.es/medio/2020/03/18/rollitos-de-tortilla_48273735_1280x720.jpg"
             />
+
+            
           </Card>
-          <br />
+          <br></br>
           <Card>
-            <Card.Body>
-              <Card.Text>RECETA SALADA</Card.Text>
-            </Card.Body>
-            <Card.Img variant="bottom" />
-            <img
-              className="d-block w-100"
-              src="https://image.freepik.com/vector-gratis/chica-profesional-chef-cucharon-manos-ocupacion-cocina-menu-cocina-vajilla-cocina-panaderia-caricatura-ilustracion-logotipo_56104-57.jpg"
-              alt=""
-              width="200"
-              height="400"
+            <Card.Title>RECETAS SALADAS</Card.Title>
+            <Card.Img
+              variant="top"
+              src="https://agendadeisa.com/wp-content/uploads/2019/06/Huevos-rellenos.jpg"
             />
+
+          
           </Card>
-        </>
+        </CardDeck>
+        
       </div>
     );
   }

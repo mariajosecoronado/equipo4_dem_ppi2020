@@ -8,6 +8,13 @@ class registro extends React.Component {
       <div className="container-fluid ">
         <div className="row">
           <div className="col">
+          <img
+              className="icon-p"
+              src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
+              alt="logo"
+              width="200"
+              height="150"
+            />
             <h1>
               BIENVENID@ A COOK TO WORK <br />
               REGISTRESE AQUÍ

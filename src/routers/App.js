@@ -32,7 +32,7 @@ const App = () => {
         <Route exact path="/listaDulce_admin" component={ListaDulce_admin} />
         <Route exact path="/listaSalado_admin" component={ListaSalado_admin} />
         <Route exact path="/mensajes_admin" component={Mensajes_admin} />
-        <Route exact path="/mensajes_reporte_admin" component={Mensaje_reporte_admin} />
+        <Route exact path="/mensaje_reporte_admin" component={Mensaje_reporte_admin} />
       </Switch>
     </BrowserRouter>
   );

@@ -19,9 +19,13 @@ class listaDulce extends React.Component {
                 </h1>
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-              <h1 className="titulo">COOK TO WORK</h1>
-            </Nav.Item>
+            <img
+              className="icon-p"
+              src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
+              alt="logo"
+              width="200"
+              height="150"
+            />
             <Nav.Item>
               <Nav.Link eventKey="Busqueda" className="encabezado">
                 <h1>
@@ -44,9 +48,7 @@ class listaDulce extends React.Component {
               src="https://saposyprincesas.elmundo.es/wp-content/uploads/2019/04/golosinas-caseras-que-parecen-oreo.jpg"
             />
 
-            <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </Card.Footer>
+            
           </Card>
           <br></br>
           <Card>
@@ -56,9 +58,7 @@ class listaDulce extends React.Component {
               src="https://buenavibra.es/wp-content/uploads/2019/01/bigstock-churros-dulces-postres-cosas-dulces-1170x600.jpg"
             />
 
-            <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </Card.Footer>
+            
           </Card>
           <br></br>
           <Card>
@@ -68,9 +68,7 @@ class listaDulce extends React.Component {
               src="https://truffle-assets.imgix.net/1t1bxm43v4e3_7ffgxAJg64K8UAwOimWYya_twix-caseros_landscapeThumbnail_es.jpeg"
             />
 
-            <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </Card.Footer>
+         
           </Card>
         </CardDeck>
         <br></br>
@@ -82,9 +80,7 @@ class listaDulce extends React.Component {
               src="https://recetasdeisabel.com/wp-content/uploads/2017/05/Dulces-y-postres-de-vainilla-fa%CC%81ciles-de-hacer-6-860-X-573.jpg"
             />
 
-            <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </Card.Footer>
+            
           </Card>
           <br></br>
           <Card>
@@ -94,9 +90,7 @@ class listaDulce extends React.Component {
               src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/bolitas-dulces-con-leche-condensada-trufas-de-leche-en-polvo.jpg"
             />
 
-            <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </Card.Footer>
+            
           </Card>
           <br></br>
           <Card>
@@ -106,9 +100,7 @@ class listaDulce extends React.Component {
               src="https://i.pinimg.com/originals/0b/a1/56/0ba156a87b330fc6cb58b5a8b8ca0fb1.jpg"
             />
 
-            <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </Card.Footer>
+          
           </Card>
         </CardDeck>
         <br></br>

@@ -21,9 +21,13 @@ class inicio_admin extends React.Component {
                 </h1>
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-              <h1 className="titulo">COOK TO WORK</h1>
-            </Nav.Item>
+            <img
+              className="icon-p"
+              src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
+              alt="logo"
+              width="200"
+              height="150"
+            />
             <Nav.Item>
               <Nav.Link eventKey="Busqueda" className="encabezado">
                 <h1>
