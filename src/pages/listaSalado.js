@@ -51,47 +51,57 @@ class listaSalado extends React.Component {
             </Card>
           </Nav.Link>
           <br></br>
-          <Card>
-            <Card.Title>RECETAS SALADAS</Card.Title>
-            <Card.Img
-              variant="top"
-              src="https://sevilla.abc.es/gurme/wp-content/uploads/sites/24/2014/04/receta-tortilla-calabacin.jpg"
-            />
-          </Card>
+          <Nav.Link className="black" href="recetaSalada">
+            <Card>
+              <Card.Title>RECETAS SALADAS</Card.Title>
+              <Card.Img
+                variant="top"
+                src="https://sevilla.abc.es/gurme/wp-content/uploads/sites/24/2014/04/receta-tortilla-calabacin.jpg"
+              />
+            </Card>
+          </Nav.Link>
           <br></br>
-          <Card>
-            <Card.Title>RECETAS SALADAS</Card.Title>
-            <Card.Img
-              variant="top"
-              src="https://animalgourmet.com/wp-content/uploads/2020/04/recetas-faciles-y-economicas-1-e1586898220791.jpg"
-            />
-          </Card>
+          <Nav.Link className="black" href="recetaSalada">
+            <Card>
+              <Card.Title>RECETAS SALADAS</Card.Title>
+              <Card.Img
+                variant="top"
+                src="https://animalgourmet.com/wp-content/uploads/2020/04/recetas-faciles-y-economicas-1-e1586898220791.jpg"
+              />
+            </Card>
+          </Nav.Link>
         </CardDeck>
         <br></br>
         <CardDeck>
-          <Card>
-            <Card.Title>RECETAS SALADAS</Card.Title>
-            <Card.Img
-              variant="top"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRYcrzVqHcrlaTt8V-jjJ9bbsQ-SsR5cWv_eA&usqp=CAU"
-            />
-          </Card>
+          <Nav.Link className="black" href="recetaSalada">
+            <Card>
+              <Card.Title>RECETAS SALADAS</Card.Title>
+              <Card.Img
+                variant="top"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRYcrzVqHcrlaTt8V-jjJ9bbsQ-SsR5cWv_eA&usqp=CAU"
+              />
+            </Card>
+          </Nav.Link>
           <br></br>
-          <Card>
-            <Card.Title>RECETAS SALADAS</Card.Title>
-            <Card.Img
-              variant="top"
-              src="https://www.clara.es/medio/2020/03/18/rollitos-de-tortilla_48273735_1280x720.jpg"
-            />
-          </Card>
+          <Nav.Link className="black" href="recetaSalada">
+            <Card>
+              <Card.Title>RECETAS SALADAS</Card.Title>
+              <Card.Img
+                variant="top"
+                src="https://www.clara.es/medio/2020/03/18/rollitos-de-tortilla_48273735_1280x720.jpg"
+              />
+            </Card>
+          </Nav.Link>
           <br></br>
-          <Card>
-            <Card.Title>RECETAS SALADAS</Card.Title>
-            <Card.Img
-              variant="top"
-              src="https://agendadeisa.com/wp-content/uploads/2019/06/Huevos-rellenos.jpg"
-            />
-          </Card>
+          <Nav.Link className="black" href="recetaSalada">
+            <Card>
+              <Card.Title>RECETAS SALADAS</Card.Title>
+              <Card.Img
+                variant="top"
+                src="https://agendadeisa.com/wp-content/uploads/2019/06/Huevos-rellenos.jpg"
+              />
+            </Card>
+          </Nav.Link>
         </CardDeck>
         <br></br>
         <footer className="header">
