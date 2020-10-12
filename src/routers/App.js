@@ -22,8 +22,7 @@ import Botones_mensajes_admin from "../pages/botones_mensajes_admin";
 import Buscar_admin from "../pages/buscar_admin";
 import Buscar from "../pages/buscar";
 import perfil2 from "../pages/perfil2";
-
-
+import recetaRollos from "../pages/recetaRollos"
 const App = () => {
   return (
     <BrowserRouter>
@@ -50,6 +49,8 @@ const App = () => {
         <Route exact path="/buscar" component={Buscar} />
         <Route exact  path="/mensaje_reporte_admin" component={Mensaje_reporte_admin}/>
         <Route exact path="/mensaje" component={mensaje} />
+        <Route exact path="/recetaRollos" component={recetaRollos} />
+        
       </Switch>
     </BrowserRouter>
   );
