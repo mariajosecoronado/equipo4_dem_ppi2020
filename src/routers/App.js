@@ -32,6 +32,7 @@ import RecetaGalletas from "../pages/recetaGalletas";
 import Recetas_reportadas_admin from "../pages/recetas_reportadas_admin";
 import Recetas_sin_reportar_admin from "../pages/recetas_sin_reportar_admin";
 import Chat_admin from "../pages/chat_admin";
+import Nuevareceta from "../pages/nuevareceta";
 
 const App = () => {
   return (
@@ -87,6 +88,7 @@ const App = () => {
         <Route exact path="/mensaje" component={Mensaje} />
         <Route exact path="/recetaRollos" component={RecetaRollos} />
         <Route exact path="/chat_admin" component={Chat_admin} />
+        <Route exact path="/nuevareceta" component={Nuevareceta} />
       </Switch>
     </BrowserRouter>
   );
