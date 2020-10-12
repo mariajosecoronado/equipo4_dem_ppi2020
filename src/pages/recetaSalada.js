@@ -47,7 +47,7 @@ class recetaSalada extends React.Component {
             width="100%"
           />
           <p className="text-muted"> Publicado el 09/05/2020</p>
-          <div className="per">
+          <div className="public-flex">
             <Nav className="justify-content-end" activeKey="/home">
               <Nav.Item>
                 <Nav.Link
@@ -62,13 +62,10 @@ class recetaSalada extends React.Component {
                   />
                 </Nav.Link>
               </Nav.Item>
-
-              <div></div>
-              <Nav.Item></Nav.Item>
             </Nav>
             <p className="nombre-receta">Receceta de crepes</p>
           </div>
-          <div className="public-flex">
+          <div className="punt">
             <p>Puntuación</p>
             <p>Estrellas</p>
           </div>
