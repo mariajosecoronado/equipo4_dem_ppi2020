@@ -1,19 +1,22 @@
 import React from "react";
 import "../style/style.css";
-import { BsArrowLeft } from "react-icons/bs";
+import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
-import { Nav, Button } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
+import { Form,FormControl } from "react-bootstrap";
 
-class botones_mensajes_admin extends React.Component {
+
+
+class buscar extends React.Component {
   render() {
     return (
       <div>
         <>
           <Nav className="justify-content-center " activeKey="/home">
             <Nav.Item>
-              <Nav.Link eventKey="link-1" className="encabezado">
+              <Nav.Link eventKey="link-1" className="encabezado" href="menu">
                 <h1>
-                  <BsArrowLeft />
+                  <BsList />
                 </h1>
               </Nav.Link>
             </Nav.Item>
@@ -25,30 +28,28 @@ class botones_mensajes_admin extends React.Component {
               height="150"
             />
 
-            <Nav.Item>
-              <Nav.Link eventKey="Busqueda" className="encabezado">
+          </Nav>
+          <Form inline>
+      <FormControl type="text" placeholder="Search" className="Busqueda" />
+      <Nav.Item>
+              <Nav.Link eventKey="Busqueda" className="Lupa">
                 <h1>
                   {" "}
                   <BsSearch />{" "}
                 </h1>
               </Nav.Link>
             </Nav.Item>
-          </Nav>
-        </>
-        <br />
-        <br />
+          
+    </Form>
+    
+          </>  
+          
 
-        <Button href="./mensajes_admin" className="boton-mensajes_admin">
-          VER MENSAJES DE LOS USUARIOS
-        </Button>
-        <br />
+          
 
-        <Button href="./mensajes_admin" className="boton-reportes_admin">
-          VER REPORTE DE RECETAS
-        </Button>
       </div>
     );
   }
 }
 
-export default botones_mensajes_admin;
+export default buscar;
