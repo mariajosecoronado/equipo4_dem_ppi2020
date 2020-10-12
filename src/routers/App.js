@@ -47,7 +47,7 @@ const App = () => {
         <Route exact path="/listaSalado_admin" component={ListaSalado_admin} />
         <Route exact path="/recetaDulce" component={recetaDulce} />
         <Route exact path="/mensajes_admin" component={Mensajes_admin} />
-       
+
         <Route exact path="/editarperfil" component={editarPerfil} />
         <Route exact path="/recetaRollos" component={recetaRollos} />
         <Route exact path="/reporte_admin" component={Reporte_admin} />
@@ -58,7 +58,7 @@ const App = () => {
         />
         <Route exact path="/buscar_admin" component={Buscar_admin} />
         <Route exact path="/buscar" component={Buscar} />
-        
+
         <Route exact path="/mensaje" component={mensaje} />
         <Route exact path="/recetaRollos" component={recetaRollos} />
       </Switch>

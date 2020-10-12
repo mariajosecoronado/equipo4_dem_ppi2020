@@ -10,7 +10,8 @@ import ReactPlayer from "react-player";
 
 import {} from "react-bootstrap";
 
-class recetaDulce extends React.Component {
+class Receta_reportadas_admin extends React.Component {
+
   render() {
     return (
       <div>
@@ -112,4 +113,4 @@ class recetaDulce extends React.Component {
   }
 }
 
-export default recetaDulce;
+export default Receta_reportadas_admin;
