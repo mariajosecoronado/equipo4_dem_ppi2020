@@ -25,6 +25,8 @@ import perfil2 from "../pages/perfil2";
 import recetaRollos from "../pages/recetaRollos";
 import editarPerfil from "../pages/editarperfil";
 import Receta_reportada_admin from "../pages/receta_reportada_admin"
+import Reporte_admin from "../pages/reporte_admin"
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -49,6 +51,7 @@ const App = () => {
         <Route exact path="/receta_reportada_admin" component={Receta_reportada_admin} />
         <Route exact path="/editarperfil" component={editarPerfil} />
         <Route exact path="/recetaRollos" component={recetaRollos} />
+        <Route exact path="/reporte_admin" component={Reporte_admin} />
 
         <Route
           exact
