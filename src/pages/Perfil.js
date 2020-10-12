@@ -69,7 +69,7 @@ class perfil extends React.Component {
       <Button href="/editarperfil" className="boton-I">
           Editar mi perfil
         </Button>
-        <Button href="/nuevareceta" className="boton-I">
+        <Button href="/" className="boton-I">
           Crear una nueva publicación
         </Button>
       </div>

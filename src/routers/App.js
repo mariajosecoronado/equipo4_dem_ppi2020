@@ -29,6 +29,8 @@ import EditarPublicacion from "../pages/editarpublicacion";
 import Reporte_admin from "../pages/reporte_admin";
 import NuevaReceta from "../pages/nuevareceta";
 import Recetas_reportadas_admin from "../pages/recetas_reportadas_admin";
+import Recetas_sin_reportar_admin from "../pages/recetas_sin_reportar_admin"
+
 
 const App = () => {
   return (
@@ -63,6 +65,11 @@ const App = () => {
           exact
           path="/recetas_reportadas_admin"
           component={Recetas_reportadas_admin}
+        />
+          <Route
+          exact
+          path="/recetas_sin_reportar_admin"
+          component={Recetas_sin_reportar_admin}
         />
         <Route exact path="/editarperfil" component={EditarPerfil} />
         <Route exact path="/recetaRollos" component={RecetaRollos} />

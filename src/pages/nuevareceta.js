@@ -3,6 +3,7 @@ import "../style/style.css";
 import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
+import { } from "react-icons/ai";
 
 class nuevaReceta extends React.Component {
   render() {

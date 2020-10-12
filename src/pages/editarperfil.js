@@ -65,7 +65,7 @@ class editarPerfil extends React.Component {
           <input placeholder="Edita tu correo"></input>
         </div>
         <br></br>
-        <Button href="/editarperfil" className="boton-I">
+        <Button href="/Perfil" className="boton-I">
           Guardar cambios
         </Button><br></br>
 
