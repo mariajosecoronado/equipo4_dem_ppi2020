@@ -24,6 +24,11 @@
   display: flex;
   justify-content: space-around;
 }
+.boton {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
 .foto-perfil {
   border: 1px solid white;
   border-radius: 200px;
@@ -65,6 +70,17 @@
 }
 .mensajes_admin {
   text-align: center;
+}
+.nombre-receta {
+  background-color: #14dd28;
+  padding: 10px;
+}
+.report {
+  background-color: red;
+}
+.public-flex {
+  display: flex;
+  justify-content: space-between;
 }
 .card_mensaje1_admin {
   border: 2px solid #33ff46;

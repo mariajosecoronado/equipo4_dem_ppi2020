@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/style.css";
 import { Nav } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import ReactPlayer from "react-player";
@@ -39,39 +40,68 @@ class recetaDulce extends React.Component {
           <Nav.Item></Nav.Item>
         </Nav>
         <div>
-        <ReactPlayer
-          url='https://www.youtube.com/watch?v=JuewYWvosn4'
-          className='react-player'
-          playing
-          width='100%'
-          height='270px'
-        />
-        <p className="text-muted"> Publicado el 11/09/2020</p>
-<div>
-<Nav className="justify-content-end" activeKey="/home">
-            <Nav.Item>
-              <Nav.Link
-                eventKey="link-1"
-                href="Perfil"
-                className="perfil-enlace  black"
-              >
-                
-                <img
-                  className="foto-perfil"
-                  alt="foto de perfil"
-                  src="https://benidorm.org/wp-content/img/cabecera/perfil-anonimo.jpg"
-                />
-              </Nav.Link>
-            </Nav.Item>
-            <div></div>
-            <Nav.Item></Nav.Item>
-          </Nav>
-</div>
-      </div>
-
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=JuewYWvosn4"
+            className="react-player"
+            playing
+            width="100%"
+            height="270px"
+          />
+          <p className="text-muted"> Publicado el 11/09/2020</p>
+          <div className="public-flex">
+            <Nav className="justify-content-end" activeKey="/home">
+              <Nav.Item>
+                <Nav.Link
+                  eventKey="link-1"
+                  href="Perfil"
+                  className="perfil-enlace  black"
+                >
+                  <img
+                    className="foto-perfil"
+                    alt="foto de perfil"
+                    src="https://image.freepik.com/vector-gratis/retrato-perfil-mujer-labios-rojos_8262-104.jpg"
+                  />
+                </Nav.Link>
+              </Nav.Item>
+            </Nav>
+            <p className="nombre-receta">Galletas de chocolate</p>
+          </div>
+        </div>
+        <div className="punt">
+          <p>Puntuación</p>
+          <p>Estrellas</p>
+          <div></div>
+        </div>
+        <div className="public-flex">
+          <Card border="success" style={{ width: "18rem" }}>
+            <Card.Header>Header</Card.Header>
+            <Card.Body>
+              <Card.Title>Success Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <br />
+          <Card border="success" style={{ width: "18rem" }}>
+            <Card.Header>Header</Card.Header>
+            <Card.Body>
+              <Card.Title>Success Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+        <div className="boton">
+          <button className="button">Descargar</button>
+          <button className="report">Reportar</button>
+        </div>
       </div>
     );
   }
 }
- 
+
 export default recetaDulce;
