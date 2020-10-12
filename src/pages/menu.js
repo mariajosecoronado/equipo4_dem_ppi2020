@@ -6,8 +6,8 @@ class Menu extends React.Component {
   render() {
     return (
       <div className="flex" >
-soy menu
-    <Nav.Link className="black" href="">
+menu
+    <Nav.Link className="black" href="inicio">
 PRINCIPAL
     </Nav.Link>
     <Nav.Link className="black" href="mensaje">
@@ -20,7 +20,7 @@ RECETAS
     </br>
     <br>
     </br>
-    <Nav.Link className="black">
+    <Nav.Link className="black" href="iniciarS">
 CERRAR SESIÓN
     </Nav.Link>
       </div>
