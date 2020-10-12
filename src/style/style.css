@@ -25,6 +25,15 @@
   display: flex;
   justify-content: space-around;
 }
+.input {
+  display: inline-flex;
+  justify-items: space-around;
+
+  padding: 20px;
+}
+.report {
+  background-color: red;
+}
 .nombre-receta {
   background-color: #14dd28;
   padding: 10px;

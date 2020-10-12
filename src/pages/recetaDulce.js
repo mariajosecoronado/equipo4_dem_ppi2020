@@ -5,6 +5,7 @@ import { Card } from "react-bootstrap";
 import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import ReactPlayer from "react-player";
+import { BsFillChatQuoteFill } from "react-icons/bs";
 
 import {} from "react-bootstrap";
 
@@ -96,8 +97,14 @@ class recetaDulce extends React.Component {
           </Card>
         </div>
         <div className="public-flex">
-          <button>Descargar</button>
-          <button>Compartir</button>
+          <button className="button">Descargar</button>
+          <button className="report">Reportar</button>
+        </div>
+        <div className="input">
+          <h5>
+            <BsFillChatQuoteFill />
+          </h5>
+          <input placeholder="Deja un comentario aquí"></input>
         </div>
         <br></br>
         <footer className="header">
