@@ -1,8 +1,13 @@
 import React from "react";
 import "../style/style.css";
-import { BsList } from "react-icons/bs";
-import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
+import { Card } from "react-bootstrap";
+import { BsList } from "react-icons/bs";
+import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
+import { BsSearch } from "react-icons/bs";
+import { BsFillChatQuoteFill } from "react-icons/bs";
+
+import {} from "react-bootstrap";
 
 class recetaRollos extends React.Component {
   render() {
@@ -35,30 +40,75 @@ class recetaRollos extends React.Component {
         <Nav className="justify-content-end" activeKey="/home">
           <Nav.Item></Nav.Item>
         </Nav>
-        <br />
-        <div className="fotoperfil">
+        <div>
           <img
-            className="fotoperfil"
             src="https://recetasfacil.online/wp-content/uploads/2018/12/Recetas-f%C3%A1ciles-de-pollo-para-ni%C3%B1os-e1544662062923.jpg"
-            alt="logo"
-            width="400"
-            height="200"
+            alt="publicacion de receta salada"
+            height="250px"
+            width="100%"
           />
-        </div>
-        <div className="unotitulo">
-          <h6> Publicado el 12/10/2020 </h6>
-        </div>
-
-        <div className="fotoperfil2">
-        <img
-            className="fotoperfil"
-            src="https://recetasfacil.online/wp-content/uploads/2018/12/Recetas-f%C3%A1ciles-de-pollo-para-ni%C3%B1os-e1544662062923.jpg"
-            alt="logo"
-            width="90"
-            height="100"
-          />
+          <p className="text-muted"> Publicado el 09/05/2020</p>
+          <div className="public-flex">
+            <Nav className="justify-content-end" activeKey="/home">
+              <Nav.Item>
+                <Nav.Link
+                  eventKey="link-1"
+                  href="Perfil3"
+                  className="perfil-enlace  black"
+                >
+                  <img
+                    className="foto-perfil"
+                    alt="foto de perfil"
+                    src="https://www.lapi.com.mx/image.ashx?s=57067&im=115321&t=p"
+                  />
+                </Nav.Link>
+              </Nav.Item>
+            </Nav>
+            <p className="nombre-receta">Receceta de crepes</p>
           </div>
+          <div className="punt">
+            <p>Puntuación</p>
+            <p>
+              <BsStarFill />
+              <BsStarFill />
+              <BsStarFill />
+              <BsStarHalf />
+              <BsStar />
+            </p>
+          </div>
+        </div>
+        <div className="public-flex">
+          <Card border="success" style={{ width: "18rem" }}>
+            <Card.Header>Ingredientes</Card.Header>
+            <Card.Body>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <br></br>
+          <Card border="success" style={{ width: "18rem" }}>
+            <Card.Header>Header</Card.Header>
+            <Card.Body>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+        <div className="boton">
+          <button className="button">Descargar</button>
+          <button className="report">Reportar</button>
+        </div>
+        <div className="input">
+          <BsFillChatQuoteFill />
 
+          <input placeholder="Deja un comentario aquí"></input>
+        </div>
+        <br />
+        <br />
         <footer className="header">
           CONTÁCTENOS
           <button className="button">
