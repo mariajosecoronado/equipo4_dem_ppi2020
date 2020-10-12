@@ -57,7 +57,12 @@ class perfil extends React.Component {
           <h6> Recetas reportadas</h6>
         </div>
 
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: "12rem" }}>
+            <Card.Img
+              width="50"
+              height="100"
+              src=""
+            />
   <Card.Img variant="top" src="holder.js/100px180" />
   <Card.Body>
     <Card.Title>Card Title</Card.Title>
@@ -69,7 +74,12 @@ class perfil extends React.Component {
   </Card.Body>
 </Card>
 
-<Card style={{ width: '18rem' }}>
+<Card style={{ width: "12rem" }}>
+            <Card.Img
+              width="50"
+              height="100"
+              src=""
+            />
   <Card.Img variant="top" src="holder.js/100px180" />
   <Card.Body>
     <Card.Title>Card Title</Card.Title>

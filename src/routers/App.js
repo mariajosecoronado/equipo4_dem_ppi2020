@@ -28,6 +28,7 @@ import EditarPerfil from "../pages/editarperfil";
 import EditarPublicacion from "../pages/editarpublicacion";
 import Reporte_admin from "../pages/reporte_admin";
 import NuevaReceta from "../pages/nuevareceta";
+import RecetaGalletas from "../pages/recetaGalletas";
 import Recetas_reportadas_admin from "../pages/recetas_reportadas_admin";
 import Recetas_sin_reportar_admin from "../pages/recetas_sin_reportar_admin"
 
@@ -53,6 +54,7 @@ const App = () => {
         <Route exact path="/listaDulce_admin" component={ListaDulce_admin} />
         <Route exact path="/listaSalado_admin" component={ListaSalado_admin} />
         <Route exact path="/recetaDulce" component={RecetaDulce} />
+        <Route exact path="/recetaGalletas" component={RecetaGalletas} />
         <Route exact path="/mensajes_admin" component={Mensajes_admin} />
         <Route exact path="/editarpublicacion" component={EditarPublicacion} />
         <Route

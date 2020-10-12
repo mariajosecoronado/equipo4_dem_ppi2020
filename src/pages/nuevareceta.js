@@ -3,7 +3,7 @@ import "../style/style.css";
 import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
-import { } from "react-icons/ai";
+import { AiOutlineFileAdd } from "react-icons/ai";
 
 class nuevaReceta extends React.Component {
   render() {
@@ -36,7 +36,9 @@ class nuevaReceta extends React.Component {
         <Nav className="justify-content-end" activeKey="/home">
           <Nav.Item></Nav.Item>
         </Nav>
-
+        <Nav.Link className="black">
+          <AiOutlineFileAdd className="edit-public" />
+        </Nav.Link>
         <footer className="header">
           CONTÁCTENOS
           <button className="button">

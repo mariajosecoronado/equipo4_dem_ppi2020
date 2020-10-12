@@ -6,6 +6,10 @@
   border-radius: 50px;
   color: rgb(70, 70, 70);
 }
+.edit-public{
+  width: 500px;
+  height: 200px;
+}
 .menu {
   background-color: #14dd28;
 }
@@ -158,4 +162,8 @@
 .input{
   display: flex;
   justify-content: center;
+}
+.sin-reporta{
+background-color:#14dd28;
+justify-content: center;
 }
