@@ -47,8 +47,6 @@ class listaSalado extends React.Component {
               variant="top"
               src="https://live.mrf.io/statics/i/ps/www.cocinacaserayfacil.net/wp-content/uploads/2020/02/Almuerzos-faciles-y-rapidos-de-hacer.jpg?width=1200&enable=upscale"
             />
-
-            
           </Card>
           <br></br>
           <Card>
@@ -57,7 +55,6 @@ class listaSalado extends React.Component {
               variant="top"
               src="https://sevilla.abc.es/gurme/wp-content/uploads/sites/24/2014/04/receta-tortilla-calabacin.jpg"
             />
-
           </Card>
           <br></br>
           <Card>
@@ -66,7 +63,6 @@ class listaSalado extends React.Component {
               variant="top"
               src="https://animalgourmet.com/wp-content/uploads/2020/04/recetas-faciles-y-economicas-1-e1586898220791.jpg"
             />
-
           </Card>
         </CardDeck>
         <br></br>
@@ -77,8 +73,6 @@ class listaSalado extends React.Component {
               variant="top"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRYcrzVqHcrlaTt8V-jjJ9bbsQ-SsR5cWv_eA&usqp=CAU"
             />
-
-            
           </Card>
           <br></br>
           <Card>
@@ -87,8 +81,6 @@ class listaSalado extends React.Component {
               variant="top"
               src="https://www.clara.es/medio/2020/03/18/rollitos-de-tortilla_48273735_1280x720.jpg"
             />
-
-          
           </Card>
           <br></br>
           <Card>
@@ -97,13 +89,17 @@ class listaSalado extends React.Component {
               variant="top"
               src="https://agendadeisa.com/wp-content/uploads/2019/06/Huevos-rellenos.jpg"
             />
-
-            
           </Card>
         </CardDeck>
         <br></br>
         <footer className="header">
-          CONTÁCTENOS<button className="button"> CLICK AQUÍ </button>
+          CONTÁCTENOS
+          <button className="button">
+            {" "}
+            <Nav.Link href="/mensaje" className="black">
+              CLICK AQUÍ
+            </Nav.Link>{" "}
+          </button>
         </footer>
       </div>
     );

@@ -18,7 +18,7 @@
   margin-top: 20px;
   color: black;
 }
-.black{
+.black {
   color: black;
 }
 .Perfil-enlace {
@@ -64,13 +64,10 @@
   background-color: #33ff46;
   padding: 15px;
 }
-.button{
+.button {
   border: 1px solid white;
-background-color: green;
+  background-color: green;
 }
-.icon-p{
+.icon-p {
   text-align: center;
 }
-
-
-

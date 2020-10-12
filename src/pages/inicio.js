@@ -170,6 +170,7 @@ class inicio extends React.Component {
               CLICK AQUÍ
             </Nav.Link>{" "}
           </button>
+          b <Nav.Link href="/mensaje" className="black"></Nav.Link> b{" "}
         </footer>
       </div>
     );

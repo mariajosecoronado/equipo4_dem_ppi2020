@@ -117,7 +117,7 @@ class inicio_admin extends React.Component {
         </div>
         <div>
           <CardDeck>
-            <Nav.Link href="listaDulce " className="black">
+            <Nav.Link href="listaDulce_admin " className="black">
               <Card>
                 <Card.Img
                   variant="top"
@@ -133,7 +133,7 @@ class inicio_admin extends React.Component {
                 </Card.Body>
               </Card>
             </Nav.Link>
-            <Nav.Link href="listaSalado" className="black">
+            <Nav.Link href="listaSalado_admin" className="black">
               <Card>
                 <Card.Img
                   variant="top"
