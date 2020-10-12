@@ -47,7 +47,7 @@ class recetaDulce extends React.Component {
             height="270px"
           />
           <p className="text-muted"> Publicado el 11/09/2020</p>
-          <div>
+          <div className="per">
             <Nav className="justify-content-end" activeKey="/home">
               <Nav.Item>
                 <Nav.Link
@@ -55,7 +55,6 @@ class recetaDulce extends React.Component {
                   href="Perfil"
                   className="perfil-enlace  black"
                 >
-                  Mi perfil{" "}
                   <img
                     className="foto-perfil"
                     alt="foto de perfil"
@@ -63,9 +62,11 @@ class recetaDulce extends React.Component {
                   />
                 </Nav.Link>
               </Nav.Item>
+
               <div></div>
               <Nav.Item></Nav.Item>
             </Nav>
+            <p className="nombre-receta">Galletas de chocolate</p>
           </div>
         </div>
       </div>

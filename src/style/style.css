@@ -11,16 +11,23 @@
 }
 .derec {
   display: flex;
-  align-items: rig
+  align-items: rig;
 }
-.per{
+.per {
   display: flex;
   justify-content: space-evenly;
-  
 }
-.punt{
-  display: flex; 
+.punt {
+  display: flex;
   justify-content: space-around;
+}
+.nombre-receta {
+  background-color: #14dd28;
+  padding: 10px;
+}
+.per {
+  display: flex;
+  justify-content: space-between;
 }
 .foto-perfil {
   border: 1px solid white;
