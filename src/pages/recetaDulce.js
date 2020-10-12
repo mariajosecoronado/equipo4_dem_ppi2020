@@ -4,6 +4,7 @@ import { Nav } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
+import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import ReactPlayer from "react-player";
 
@@ -70,7 +71,13 @@ class recetaDulce extends React.Component {
         </div>
         <div className="punt">
           <p>Puntuación</p>
-          <p>Estrellas</p>
+          <p>
+            <BsStarFill />
+            <BsStarFill />
+            <BsStarHalf />
+            <BsStar />
+            <BsStar />
+          </p>
           <div></div>
         </div>
         <div className="public-flex">

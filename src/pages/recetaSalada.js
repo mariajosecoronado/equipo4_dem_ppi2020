@@ -3,6 +3,7 @@ import "../style/style.css";
 import { Nav } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 import { BsList } from "react-icons/bs";
+import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { BsFillChatQuoteFill } from "react-icons/bs";
 
@@ -67,7 +68,13 @@ class recetaSalada extends React.Component {
           </div>
           <div className="punt">
             <p>Puntuación</p>
-            <p>Estrellas</p>
+            <p>
+              <BsStarFill />
+              <BsStarFill />
+              <BsStarFill />
+              <BsStarHalf />
+              <BsStar />
+            </p>
           </div>
         </div>
         <div className="public-flex">
