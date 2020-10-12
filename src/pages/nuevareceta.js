@@ -3,6 +3,7 @@ import "../style/style.css";
 import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import { BsStar } from "react-icons/bs";
 import { AiOutlineFileAdd } from "react-icons/ai";
 
@@ -64,11 +65,38 @@ class nuevaReceta extends React.Component {
         <Nav className="justify-content-end" activeKey="/home">
           <Nav.Item>
             <p className="nombredereceta">Nombre de tu receta</p>
-            <BsStar/><BsStar/><BsStar/><BsStar/><BsStar/>
+            <BsStar />
+            <BsStar />
+            <BsStar />
+            <BsStar />
+            <BsStar />
           </Nav.Item>
           <Nav.Item></Nav.Item>
         </Nav>
-        
+        <br />
+        <div className="public-flex">
+          <Card border="success" style={{ width: "18rem" }}>
+            <Card.Header>Ingredientes</Card.Header>
+            <Card.Body>
+              <Card.Text>
+                Escribe aquí los ingredientes que se utilizaron para la
+                elaboración de esta receta
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <br></br>
+          <Card border="success" style={{ width: "18rem" }}>
+            <Card.Header>Preparación</Card.Header>
+            <Card.Body>
+              <Card.Text>..</Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+        <div className="boton">
+          <button className="button">Decargar</button>
+          <button className="report">Reportar</button>
+        </div>
+
         <footer className="header">
           CONTÁCTENOS
           <button className="button">

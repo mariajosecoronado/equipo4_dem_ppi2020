@@ -30,8 +30,8 @@ import Reporte_admin from "../pages/reporte_admin";
 import NuevaReceta from "../pages/nuevareceta";
 import RecetaGalletas from "../pages/recetaGalletas";
 import Recetas_reportadas_admin from "../pages/recetas_reportadas_admin";
-import Recetas_sin_reportar_admin from "../pages/recetas_sin_reportar_admin"
-
+import Recetas_sin_reportar_admin from "../pages/recetas_sin_reportar_admin";
+import Chat_admin from "../pages/chat_admin";
 
 const App = () => {
   return (
@@ -68,7 +68,7 @@ const App = () => {
           path="/recetas_reportadas_admin"
           component={Recetas_reportadas_admin}
         />
-          <Route
+        <Route
           exact
           path="/recetas_sin_reportar_admin"
           component={Recetas_sin_reportar_admin}
@@ -86,6 +86,7 @@ const App = () => {
 
         <Route exact path="/mensaje" component={Mensaje} />
         <Route exact path="/recetaRollos" component={RecetaRollos} />
+        <Route exact path="/chat_admin" component={Chat_admin} />
       </Switch>
     </BrowserRouter>
   );
