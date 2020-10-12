@@ -50,14 +50,8 @@ class editarPerfil extends React.Component {
           <h6> Alejandro Pérez </h6>
         </div><br></br>
         <Button href="/editarperfil" className="boton-I">
-          Editar mi perfil
-        </Button><Button href="/editarperfil" className="button">
-          Editar mi perfil
-        </Button><Button href="/editarperfil" className="button">
-          Editar mi perfil
-        </Button><Button href="/editarperfil" className="button">
-          Editar mi perfil
-        </Button>
+          Subir nueva foto
+        </Button><br></br>
         <div className="input">
           <BsFillChatQuoteFill />
 
@@ -71,6 +65,9 @@ class editarPerfil extends React.Component {
           <input placeholder="Edita tu correo"></input>
         </div>
         <br></br>
+        <Button href="/editarperfil" className="boton-I">
+          Guardar cambios
+        </Button><br></br>
 
         <footer className="header">
           CONTÁCTENOS

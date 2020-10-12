@@ -50,7 +50,7 @@ class perfil extends React.Component {
         </div>
 
         <div className="unotitulo">
-          <h6> Nombre persona </h6>
+          <h6> Valeria Gómez </h6>
         </div>
         <div className="tituloR">
           <h6> Recetas reportadas</h6>
