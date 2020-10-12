@@ -72,14 +72,13 @@
   text-align: center;
 }
 .Busqueda{
-  background-color: #7cf388;
-  border: 2px solid rgb(8, 8, 8);
-  text-align: right;
-  text-align: center;
-  height:50px;
-  width:300px;
   display: flex;
-  justify-content: center;  
+  justify-content: center;
+  border: 1px solid white;
+  background-color: #14dd28;
+  text-align: right;
+  border: 2px solid rgb(8, 8, 8);
+   
 }
 .Lupa{
   margin-top: 20px;
@@ -136,14 +135,12 @@
 .boton-mensajes_admin{
   display: flex;
   justify-content: center;
-  border: 1px solid white;
   background-color: #14dd28;
   text-align: right;
 }
 .boton-reportes_admin{
   display: flex;
   justify-content: center;
-  border: 1px solid white;
   background-color: #14dd28;
   text-align: right;
 }
