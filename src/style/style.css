@@ -72,13 +72,14 @@
   text-align: center;
 }
 .Busqueda{
-  display: flex;
-  justify-content: center;
-  border: 1px solid white;
-  background-color: #14dd28;
-  text-align: right;
+  background-color: #7cf388;
   border: 2px solid rgb(8, 8, 8);
-   
+  text-align: right;
+  text-align: center;
+  height:50px;
+  width:300px;
+  display: flex;
+  justify-content: center;  
 }
 .Lupa{
   margin-top: 20px;
@@ -132,27 +133,23 @@
   display: flex;
   justify-content: center;
 }
-.tituloR {
-  display: flex;
-  justify-content: center;
-  margin-top: 5px;
-  background-color: #db0505;
-  padding: 3px;
-  border-radius: 10px;
-  color: rgb(2, 2, 2);
-  
-}
 .boton-mensajes_admin{
   display: flex;
   justify-content: center;
+  border: 1px solid white;
   background-color: #14dd28;
   text-align: right;
+  height:50px;
+  width:300px;
 }
 .boton-reportes_admin{
   display: flex;
   justify-content: center;
+  border: 1px solid white;
   background-color: #14dd28;
   text-align: right;
+  height:51px;
+  width:300px;
 }
 
 

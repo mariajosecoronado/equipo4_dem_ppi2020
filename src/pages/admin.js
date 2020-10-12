@@ -1,14 +1,21 @@
 import React from "react";
+
 import "../style/style.css";
+
 import { BsList } from "react-icons/bs";
+
 import { BsSearch } from "react-icons/bs";
+
 import { Nav } from "react-bootstrap";
+
 import { Card } from "react-bootstrap";
+
 import { Button } from "react-bootstrap";
 
-class perfil2 extends React.Component {
+class perfil extends React.Component {
   render() {
-    return <div>
+    return (
+      <div>
         <Nav className="justify-content-center " activeKey="/home">
           <Nav.Item>
             <Nav.Link eventKey="link-1" className="encabezado" href="menu">
@@ -39,64 +46,33 @@ class perfil2 extends React.Component {
         <Nav className="justify-content-end" activeKey="/home">
           <Nav.Item></Nav.Item>
         </Nav>
-        <br />
+
         <div className="fotoperfil">
           <img
             className="fotoperfil"
-            src="https://www.lapi.com.mx/image.ashx?s=57067&im=115321&t=p"
+            src="https://elhombreconfuso.files.wordpress.com/2010/11/alejandrosalgueirosexyhunk01.jpg"
             alt="logo"
-            width="150"
-            height="170"
+            width="130"
+            height="150"
           />
         </div>
+
         <div className="unotitulo">
-          <h6> Valeria Gómez </h6>
+          <h6> Alejandro Pérez </h6>
         </div>
 
+        <div>
+      <Button href="/editarperfil" className="boton-I">
+          Editar mi perfil
+        </Button>
+        <Button href="/nuevareceta" className="boton-I">
+          Crear una nueva publicación
+        </Button>
+      </div>
 
-        <hr></hr>
+      <br></br>
       <div className="unotitulo">
           <h6> Recetas que te podrían interesar </h6>
-        </div>
-        <hr></hr>
-
-        <div className="public-flex">
-          <Card style={{ width: "12rem" }}>
-            <Card.Img
-              width="50"
-              height="100"
-              src="https://www.recetasjudias.com/wp-content/uploads/2018/05/Papas-Gratinadas.jpg"
-            />
-
-            <Card.Body>
-              <Card.Title>Papas gratinadas</Card.Title>
-
-              <Button href="/perfil2" className="boton-I">
-                Ver más
-              </Button>
-            </Card.Body>
-          </Card>
-
-          <Card style={{ width: "12rem" }}>
-            <Card.Img
-              width="50"
-              height="100"
-              src="https://i.blogs.es/fdcf18/alfajroes-de-maizena/450_1000.jpg"
-            />
-
-            <Card.Body>
-              <Card.Title>Alfajores de Maizena</Card.Title>
-
-              <Button href="/" className="boton-I">
-                Ver más
-              </Button>
-            </Card.Body>
-          </Card>
-        </div>
-
-        <br></br>
-      <div className="unotitulo">
-          <h6> Publicaciones de Valeria </h6>
         </div>
         <hr></hr>
 
@@ -108,10 +84,10 @@ class perfil2 extends React.Component {
               src="https://recetasfacil.online/wp-content/uploads/2018/12/Recetas-f%C3%A1ciles-de-pollo-para-ni%C3%B1os-e1544662062923.jpg"
             />
 
-<Card.Body>
-              <Card.Title>Rollos de Pollo</Card.Title>
+            <Card.Body>
+              <Card.Title>Rollos de pollo</Card.Title>
 
-              <Button href="/recetaRollos" className="boton-I">
+              <Button href="/" className="boton-I">
                 Ver más
               </Button>
             </Card.Body>
@@ -125,10 +101,50 @@ class perfil2 extends React.Component {
             />
 
             <Card.Body>
-              <Card.Title>Galletas de Chocolate</Card.Title>
+              <Card.Title>Galletas de chocolate</Card.Title>
+
+              <Button href="/" className="boton-I">
+                Ver más
+              </Button>
+            </Card.Body>
+          </Card>
+        </div>
+
+        <br></br>
+      <div className="unotitulo">
+          <h6> Tus publicaciones </h6>
+        </div>
+        <hr></hr>
+
+        <div className="public-flex">
+          <Card style={{ width: "12rem" }}>
+            <Card.Img
+              width="50"
+              height="100"
+              src="https://www.eltiempo.com/files/article_content/uploads/2019/12/19/5dfbfefa82e19.jpeg"
+            />
+
+            <Card.Body>
+              <Card.Title>Buñuelos de arequipe</Card.Title>
 
               <Button href="/editarpublicacion" className="boton-I">
-                Ver receta
+                Editar receta
+              </Button>
+            </Card.Body>
+          </Card>
+
+          <Card style={{ width: "12rem" }}>
+            <Card.Img
+              width="50"
+              height="100"
+              src="https://truffle-assets.imgix.net/1t1bxm43v4e3_5sdtiLAzkssogGAcc2MUAs_patacones-con-guacamole_landscapeThumbnail_es.jpeg"
+            />
+
+            <Card.Body>
+              <Card.Title>Patacones con guacamole</Card.Title>
+
+              <Button href="/editarpublicacion" className="boton-I">
+                Editar receta
               </Button>
             </Card.Body>
           </Card>
@@ -136,19 +152,27 @@ class perfil2 extends React.Component {
 
         <br></br>
 
+        <Button href="/editarpublicacion" className="boton-I">
+          Editar mis publicaciones
+        </Button>
 
-<footer className="header">
-  CONTÁCTENOS
-  <button className="button">
-    {" "}
-    <Nav.Link href="/mensaje" className="black">
-      CLICK AQUÍ
-    </Nav.Link>{" "}
-  </button>
-  <Nav.Link href="/mensaje" className="black"></Nav.Link>{" "}
-</footer>
+        <br />
 
-    </div>;
+        <footer className="header">
+          CONTÁCTENOS
+          <button className="button">
+            {" "}
+            <Nav.Link href="/mensaje" className="black">
+              CLICK AQUÍ
+            </Nav.Link>{" "}
+          </button>
+          <Nav.Link href="/mensaje" className="black"></Nav.Link>{" "}
+        </footer>
+      </div>
+    );
   }
 }
-export default perfil2;
+
+export default perfil;
+
+

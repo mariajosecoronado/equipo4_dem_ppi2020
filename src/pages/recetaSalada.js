@@ -82,34 +82,18 @@ class recetaSalada extends React.Component {
             <Card.Header>Ingredientes</Card.Header>
             <Card.Body>
               <Card.Text>
-                2 huevos
-                <br />
-                150 g de harina
-                <br />
-                250 ml de leche
-                <br />
-                1 cucharada de azúcar
-                <br />
-                1 cucharada de aceite de oliva virgen extra
-                <br />
-                1 pizca de sal
-                <br />
-                Aceite de oliva virgen extra para engrasar la sartén Opcional: 1
-                cucharada de brandy
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
               </Card.Text>
             </Card.Body>
           </Card>
           <br></br>
           <Card border="success" style={{ width: "18rem" }}>
-            <Card.Header>Preparación</Card.Header>
+            <Card.Header>Header</Card.Header>
             <Card.Body>
               <Card.Text>
-                Para elaborar crepes hay que preparar una mezcla con harina,
-                huevos y leche, casi líquida, a diferencia de las tortitas
-                americanas, y se cocinan en una sartén antiadherente (hay
-                algunas especialmente destinadas a preparar crepes). Si son
-                dulces podemos aromatizar la masa, por ejemplo con vainilla y si
-                son saladas, se puede añadir a la mezcla especias o hierbas.
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
               </Card.Text>
             </Card.Body>
           </Card>
