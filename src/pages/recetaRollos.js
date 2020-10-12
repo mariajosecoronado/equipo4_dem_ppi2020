@@ -64,7 +64,7 @@ class recetaRollos extends React.Component {
                 </Nav.Link>
               </Nav.Item>
             </Nav>
-            <p className="nombre-receta">Receceta de crepes</p>
+            <p className="nombre-receta">Receta de Rollos</p>
           </div>
           <div className="punt">
             <p>Puntuación</p>
