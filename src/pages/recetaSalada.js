@@ -82,8 +82,14 @@ class recetaSalada extends React.Component {
             <Card.Header>Ingredientes</Card.Header>
             <Card.Body>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              2 huevos<br/>
+150 g de harina<br/>
+250 ml de leche<br/>
+1 cucharada de azúcar<br/>
+1 cucharada de aceite de oliva virgen extra<br/>
+1 pizca de sal<br/>
+Aceite de oliva virgen extra para engrasar la sartén
+Opcional: 1 cucharada de brandy
               </Card.Text>
             </Card.Body>
           </Card>
