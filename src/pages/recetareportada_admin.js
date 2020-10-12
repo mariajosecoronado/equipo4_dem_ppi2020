@@ -5,8 +5,8 @@ import { Card } from "react-bootstrap";
 import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
-import { AiOutlineWarning } from "react-icons/bs";
-import ReactPlayer from "react-player";
+
+import { ReactPlayer } from "react-player";
 
 class Receta_reportada_admin extends React.Component {
   render() {
@@ -82,12 +82,11 @@ class Receta_reportada_admin extends React.Component {
           <Card border="success" style={{ width: "18rem" }}>
             <Card.Header>Ingredientes</Card.Header>
             <Card.Body>
-              <ul>
-                <li>Harina</li>
-                <li>1 huevo</li>
-                <li>Media taza de azucar</li>
-                <li>Cacao</li>
-              </ul>
+              <Card.Title>Success Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
             </Card.Body>
           </Card>
           <br />
@@ -102,12 +101,13 @@ class Receta_reportada_admin extends React.Component {
             </Card.Body>
           </Card>
         </div>
-
         <div className="boton">
-          <button className="report">Reportada</button>
+          
+          <button className="report">Reportar</button>
         </div>
       </div>
     );
   }
 }
+
 export default Receta_reportada_admin;
