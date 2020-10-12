@@ -19,6 +19,7 @@ import recetaDulce from "../pages/recetaDulce";
 import recetaSalada from "../pages/recetaSalada";
 import Botones_mensajes_admin from "../pages/botones_mensajes_admin";
 import Buscar_admin from "../pages/buscar_admin";
+import perfil2 from "../pages/perfil2";
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
         <Route exact path="/menu" component={Bienvenida} />
         <Route exact path="/inicio" component={Inicio} />
         <Route exact path="/Perfil" component={Perfil} />
+        <Route exact path="/perfil2" component={perfil2} />
         <Route exact path="/inicio_admin" component={Inicio_admin} />
         <Route exact path="/iniciarS" component={IniciarS} />
         <Route exact path="/listaDulce" component={ListaDulce} />

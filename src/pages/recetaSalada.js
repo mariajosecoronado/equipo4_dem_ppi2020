@@ -53,7 +53,7 @@ class recetaSalada extends React.Component {
               <Nav.Item>
                 <Nav.Link
                   eventKey="link-1"
-                  href="Perfil2"
+                  href="Perfil"
                   className="perfil-enlace  black"
                 >
                   <img
