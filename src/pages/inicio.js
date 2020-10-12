@@ -13,7 +13,7 @@ class inicio extends React.Component {
     return (
       <div>
         <>
-          <Nav className="justify-content-center " activeKey="/menu">
+          <Nav className="justify-content-center " activeKey="/home">
             <Nav.Item>
               <Nav.Link eventKey="link-1" className="encabezado">
                 <h1>
@@ -21,13 +21,9 @@ class inicio extends React.Component {
                 </h1>
               </Nav.Link>
             </Nav.Item>
-            <img
-              className="d-block w-100"
-              src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
-              alt="logo"
-              width="100"
-              height="250"
-            />
+            <Nav.Item>
+              <h1 className="titulo">COOK TO WORK</h1>
+            </Nav.Item>
             <Nav.Item>
               <Nav.Link eventKey="Busqueda" className="encabezado">
                 <h1>
@@ -41,25 +37,17 @@ class inicio extends React.Component {
             <Nav.Item></Nav.Item>
           </Nav>
 
-          <Nav className="justify-content-end" href="/Perfil">
+          <Nav className="justify-content-end" activeKey="/home">
             <Nav.Item>
-              <Nav.Link
-                eventKey="link-1"
-                className="perfil-enlace"
-                href="Perfil"
-              >
-                Mi perfil{" "}
-                <img
-                  className="foto-perfil"
-                  alt="foto de perfil"
-                  src="https://benidorm.org/wp-content/img/cabecera/perfil-anonimo.jpg"
-                />
+              <Nav.Link eventKey="link-1" className="perfil-enlace">
+                Mi perfil <img className="foto-perfil" alt="foto de perfil" />
               </Nav.Link>
             </Nav.Item>
             <div></div>
             <Nav.Item></Nav.Item>
           </Nav>
         </>
+
         <div className="container2">
           <Carousel className="caru-tamaño">
             <Carousel.Item>
@@ -116,7 +104,6 @@ class inicio extends React.Component {
         </div>
         <div>
           <CardDeck>
-<<<<<<< Codesandbox
             <Card>
               <Card.Img
                 variant="top"
@@ -131,7 +118,6 @@ class inicio extends React.Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-             <Nav href="listaSala">
             <Card>
               <Card.Img
                 variant="top"
@@ -146,43 +132,6 @@ class inicio extends React.Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-            </Nav>
-          </CardDeck>
-          
-=======
-            <Nav.Link href="listaDulce">
-              <Card>
-                <Card.Img
-                  variant="top"
-                  src="https://truffle-assets.imgix.net/1t1bxm43v4e3_7ffgxAJg64K8UAwOimWYya_twix-caseros_landscapeThumbnail_es.jpeg"
-                />
-                <Card.Body>
-                  <Card.Title>Recetas dulces</Card.Title>
-                  <Card.Text>
-                    Sabemos que a la mayoría de personas les encanta la comida
-                    dulce y para este caso tenemos muchas recetas de este tipo
-                    que sabemos que te encantarán,¡Anímate a prepararlas!.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Nav.Link>
-            <Nav.Link href="listaSalado">
-              <Card>
-                <Card.Img
-                  variant="top"
-                  src="https://cdn.queapetito.com/wp-content/uploads/2019/01/quiches-600x469.jpg"
-                />
-                <Card.Body>
-                  <Card.Title>Recetas saladas</Card.Title>
-                  <Card.Text>
-                    Podrás sorprender a tu familia con una variedad de comidas
-                    en donde ellos serán los afortunados de probar las mejores
-                    recetas vistas en Cook to Work.{" "}
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Nav.Link>
->>>>>>> GitHub
           </CardDeck>
         </div>
         <br></br>
@@ -200,5 +149,6 @@ class inicio extends React.Component {
     );
   }
 }
+
 
 export default inicio;
