@@ -41,9 +41,7 @@ class buscar_admin extends React.Component {
             </Nav.Item>
           
     </Form>
-    <h1>
-                  holas
-                </h1>
+    
           </>  
           
 

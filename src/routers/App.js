@@ -7,6 +7,7 @@ import Bienvenida from "../pages/bienvenida";
 import Inicio from "../pages/inicio";
 import Inicio_admin from "../pages/inicio_admin";
 import Perfil from "../pages/Perfil";
+import perfil3 from "../pages/perfil3";
 import IniciarS from "../pages/iniciarS";
 import ListaDulce from "../pages/listaDulce";
 import ListaSalado from "../pages/listaSalado";
@@ -20,7 +21,6 @@ import recetaSalada from "../pages/recetaSalada";
 import Botones_mensajes_admin from "../pages/botones_mensajes_admin";
 import Buscar_admin from "../pages/buscar_admin";
 import perfil2 from "../pages/perfil2";
-import recetaRollos from "../pages/recetaRollos";
 
 
 const App = () => {
@@ -34,6 +34,7 @@ const App = () => {
         <Route exact path="/inicio" component={Inicio} />
         <Route exact path="/Perfil" component={Perfil} />
         <Route exact path="/perfil2" component={perfil2} />
+        <Route exact path="/perfil3" component={perfil3} />
         <Route exact path="/inicio_admin" component={Inicio_admin} />
         <Route exact path="/iniciarS" component={IniciarS} />
         <Route exact path="/listaDulce" component={ListaDulce} />
@@ -43,7 +44,6 @@ const App = () => {
         <Route exact path="/listaSalado_admin" component={ListaSalado_admin} />
         <Route exact path="/recetaDulce" component={recetaDulce} />
         <Route exact path="/mensajes_admin" component={Mensajes_admin} />
-        <Route exact path="/recetaRollos" component={recetaRollos} />
         
         <Route
           exact
