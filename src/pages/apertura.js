@@ -6,7 +6,7 @@ import { Nav } from "react-bootstrap";
 class Inicio extends React.Component {
   render() {
     return (
-      <div className="container-fluid fondoInicio" >
+      <div className="container-fluid fondoInicio">
         <div className="row">
           <div className="col-sm-4 col-md-4 col-lg-4"></div>
           <div className="col-sm-4 col-md-4 col-lg-4">
@@ -29,7 +29,7 @@ class Inicio extends React.Component {
                 <br />
                 <br />
                 <br />
-                <h3>Clic aquí!</h3>
+                <h3>CLIC AQUÍ!</h3>
               </div>
             </div>
             <div className="row">

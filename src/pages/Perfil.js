@@ -21,7 +21,7 @@ class perfil extends React.Component {
             </Nav.Item>
             <img
               className="icon-p"
-              src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
+              src="https://elhombreconfuso.files.wordpress.com/2010/11/alejandrosalgueirosexyhunk01.jpg"
               alt="logo"
               width="200"
               height="150"
@@ -38,20 +38,29 @@ class perfil extends React.Component {
           <Nav className="justify-content-end" activeKey="/home">
             <Nav.Item></Nav.Item>
           </Nav>
+          <img
+              className="fotoperfil"
+              src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
+              alt="logo"
+              width="200"
+              height="150"
+            />
+          
 
-      <div className="public-flex">
-          <Card style={{ width: '12rem' }}>
+          <div className="public-flex">
+
+<Card style={{ width: '12rem' }}>
   <Card.Img width="50" height="100" src="https://recetasfacil.online/wp-content/uploads/2018/12/Recetas-f%C3%A1ciles-de-pollo-para-ni%C3%B1os-e1544662062923.jpg" />
   <Card.Body>
     <Card.Title>Rollos de pollo</Card.Title>
-    <Button variant="primary">Ver más</Button>
+      <Button href="/" className="boton-I">Ver más</Button>
   </Card.Body>
 </Card>
 <Card style={{ width: '12rem' }}>
   <Card.Img width="50" height="100" src="https://t1.rg.ltmcdn.com/es/images/6/8/2/galletas_de_mantequilla_con_chocolate_55286_600.jpg" />
   <Card.Body>
     <Card.Title>Galletas de chocolate</Card.Title>
-    <Button variant="primary">Ver más</Button>
+    <Button href="/" className="boton-I">Ver más</Button>
   </Card.Body>
 </Card>
 </div>

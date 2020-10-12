@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/style.css";
-import { BsList } from "react-icons/bs";
+
 
 
 class botones_mensajes_admin extends React.Component {
@@ -9,7 +9,7 @@ class botones_mensajes_admin extends React.Component {
       <div>
         
                 <h1>
-                  <BsList />
+                  holu
                 </h1>
               
 

@@ -42,6 +42,8 @@
   text-align: center;
 }
 .boton-I {
+  display: flex;
+  justify-content: center;
   border: 1px solid white;
   background-color: #14dd28;
   text-align: right;
@@ -71,6 +73,11 @@
 .icon-p {
   text-align: center;
 }
-.public-flex {
+
+.public-flex{
   display: flex;
+}
+
+.icon-p {
+  text-align: center;
 }
