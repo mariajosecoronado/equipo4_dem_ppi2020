@@ -4,6 +4,7 @@ import { Nav } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
+import { BsFillChatDotsFill } from "react-icons/bs";
 import ReactPlayer from "react-player";
 
 import {} from "react-bootstrap";
@@ -74,7 +75,7 @@ class recetaDulce extends React.Component {
         </div>
         <div className="public-flex">
           <Card border="success" style={{ width: "18rem" }}>
-            <Card.Header>Header</Card.Header>
+            <Card.Header>Ingredientes</Card.Header>
             <Card.Body>
               <Card.Title>Success Card Title</Card.Title>
               <Card.Text>
@@ -85,7 +86,7 @@ class recetaDulce extends React.Component {
           </Card>
           <br />
           <Card border="success" style={{ width: "18rem" }}>
-            <Card.Header>Header</Card.Header>
+            <Card.Header>Receta</Card.Header>
             <Card.Body>
               <Card.Title>Success Card Title</Card.Title>
               <Card.Text>
@@ -99,6 +100,23 @@ class recetaDulce extends React.Component {
           <button className="button">Descargar</button>
           <button className="report">Reportar</button>
         </div>
+
+        <div>
+          <BsFillChatDotsFill />
+          <input placeholder="Deja un comentario" />
+        </div>
+        <br />
+        <br />
+        <footer className="header">
+          CONTÁCTENOS
+          <button className="button">
+            {" "}
+            <Nav.Link href="/mensaje" className="black">
+              CLICK AQUÍ
+            </Nav.Link>{" "}
+          </button>
+          <Nav.Link href="/mensaje" className="black"></Nav.Link>{" "}
+        </footer>
       </div>
     );
   }
