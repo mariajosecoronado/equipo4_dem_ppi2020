@@ -8,7 +8,7 @@ class registro extends React.Component {
       <div className="container-fluid ">
         <div className="row">
           <div className="col">
-          <img
+            <img
               className="d-block w-100"
               src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
               alt="logo"
@@ -21,33 +21,44 @@ class registro extends React.Component {
             </h1>
             <div>
               <Form>
-                <Form.Group  controlId="formBasicEmail">
+                <Form.Group controlId="formBasicEmail">
                   <Form.Label>NOMBRE</Form.Label>
-                  <Form.Control className="campo-registro" type="email" placeholder="Ingrese su nombre" />
+                  <Form.Control
+                    className="campo-registro"
+                    type="email"
+                    placeholder="Ingrese su nombre"
+                  />
                 </Form.Group>
 
                 <Form.Group controlId="formBasicPassword">
                   <Form.Label>APELLIDO</Form.Label>
-                  <Form.Control className="campo-registro"
+                  <Form.Control
+                    className="campo-registro"
                     type="password"
                     placeholder="Ingrese su apellido"
                   />
                 </Form.Group>
                 <Form.Group controlId="formBasicEmail">
                   <Form.Label>CORREO</Form.Label>
-                  <Form.Control className="campo-registro" type="email" placeholder="Ingrese su nombre" />
+                  <Form.Control
+                    className="campo-registro"
+                    type="email"
+                    placeholder="Ingrese su nombre"
+                  />
                 </Form.Group>
 
                 <Form.Group controlId="formBasicPassword">
                   <Form.Label>CONTRASEÑA</Form.Label>
-                  <Form.Control className="campo-registro"
+                  <Form.Control
+                    className="campo-registro"
                     type="password"
                     placeholder="Ingrese su contraseña"
                   />
                 </Form.Group>
                 <Form.Group controlId="formBasicPassword">
                   <Form.Label>CONFIRMAR CONTRASEÑA</Form.Label>
-                  <Form.Control className="campo-registro"
+                  <Form.Control
+                    className="campo-registro"
                     type="password"
                     placeholder="Confirme su contraseña"
                   />
@@ -58,7 +69,7 @@ class registro extends React.Component {
                 </Button>
                 <br></br>
                 <br></br>
-                <Button href="/inicio" className="boton-I">
+                <Button href="/iniciarS" className="boton-I">
                   ATRÁS
                 </Button>
               </Form>
