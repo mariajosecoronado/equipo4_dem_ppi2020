@@ -39,19 +39,38 @@ class recetaDulce extends React.Component {
           <Nav.Item></Nav.Item>
         </Nav>
         <div>
-        <ReactPlayer
-          url='https://www.youtube.com/watch?v=JuewYWvosn4'
-          className='react-player'
-          playing
-          width='100%'
-          height='270px'
-        />
-        <p className="text-muted"> Publicado el 11/09/2020</p>
-      </div>
-
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=JuewYWvosn4"
+            className="react-player"
+            playing
+            width="100%"
+            height="270px"
+          />
+          <p className="text-muted"> Publicado el 11/09/2020</p>
+          <div>
+            <Nav className="justify-content-end" activeKey="/home">
+              <Nav.Item>
+                <Nav.Link
+                  eventKey="link-1"
+                  href="Perfil"
+                  className="perfil-enlace  black"
+                >
+                  Mi perfil{" "}
+                  <img
+                    className="foto-perfil"
+                    alt="foto de perfil"
+                    src="https://benidorm.org/wp-content/img/cabecera/perfil-anonimo.jpg"
+                  />
+                </Nav.Link>
+              </Nav.Item>
+              <div></div>
+              <Nav.Item></Nav.Item>
+            </Nav>
+          </div>
+        </div>
       </div>
     );
   }
 }
- 
+
 export default recetaDulce;
