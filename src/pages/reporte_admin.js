@@ -3,9 +3,8 @@ import "../style/style.css";
 import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
-import { BsFillChatQuoteFill } from "react-icons/bs";
 
-class editarPerfil extends React.Component {
+class perfil extends React.Component {
   render() {
     return (
       <div>
@@ -17,6 +16,7 @@ class editarPerfil extends React.Component {
               </h1>
             </Nav.Link>
           </Nav.Item>
+
           <img
             className="icon-p"
             src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
@@ -24,6 +24,7 @@ class editarPerfil extends React.Component {
             width="200"
             height="150"
           />
+
           <Nav.Item>
             <Nav.Link eventKey="Busqueda" className="encabezado ">
               <h1>
@@ -33,41 +34,30 @@ class editarPerfil extends React.Component {
             </Nav.Link>
           </Nav.Item>
         </Nav>
+
         <Nav className="justify-content-end" activeKey="/home">
           <Nav.Item></Nav.Item>
         </Nav>
+
         <div className="fotoperfil">
           <img
             className="fotoperfil"
-            src="https://elhombreconfuso.files.wordpress.com/2010/11/alejandrosalgueirosexyhunk01.jpg"
+            src="https://www.lapi.com.mx/image.ashx?s=57067&im=115321&t=p"
             alt="logo"
             width="130"
             height="150"
           />
         </div>
+
         <div className="unotitulo">
-          <h6> Alejandro Pérez </h6>
+          <h6> Nombre persona </h6>
         </div>
-        <div className="input">
-          <BsFillChatQuoteFill />
-
-          <input placeholder="Edita tu nombre"></input>
+        <div className="tituloR">
+          <h6> Recetas reportadas</h6>
         </div>
-        <br></br>
-
-        <footer className="header">
-          CONTÁCTENOS
-          <button className="button">
-            {" "}
-            <Nav.Link href="/mensaje" className="black">
-              CLICK AQUÍ
-            </Nav.Link>{" "}
-          </button>
-          <Nav.Link href="/mensaje" className="black"></Nav.Link>{" "}
-        </footer>
       </div>
     );
   }
 }
 
-export default editarPerfil;
+export default perfil;

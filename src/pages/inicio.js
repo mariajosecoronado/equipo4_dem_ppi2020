@@ -52,7 +52,7 @@ class inicio extends React.Component {
                 <img
                   className="foto-perfil"
                   alt="foto de perfil"
-                  src="https://benidorm.org/wp-content/img/cabecera/perfil-anonimo.jpg"
+                  src="https://elhombreconfuso.files.wordpress.com/2010/11/alejandrosalgueirosexyhunk01.jpg"
                 />
               </Nav.Link>
             </Nav.Item>
@@ -170,7 +170,7 @@ class inicio extends React.Component {
               CLICK AQUÍ
             </Nav.Link>{" "}
           </button>
-           <Nav.Link href="/mensaje" className="black"></Nav.Link> {" "}
+          <Nav.Link href="/mensaje" className="black"></Nav.Link>{" "}
         </footer>
       </div>
     );
