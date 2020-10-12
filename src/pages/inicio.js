@@ -29,7 +29,7 @@ class inicio extends React.Component {
               height="150"
             />
             <Nav.Item>
-              <Nav.Link eventKey="Busqueda" className="encabezado">
+              <Nav.Link eventKey="Busqueda" className="encabezado ">
                 <h1>
                   {" "}
                   <BsSearch />{" "}
@@ -46,7 +46,7 @@ class inicio extends React.Component {
               <Nav.Link
                 eventKey="link-1"
                 href="Perfil"
-                className="perfil-enlace"
+                className="perfil-enlace  black"
               >
                 Mi perfil{" "}
                 <img
@@ -117,7 +117,7 @@ class inicio extends React.Component {
         </div>
         <div>
           <CardDeck>
-            <Nav.Link href="listaDulce">
+            <Nav.Link href="listaDulce " className="black">
               <Card>
                 <Card.Img
                   variant="top"
@@ -133,7 +133,7 @@ class inicio extends React.Component {
                 </Card.Body>
               </Card>
             </Nav.Link>
-            <Nav.Link href="listaSalado">
+            <Nav.Link href="listaSalado" className="black">
               <Card>
                 <Card.Img
                   variant="top"
