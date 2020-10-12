@@ -106,6 +106,7 @@ class recetaDulce extends React.Component {
           </h5>
           <input placeholder="Deja un comentario aquí"></input>
         </div>
+
         <br></br>
         <footer className="header">
           CONTÁCTENOS
