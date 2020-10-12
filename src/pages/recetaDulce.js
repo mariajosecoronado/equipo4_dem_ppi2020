@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/style.css";
 import { Nav } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import ReactPlayer from "react-player";
@@ -68,6 +69,33 @@ class recetaDulce extends React.Component {
             </Nav>
             <p className="nombre-receta">Galletas de chocolate</p>
           </div>
+          <div className="public-flex">
+            <p>Puntuación</p>
+            <p>Estrellas</p>
+          </div>
+        </div>
+        <div className="public-flex">
+          <Card border="success" style={{ width: "18rem" }}>
+            <Card.Header>Header</Card.Header>
+            <Card.Body>
+              <Card.Title>Success Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <br></br>
+          <Card border="success" style={{ width: "18rem" }}>
+            <Card.Header>Header</Card.Header>
+            <Card.Body>
+              <Card.Title>Success Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
         </div>
       </div>
     );

@@ -21,6 +21,10 @@
   display: flex;
   justify-content: space-around;
 }
+.public-flex {
+  display: flex;
+  justify-content: space-around;
+}
 .nombre-receta {
   background-color: #14dd28;
   padding: 10px;
