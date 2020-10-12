@@ -46,8 +46,8 @@ class inicio_admin extends React.Component {
             <Nav.Item>
               <Nav.Link
                 eventKey="link-1"
-                href="Perfil"
-                className="perfil-enlace  black"
+                href="botones_mensajes_admin"
+                className="botones_mensajes_admin black"
               >
                <h1>
                   <AiOutlineMessage/>
