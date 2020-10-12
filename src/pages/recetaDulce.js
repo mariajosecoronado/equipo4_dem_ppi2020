@@ -59,7 +59,7 @@ class recetaDulce extends React.Component {
                   <img
                     className="foto-perfil"
                     alt="foto de perfil"
-                    src="https://benidorm.org/wp-content/img/cabecera/perfil-anonimo.jpg"
+                    src="https://elhombreconfuso.files.wordpress.com/2010/11/alejandrosalgueirosexyhunk01.jpg"
                   />
                 </Nav.Link>
               </Nav.Item>
@@ -95,7 +95,7 @@ class recetaDulce extends React.Component {
             </Card.Body>
           </Card>
         </div>
-        <div>
+        <div className="public-flex">
           <button>Descargar</button>
           <button>Compartir</button>
         </div>
