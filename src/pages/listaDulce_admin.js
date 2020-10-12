@@ -103,10 +103,8 @@ class listaDulce_admin extends React.Component {
           
           </Card>
         </CardDeck>
-        <br></br>
-        <footer className="header">
-          CONTÁCTENOS<button className="button"> CLICK AQUÍ </button>
-        </footer>
+        
+        
       </div>
     );
   }
