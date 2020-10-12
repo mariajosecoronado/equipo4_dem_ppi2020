@@ -24,8 +24,8 @@ import Buscar from "../pages/buscar";
 import perfil2 from "../pages/perfil2";
 import recetaRollos from "../pages/recetaRollos";
 import editarPerfil from "../pages/editarperfil";
-import Receta_reportada_admin from "../pages/receta_reportada_admin"
-import Reporte_admin from "../pages/reporte_admin"
+
+import Reporte_admin from "../pages/reporte_admin";
 
 const App = () => {
   return (
@@ -48,14 +48,22 @@ const App = () => {
         <Route exact path="/listaSalado_admin" component={ListaSalado_admin} />
         <Route exact path="/recetaDulce" component={recetaDulce} />
         <Route exact path="/mensajes_admin" component={Mensajes_admin} />
-        <Route exact path="/receta_reportada_admin" component={Receta_reportada_admin} />
+       
         <Route exact path="/editarperfil" component={editarPerfil} />
         <Route exact path="/recetaRollos" component={recetaRollos} />
         <Route exact path="/reporte_admin" component={Reporte_admin} />
-        <Route exact path="/botones_mensajes_admin" component={Botones_mensajes_admin}/>
+        <Route
+          exact
+          path="/botones_mensajes_admin"
+          component={Botones_mensajes_admin}
+        />
         <Route exact path="/buscar_admin" component={Buscar_admin} />
         <Route exact path="/buscar" component={Buscar} />
-        <Route exact path="/mensaje_reporte_admin"component={Mensaje_reporte_admin}/>
+        <Route
+          exact
+          path="/mensaje_reporte_admin"
+          component={Mensaje_reporte_admin}
+        />
         <Route exact path="/mensaje" component={mensaje} />
         <Route exact path="/recetaRollos" component={recetaRollos} />
       </Switch>
