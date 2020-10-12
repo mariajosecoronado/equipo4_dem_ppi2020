@@ -116,20 +116,22 @@ class inicio extends React.Component {
         </div>
         <div>
           <CardDeck>
-            <Card>
-              <Card.Img
-                variant="top"
-                src="https://truffle-assets.imgix.net/1t1bxm43v4e3_7ffgxAJg64K8UAwOimWYya_twix-caseros_landscapeThumbnail_es.jpeg"
-              />
-              <Card.Body>
-                <Card.Title>Recetas dulces</Card.Title>
-                <Card.Text>
-                  Sabemos que a la mayoría de personas les encanta la comida
-                  dulce y para este caso tenemos muchas recetas de este tipo que
-                  sabemos que te encantarán,¡Anímate a prepararlas!.
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <Nav.Link href="listaDulce">
+              <Card>
+                <Card.Img
+                  variant="top"
+                  src="https://truffle-assets.imgix.net/1t1bxm43v4e3_7ffgxAJg64K8UAwOimWYya_twix-caseros_landscapeThumbnail_es.jpeg"
+                />
+                <Card.Body>
+                  <Card.Title>Recetas dulces</Card.Title>
+                  <Card.Text>
+                    Sabemos que a la mayoría de personas les encanta la comida
+                    dulce y para este caso tenemos muchas recetas de este tipo
+                    que sabemos que te encantarán,¡Anímate a prepararlas!.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Nav.Link>
             <Nav.Link href="listaSalado">
               <Card>
                 <Card.Img

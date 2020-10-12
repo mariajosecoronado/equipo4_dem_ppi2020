@@ -21,18 +21,11 @@
 .Perfil-enlace {
   color: gray;
 }
-.correo-I {
+.campo-iniciarS {
   border: 2px solid #33ff46;
   margin-top: 4px;
   border-radius: 4px;
   
-
-}
-.contraseña-I {
-  
-  border: 2px solid #33ff46;
-  margin-top: 4px;
-  border-radius: 4px;
 }
 .campo-registro {
   
@@ -43,6 +36,10 @@
 .O-contraseña{
 color: #2ecc3e;
 }
+.titulo-IR{
+  text-align: center;
+  }
+
 .mensajes_admin{
 text-align: center;
 }

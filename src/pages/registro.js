@@ -21,26 +21,26 @@ class registro extends React.Component {
 
                 <Form.Group controlId="formBasicPassword">
                   <Form.Label>APELLIDO</Form.Label>
-                  <Form.Control
+                  <Form.Control className="campo-registro"
                     type="password"
                     placeholder="Ingrese su apellido"
                   />
                 </Form.Group>
                 <Form.Group controlId="formBasicEmail">
                   <Form.Label>CORREO</Form.Label>
-                  <Form.Control type="email" placeholder="Ingrese su nombre" />
+                  <Form.Control className="campo-registro" type="email" placeholder="Ingrese su nombre" />
                 </Form.Group>
 
                 <Form.Group controlId="formBasicPassword">
                   <Form.Label>CONTRASEÑA</Form.Label>
-                  <Form.Control
+                  <Form.Control className="campo-registro"
                     type="password"
                     placeholder="Ingrese su contraseña"
                   />
                 </Form.Group>
                 <Form.Group controlId="formBasicPassword">
                   <Form.Label>CONFIRMAR CONTRASEÑA</Form.Label>
-                  <Form.Control
+                  <Form.Control className="campo-registro"
                     type="password"
                     placeholder="Confirme su contraseña"
                   />

@@ -16,19 +16,20 @@ class iniciarS extends React.Component {
               height="250"
             />
 
-            <h1>
+            <h1 className="titulo-IR">
+           
               BIENVENID@ A COOK TO WORK <br />
               INICIE SESIÓN AQUÍ
             </h1>
             <div>
               <Form >
-                <Form.Group controlId="formBasicEmail" className="correo-I">
+                <Form.Group controlId="formBasicEmail" className="campo-iniciarS">
                   <Form.Control type="email" placeholder="Correo:" />
                 </Form.Group>
 
                 <Form.Group
                   controlId="formBasicPassword"
-                  className="contraseña-I"
+                  className="campo-iniciarS"
                 >
                   <Form.Control type="password" placeholder="Contraseña:" />
                 </Form.Group>
