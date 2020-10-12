@@ -71,3 +71,6 @@
 .icon-p {
   text-align: center;
 }
+.public-flex {
+  display: flex;
+}

@@ -9,11 +9,11 @@ class registro extends React.Component {
         <div className="row">
           <div className="col">
           <img
-              className="icon-p"
+              className="d-block w-100"
               src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
               alt="logo"
-              width="200"
-              height="150"
+              width="100"
+              height="250"
             />
             <h1>
               BIENVENID@ A COOK TO WORK <br />
