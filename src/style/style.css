@@ -162,11 +162,18 @@ padding: 10px;
   background-color: #14dd28;
   text-align: right;
 }
-.botonR{
+.botonR1{
   display: flex;
   justify-content: center;
   border: 1px solid white;
   background-color: #14dd28;
+  text-align: right;
+}
+.botonR{
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  background-color: red;
   text-align: right;
 }
 
