@@ -41,13 +41,15 @@ class listaSalado extends React.Component {
         </>
         <br></br>
         <CardDeck>
-          <Card>
-            <Card.Title>RECETAS SALADAS</Card.Title>
-            <Card.Img
-              variant="top"
-              src="https://live.mrf.io/statics/i/ps/www.cocinacaserayfacil.net/wp-content/uploads/2020/02/Almuerzos-faciles-y-rapidos-de-hacer.jpg?width=1200&enable=upscale"
-            />
-          </Card>
+          <Nav.Link className="black" href="recetaSalada">
+            <Card>
+              <Card.Title>RECETAS SALADAS</Card.Title>
+              <Card.Img
+                variant="top"
+                src="https://live.mrf.io/statics/i/ps/www.cocinacaserayfacil.net/wp-content/uploads/2020/02/Almuerzos-faciles-y-rapidos-de-hacer.jpg?width=1200&enable=upscale"
+              />
+            </Card>
+          </Nav.Link>
           <br></br>
           <Card>
             <Card.Title>RECETAS SALADAS</Card.Title>
