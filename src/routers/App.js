@@ -14,6 +14,7 @@ import ListaDulce_admin from "../pages/listaDulce_admin";
 import ListaSalado_admin from "../pages/listaSalado_admin";
 import Mensajes_admin from "../pages/mensajes_admin";
 import Mensaje_reporte_admin from "../pages/mensaje_reporte_admin"
+import mensaje from "../pages/mensaje"
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
         <Route exact path="/listaSalado_admin" component={ListaSalado_admin} />
         <Route exact path="/mensajes_admin" component={Mensajes_admin} />
         <Route exact path="/mensaje_reporte_admin" component={Mensaje_reporte_admin} />
+        <Route exact path="/mensaje" component={mensaje} />
       </Switch>
     </BrowserRouter>
   );

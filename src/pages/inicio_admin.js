@@ -29,7 +29,7 @@ class inicio_admin extends React.Component {
               height="150"
             />
             <Nav.Item>
-              <Nav.Link eventKey="Busqueda" className="encabezado">
+              <Nav.Link eventKey="Busqueda" className="encabezado ">
                 <h1>
                   {" "}
                   <BsSearch />{" "}
@@ -43,8 +43,17 @@ class inicio_admin extends React.Component {
 
           <Nav className="justify-content-end" activeKey="/home">
             <Nav.Item>
-              <Nav.Link eventKey="link-1" className="perfil-enlace">
-                Mi perfil <img className="foto-perfil" alt="foto de perfil" />
+              <Nav.Link
+                eventKey="link-1"
+                href="Perfil"
+                className="perfil-enlace  black"
+              >
+                Mi perfil{" "}
+                <img
+                  className="foto-perfil"
+                  alt="foto de perfil"
+                  src="https://benidorm.org/wp-content/img/cabecera/perfil-anonimo.jpg"
+                />
               </Nav.Link>
             </Nav.Item>
             <div></div>
@@ -108,34 +117,38 @@ class inicio_admin extends React.Component {
         </div>
         <div>
           <CardDeck>
-            <Card>
-              <Card.Img
-                variant="top"
-                src="https://truffle-assets.imgix.net/1t1bxm43v4e3_7ffgxAJg64K8UAwOimWYya_twix-caseros_landscapeThumbnail_es.jpeg"
-              />
-              <Card.Body>
-                <Card.Title>Recetas dulces</Card.Title>
-                <Card.Text>
-                  Sabemos que a la mayoría de personas les encanta la comida
-                  dulce y para este caso tenemos muchas recetas de este tipo que
-                  sabemos que te encantarán,¡Anímate a prepararlas!.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            <Card>
-              <Card.Img
-                variant="top"
-                src="https://cdn.queapetito.com/wp-content/uploads/2019/01/quiches-600x469.jpg"
-              />
-              <Card.Body>
-                <Card.Title>Recetas saladas</Card.Title>
-                <Card.Text>
-                  Podrás sorprender a tu familia con una variedad de comidas en
-                  donde ellos serán los afortunados de probar las mejores
-                  recetas vistas en Cook to Work.{" "}
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <Nav.Link href="listaDulce " className="black">
+              <Card>
+                <Card.Img
+                  variant="top"
+                  src="https://truffle-assets.imgix.net/1t1bxm43v4e3_7ffgxAJg64K8UAwOimWYya_twix-caseros_landscapeThumbnail_es.jpeg"
+                />
+                <Card.Body>
+                  <Card.Title>Recetas dulces</Card.Title>
+                  <Card.Text>
+                    Sabemos que a la mayoría de personas les encanta la comida
+                    dulce y para este caso tenemos muchas recetas de este tipo
+                    que sabemos que te encantarán,¡Anímate a prepararlas!.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Nav.Link>
+            <Nav.Link href="listaSalado" className="black">
+              <Card>
+                <Card.Img
+                  variant="top"
+                  src="https://cdn.queapetito.com/wp-content/uploads/2019/01/quiches-600x469.jpg"
+                />
+                <Card.Body>
+                  <Card.Title>Recetas saladas</Card.Title>
+                  <Card.Text>
+                    Podrás sorprender a tu familia con una variedad de comidas
+                    en donde ellos serán los afortunados de probar las mejores
+                    recetas vistas en Cook to Work.{" "}
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Nav.Link>
           </CardDeck>
         </div>
         <br></br>
@@ -148,10 +161,9 @@ class inicio_admin extends React.Component {
             calling extra attention to featured content or information.
           </p>
         </Jumbotron>
-        <br></br>
+
       </div>
     );
   }
 }
-
 export default inicio_admin;

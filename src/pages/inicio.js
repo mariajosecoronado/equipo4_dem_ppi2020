@@ -163,7 +163,13 @@ class inicio extends React.Component {
         </Jumbotron>
 
         <footer className="header">
-          CONTÁCTENOS<button> CLICK AQUÍ </button>
+          CONTÁCTENOS
+          <button className="button">
+            {" "}
+            <Nav.Link href="/mensaje" className="black">
+              CLICK AQUÍ
+            </Nav.Link>{" "}
+          </button>
         </footer>
       </div>
     );
