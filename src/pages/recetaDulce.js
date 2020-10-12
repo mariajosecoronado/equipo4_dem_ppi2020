@@ -5,7 +5,9 @@ import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import ReactPlayer from "react-player";
 
-class iniciarS extends React.Component {
+import {} from "react-bootstrap";
+
+class recetaDulce extends React.Component {
   render() {
     return (
       <div>
@@ -33,17 +35,12 @@ class iniciarS extends React.Component {
             </Nav.Link>
           </Nav.Item>
         </Nav>
-        <br></br>
-        <ReactPlayer
-          url="https://www.youtube.com/watch?v=JuewYWvosn4"
-          className="react-player"
-          playing
-          width="100%"
-          height="250px"
-        />
+        <Nav className="justify-content-end" activeKey="/home">
+          <Nav.Item></Nav.Item>
+        </Nav>
       </div>
     );
   }
 }
 
-export default iniciarS;
+export default recetaDulce;

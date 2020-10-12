@@ -9,6 +9,19 @@
 .Perfil-enlace {
   color: gray;
 }
+.derec {
+  display: flex;
+  align-items: rig
+}
+.per{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.punt{
+  display: flex; 
+  justify-content: space-around;
+}
 .foto-perfil {
   border: 1px solid white;
   border-radius: 200px;
@@ -74,10 +87,11 @@
   text-align: center;
 }
 
-.public-flex{
+.public-flex {
   display: flex;
 }
 
-.icon-p {
-  text-align: center;
+.fotoperfil {
+  display: flex;
+  justify-content: center;
 }

@@ -17,6 +17,7 @@ import Mensaje_reporte_admin from "../pages/mensaje_reporte_admin";
 import mensaje from "../pages/mensaje";
 import recetaDulce from "../pages/recetaDulce";
 import Botones_mensajes_admin from "../pages/botones_mensajes_admin";
+import Buscar_admin from "../pages/buscar_admin";
 
 const App = () => {
   return (
@@ -37,6 +38,8 @@ const App = () => {
         <Route exact path="/recetaDulce" component={recetaDulce} />
         <Route exact path="/mensajes_admin" component={Mensajes_admin} />
         <Route exact path="/botones_mensajes_admin" component={Botones_mensajes_admin} />
+        <Route exact path="/buscar_admin" component={Buscar_admin} />
+    
         <Route
           exact
           path="/mensaje_reporte_admin"
