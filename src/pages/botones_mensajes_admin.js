@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/style.css";
-import { BsList } from "react-icons/bs";
+import { BsArrowLeft } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
 
@@ -13,7 +13,7 @@ class botones_mensajes_admin extends React.Component {
             <Nav.Item>
               <Nav.Link eventKey="link-1" className="encabezado">
                 <h1>
-                  <BsList />
+                <BsArrowLeft />
                 </h1>
               </Nav.Link>
             </Nav.Item>

@@ -27,11 +27,20 @@ class buscar_admin extends React.Component {
               width="200"
               height="150"
             />
-            <Form inline>
-      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-      <Button variant="outline-success">Search</Button>
-    </Form>
+
           </Nav>
+          <Form inline>
+      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+      <Nav.Item>
+              <Nav.Link eventKey="Busqueda" className="encabezado">
+                <h1>
+                  {" "}
+                  <BsSearch />{" "}
+                </h1>
+              </Nav.Link>
+            </Nav.Item>
+          
+    </Form>
           </>  
           
 
