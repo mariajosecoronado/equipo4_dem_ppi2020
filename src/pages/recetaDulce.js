@@ -61,7 +61,7 @@ class recetaDulce extends React.Component {
                   <img
                     className="foto-perfil"
                     alt="foto de perfil"
-                    src="https://image.freepik.com/vector-gratis/retrato-perfil-mujer-labios-rojos_8262-104.jpg"
+                    src="https://www.lapi.com.mx/image.ashx?s=57067&im=115321&t=p"
                   />
                 </Nav.Link>
               </Nav.Item>

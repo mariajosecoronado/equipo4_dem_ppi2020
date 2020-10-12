@@ -4,7 +4,7 @@ import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
 import { Form,FormControl } from "react-bootstrap";
-import { Button } from "react-bootstrap";
+
 
 
 class buscar_admin extends React.Component {
@@ -30,9 +30,7 @@ class buscar_admin extends React.Component {
 
           </Nav>
           <Form inline>
-      <FormControl type="text" placeholder="Search" className="Busqueda"
-      width="200"
-      height="150" />
+      <FormControl type="text" placeholder="Search" className="Busqueda" />
       <Nav.Item>
               <Nav.Link eventKey="Busqueda" className="Lupa">
                 <h1>
@@ -43,6 +41,9 @@ class buscar_admin extends React.Component {
             </Nav.Item>
           
     </Form>
+    <h1>
+                  holas
+                </h1>
           </>  
           
 
