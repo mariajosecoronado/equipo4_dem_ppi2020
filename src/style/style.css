@@ -6,6 +6,9 @@
   border-radius: 50px;
   color: rgb(70, 70, 70);
 }
+.menu {
+  background-color: #14dd28;
+}
 .Perfil-enlace {
   color: gray;
 }
@@ -20,31 +23,6 @@
 .punt {
   display: flex;
   justify-content: space-around;
-}
-.public-flex {
-  display: flex;
-  justify-content: space-around;
-}
-.input {
-  display: inline-flex;
-  justify-items: space-around;
-
-  padding: 20px;
-}
-.flex{
-background-color: #14dd28;
-
-}
-.report {
-  background-color: red;
-}
-.nombre-receta {
-  background-color: #14dd28;
-  padding: 10px;
-}
-.per {
-  display: flex;
-  justify-content: space-between;
 }
 .foto-perfil {
   border: 1px solid white;
