@@ -14,7 +14,6 @@ import ListaSalado from "../pages/listaSalado";
 import ListaDulce_admin from "../pages/listaDulce_admin";
 import ListaSalado_admin from "../pages/listaSalado_admin";
 import Mensajes_admin from "../pages/mensajes_admin";
-import Mensaje_reporte_admin from "../pages/mensaje_reporte_admin";
 import mensaje from "../pages/mensaje";
 import recetaDulce from "../pages/recetaDulce";
 import recetaSalada from "../pages/recetaSalada";
@@ -59,11 +58,7 @@ const App = () => {
         />
         <Route exact path="/buscar_admin" component={Buscar_admin} />
         <Route exact path="/buscar" component={Buscar} />
-        <Route
-          exact
-          path="/mensaje_reporte_admin"
-          component={Mensaje_reporte_admin}
-        />
+        
         <Route exact path="/mensaje" component={mensaje} />
         <Route exact path="/recetaRollos" component={recetaRollos} />
       </Switch>
