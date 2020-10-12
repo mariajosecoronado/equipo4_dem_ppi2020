@@ -64,9 +64,9 @@ class nuevaReceta extends React.Component {
         <Nav className="justify-content-end" activeKey="/home">
           <Nav.Item>
             <p className="nombredereceta">Nombre de tu receta</p>
+            <BsStar/><BsStar/><BsStar/><BsStar/><BsStar/>
           </Nav.Item>
           <Nav.Item></Nav.Item>
-          
         </Nav>
         
         <footer className="header">
