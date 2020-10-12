@@ -22,7 +22,6 @@ import Botones_mensajes_admin from "../pages/botones_mensajes_admin";
 import Buscar_admin from "../pages/buscar_admin";
 import perfil2 from "../pages/perfil2";
 
-
 const App = () => {
   return (
     <BrowserRouter>
@@ -44,7 +43,6 @@ const App = () => {
         <Route exact path="/listaSalado_admin" component={ListaSalado_admin} />
         <Route exact path="/recetaDulce" component={recetaDulce} />
         <Route exact path="/mensajes_admin" component={Mensajes_admin} />
-        
         <Route
           exact
           path="/botones_mensajes_admin"
