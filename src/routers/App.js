@@ -7,14 +7,14 @@ import Bienvenida from "../pages/bienvenida";
 import Inicio from "../pages/inicio";
 import Inicio_admin from "../pages/inicio_admin";
 import Perfil from "../pages/Perfil";
-import perfil3 from "../pages/perfil3";
+import Perfil3 from "../pages/perfil3";
 import IniciarS from "../pages/iniciarS";
 import ListaDulce from "../pages/listaDulce";
 import ListaSalado from "../pages/listaSalado";
 import ListaDulce_admin from "../pages/listaDulce_admin";
 import ListaSalado_admin from "../pages/listaSalado_admin";
 import Mensajes_admin from "../pages/mensajes_admin";
-import mensaje from "../pages/mensaje";
+import Mensaje from "../pages/mensaje";
 import recetaDulce from "../pages/recetaDulce";
 import recetaSalada from "../pages/recetaSalada";
 import Botones_mensajes_admin from "../pages/botones_mensajes_admin";
@@ -23,7 +23,7 @@ import Buscar from "../pages/buscar";
 import perfil2 from "../pages/perfil2";
 import recetaRollos from "../pages/recetaRollos";
 import editarPerfil from "../pages/editarperfil";
-
+import editarpublicacion from "../pages/editarpublicacion";
 import Reporte_admin from "../pages/reporte_admin";
 
 const App = () => {
@@ -37,7 +37,7 @@ const App = () => {
         <Route exact path="/inicio" component={Inicio} />
         <Route exact path="/Perfil" component={Perfil} />
         <Route exact path="/perfil2" component={perfil2} />
-        <Route exact path="/perfil3" component={perfil3} />
+        <Route exact path="/perfil3" component={Perfil3} />
         <Route exact path="/inicio_admin" component={Inicio_admin} />
         <Route exact path="/iniciarS" component={IniciarS} />
         <Route exact path="/listaDulce" component={ListaDulce} />
@@ -47,7 +47,7 @@ const App = () => {
         <Route exact path="/listaSalado_admin" component={ListaSalado_admin} />
         <Route exact path="/recetaDulce" component={recetaDulce} />
         <Route exact path="/mensajes_admin" component={Mensajes_admin} />
-
+        <Route exact path="/editarpublicacion" component={editarpublicacion} />
         <Route exact path="/editarperfil" component={editarPerfil} />
         <Route exact path="/recetaRollos" component={recetaRollos} />
         <Route exact path="/reporte_admin" component={Reporte_admin} />
@@ -59,7 +59,7 @@ const App = () => {
         <Route exact path="/buscar_admin" component={Buscar_admin} />
         <Route exact path="/buscar" component={Buscar} />
 
-        <Route exact path="/mensaje" component={mensaje} />
+        <Route exact path="/mensaje" component={Mensaje} />
         <Route exact path="/recetaRollos" component={recetaRollos} />
       </Switch>
     </BrowserRouter>
