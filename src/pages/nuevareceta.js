@@ -3,6 +3,7 @@ import "../style/style.css";
 import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
+import { BsStar } from "react-icons/bs";
 import { AiOutlineFileAdd } from "react-icons/ai";
 
 class nuevaReceta extends React.Component {
@@ -39,6 +40,35 @@ class nuevaReceta extends React.Component {
         <Nav.Link className="black">
           <AiOutlineFileAdd className="edit-public" />
         </Nav.Link>
+        <br />
+        <div className="public-flex">
+          <Nav className="justify-content-end" activeKey="/home">
+            <Nav.Item>
+              <Nav.Link
+                eventKey="link-1"
+                href="Perfil"
+                className="perfil-enlace  black"
+              >
+                <img
+                  className="foto-perfil"
+                  alt="foto de perfil"
+                  src="https://elhombreconfuso.files.wordpress.com/2010/11/alejandrosalgueirosexyhunk01.jpg"
+                />
+                <input placeholder="¿Qué preparaste?" />
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item></Nav.Item>
+          </Nav>
+        </div>
+        <br />
+        <Nav className="justify-content-end" activeKey="/home">
+          <Nav.Item>
+            <p className="nombredereceta">Nombre de tu receta</p>
+          </Nav.Item>
+          <Nav.Item></Nav.Item>
+          
+        </Nav>
+        
         <footer className="header">
           CONTÁCTENOS
           <button className="button">

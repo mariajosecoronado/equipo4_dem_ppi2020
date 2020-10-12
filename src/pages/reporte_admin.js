@@ -56,40 +56,40 @@ class perfil extends React.Component {
         <div className="tituloR">
           <h6> Recetas reportadas</h6>
         </div>
-
-        <Card style={{ width: "12rem" }}>
+        <div className="public-flex">
+          <Card style={{ width: "12rem" }}>
             <Card.Img
               width="50"
               height="100"
-              src=""
+              src="https://recetasfacil.online/wp-content/uploads/2018/12/Recetas-f%C3%A1ciles-de-pollo-para-ni%C3%B1os-e1544662062923.jpg"
             />
-  <Card.Img variant="top" src="holder.js/100px180" />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
 
-<Card style={{ width: "12rem" }}>
+            <Card.Body>
+              <Card.Title>Rollos de Pollo</Card.Title>
+
+              <Button href="/perfil2" className="botonR">
+                Ver más
+              </Button>
+            </Card.Body>
+          </Card>
+
+          <Card style={{ width: "12rem" }}>
             <Card.Img
               width="50"
               height="100"
-              src=""
+              src="https://t1.rg.ltmcdn.com/es/images/6/8/2/galletas_de_mantequilla_con_chocolate_55286_600.jpg"
             />
-  <Card.Img variant="top" src="holder.js/100px180" />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
+
+            <Card.Body>
+              <Card.Title>Galletas de Chocolate</Card.Title>
+
+              <Button href="/perfil2" className="botonR">
+                Ver más
+              </Button>
+            </Card.Body>
+          </Card>
+        </div>
+       
       </div>
     );
   }

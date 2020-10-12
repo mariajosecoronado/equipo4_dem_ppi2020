@@ -10,6 +10,10 @@
   width: 500px;
   height: 200px;
 }
+.nombredereceta{
+background-color: #14dd28;
+padding: 10px;
+}
 .menu {
   background-color: #14dd28;
 }
@@ -155,6 +159,13 @@
 .boton-reportes_admin{
   display: flex;
   justify-content: center;
+  background-color: #14dd28;
+  text-align: right;
+}
+.botonR{
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
   background-color: #14dd28;
   text-align: right;
 }

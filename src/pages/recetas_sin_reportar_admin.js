@@ -105,8 +105,8 @@ class Receta_reportadas_admin extends React.Component {
             </Card.Body>
           </Card>
         </div>
-        <div className="boton-sin-reportar">
-          <button className="sin-reporta">Reportada</button>
+        <div className="boton">
+          <button className="sin-reporta">Sin reportar</button>
         </div>
       </div>
     );
