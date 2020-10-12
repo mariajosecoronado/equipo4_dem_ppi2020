@@ -41,14 +41,13 @@ class recetaSalada extends React.Component {
           <Nav.Item></Nav.Item>
         </Nav>
         <div>
-          <ReactPlayer
-            url="https://www.youtube.com/watch?v=JuewYWvosn4"
-            className="react-player"
-            playing
+          <img
+            src="https://i.blogs.es/b7ec34/crepes/1366_2000.jpg"
+            alt="publicacion de receta salada"
+            height="250px"
             width="100%"
-            height="270px"
           />
-          <p className="text-muted"> Publicado el 11/09/2020</p>
+          <p className="text-muted"> Publicado el 09/05/2020</p>
           <div className="per">
             <Nav className="justify-content-end" activeKey="/home">
               <Nav.Item>
@@ -68,7 +67,7 @@ class recetaSalada extends React.Component {
               <div></div>
               <Nav.Item></Nav.Item>
             </Nav>
-            <p className="nombre-receta">Galletas de chocolate</p>
+            <p className="nombre-receta">Receceta de crepes</p>
           </div>
           <div className="public-flex">
             <p>Puntuación</p>
