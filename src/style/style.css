@@ -155,4 +155,7 @@
   text-align: right;
 }
 
-
+.input{
+  display: flex;
+  justify-content: center;
+}

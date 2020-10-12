@@ -4,6 +4,7 @@ import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
 import { BsFillChatQuoteFill } from "react-icons/bs";
+import { Button } from "react-bootstrap";
 
 class editarPerfil extends React.Component {
   render() {
@@ -44,15 +45,26 @@ class editarPerfil extends React.Component {
             width="130"
             height="150"
           />
-        </div>
+        </div><br></br>
         <div className="unotitulo">
           <h6> Alejandro Pérez </h6>
-        </div>
+        </div><br></br>
+        <Button href="/editarperfil" className="boton-I">
+          Editar mi perfil
+        </Button><Button href="/editarperfil" className="button">
+          Editar mi perfil
+        </Button><Button href="/editarperfil" className="button">
+          Editar mi perfil
+        </Button><Button href="/editarperfil" className="button">
+          Editar mi perfil
+        </Button>
         <div className="input">
           <BsFillChatQuoteFill />
 
           <input placeholder="Edita tu nombre"></input>
-        </div>
+        </div><br></br>
+
+      
         <div className="input">
           <BsFillChatQuoteFill />
 
