@@ -86,7 +86,7 @@ class recetaDulce extends React.Component {
             <Card.Body>
               
               <Card.Text>
-                <p></p>
+                <p>1</p>
 1              </Card.Text>
             </Card.Body>
           </Card>

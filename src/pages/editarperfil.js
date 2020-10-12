@@ -3,6 +3,7 @@ import "../style/style.css";
 import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
+import { BsFillChatQuoteFill } from "react-icons/bs";
 
 class editarPerfil extends React.Component {
   render() {
@@ -35,6 +36,30 @@ class editarPerfil extends React.Component {
         <Nav className="justify-content-end" activeKey="/home">
           <Nav.Item></Nav.Item>
         </Nav>
+        <div className="fotoperfil">
+          <img
+            className="fotoperfil"
+            src="https://elhombreconfuso.files.wordpress.com/2010/11/alejandrosalgueirosexyhunk01.jpg"
+            alt="logo"
+            width="130"
+            height="150"
+          />
+        </div>
+        <div className="unotitulo">
+          <h6> Alejandro Pérez </h6>
+        </div>
+        <div className="input">
+          <BsFillChatQuoteFill />
+
+          <input placeholder="Edita tu nombre"></input>
+        </div><br></br>
+
+        <div className="input">
+          <BsFillChatQuoteFill />
+
+          <input placeholder="Edita tu correo"></input>
+        </div>
+        <br></br>
 
         <footer className="header">
           CONTÁCTENOS

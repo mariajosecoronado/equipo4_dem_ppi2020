@@ -6,9 +6,9 @@ import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
 import { AiOutlineWarning } from "react-icons/bs";
-import ReactPlayer from "react-player";
+import {ReactPlayer} from "react-player";
 
-import {} from "react-bootstrap";
+
 
 class Receta_reportada_admin extends React.Component {
   render() {

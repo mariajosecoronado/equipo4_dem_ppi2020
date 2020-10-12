@@ -135,7 +135,11 @@
 .tituloR {
   display: flex;
   justify-content: center;
-  background-color: rgb(247, 20, 20);
+  margin-top: 5px;
+  background-color: #db0505;
+  padding: 3px;
+  border-radius: 10px;
+  color: rgb(2, 2, 2);
   
 }
 .boton-mensajes_admin{
@@ -151,4 +155,7 @@
   text-align: right;
 }
 
-
+.input {
+  display: flex;
+  justify-content: center;
+}
