@@ -50,7 +50,7 @@ class perfil2 extends React.Component {
           />
         </div>
         <div className="unotitulo">
-          <h6> Alejandro Pérez </h6>
+          <h6> Valeria Gómez </h6>
         </div>
 
 
@@ -108,11 +108,11 @@ class perfil2 extends React.Component {
               src="https://recetasfacil.online/wp-content/uploads/2018/12/Recetas-f%C3%A1ciles-de-pollo-para-ni%C3%B1os-e1544662062923.jpg"
             />
 
-            <Card.Body>
+<Card.Body>
               <Card.Title>Rollos de Pollo</Card.Title>
 
-              <Button href="/editarpublicacion" className="boton-I">
-                Ver receta
+              <Button href="/recetaRollos" className="boton-I">
+                Ver más
               </Button>
             </Card.Body>
           </Card>

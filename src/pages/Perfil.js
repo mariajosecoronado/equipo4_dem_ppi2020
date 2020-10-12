@@ -107,7 +107,7 @@ class perfil extends React.Component {
             <Card.Body>
               <Card.Title>Galletas de Chocolate</Card.Title>
 
-              <Button href="/" className="boton-I">
+              <Button href="/perfil2" className="boton-I">
                 Ver más
               </Button>
             </Card.Body>
