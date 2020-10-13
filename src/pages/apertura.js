@@ -13,8 +13,7 @@ class Inicio extends React.Component {
             <div className="row">
               <div className="col text-center">
                 <br />
-                <br />
-                <br />
+                <br/>
                 <img
                   className="icon-p"
                   src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
@@ -28,7 +27,7 @@ class Inicio extends React.Component {
               <div className="col text-center">
                 <br />
                 <br />
-                <br />
+                
                 <h3>CLIC AQUÍ!</h3>
               </div>
             </div>
@@ -36,7 +35,7 @@ class Inicio extends React.Component {
               <div className="col text-center">
                 <br />
                 <br />
-                <br />
+                
                 <Nav.Link href="/iniciarS" className="black">
                   <Spinner animation="border" role="status">
                     <span className="sr-only">Loading...</span>
@@ -49,12 +48,7 @@ class Inicio extends React.Component {
             </div>
             <div className="row">
               <div className="col text-center">
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
+              
               </div>
             </div>
             <div className="col-sm-4 col-md-4 col-lg-4"></div>

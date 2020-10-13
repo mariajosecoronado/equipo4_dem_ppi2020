@@ -6,18 +6,7 @@
   border-radius: 50px;
   color: rgb(70, 70, 70);
 }
-.fondoInicio{
-  overflow:hidden;
-width:100%;
-height:height;
-margin:0 ;
-padding:0;
-background: url("https://media.istockphoto.com/vectors/fast-food-frame-border-background-template-with-trendy-doodle-of-vector-id1218705014") no-repeat;
-background-position: center center;
-background-size: cover;
-background-attachment: fixed;
-background-color: #464646;
-}
+
 .encabezado{
 display: flex;
 justify-content: space-evenly;
@@ -53,7 +42,24 @@ justify-content: space-evenly;
   display: flex;
   justify-content: space-around;
 }
+.fondoInicio{
+  overflow:hidden;
+width:100%;
+height:height;
+margin:0 ;
+padding:0;
+background: url("https://c8.alamy.com/compes/hg60cc/bastidor-de-sushi-plantilla-con-espacio-para-el-texto-cocina-japonesa-aislado-sobre-fondo-blanco-ilustracion-vectorial-imagenes-predisenadas-hg60cc.jpg") no-repeat;
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+background-color: #464646;
+}
 .foto-perfil {
+  border: 1px solid white;
+  border-radius: 200px;
+  width: 30px;
+}
+.foto-perfil-2 {
   border: 1px solid white;
   border-radius: 200px;
   width: 30px;

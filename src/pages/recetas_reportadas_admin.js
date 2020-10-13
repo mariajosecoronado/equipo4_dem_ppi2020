@@ -11,15 +11,12 @@ import ReactPlayer from "react-player";
 import {} from "react-bootstrap";
 
 class Receta_reportadas_admin extends React.Component {
-
   render() {
     return (
       <div>
         <Nav className="justify-content-center " activeKey="/home">
           <Nav.Item>
-            <Nav.Link  className="encabezado" href="menu_admin">
-            
-            
+            <Nav.Link className="encabezado" href="menu_admin">
               <h1>
                 <BsList />
               </h1>
@@ -33,7 +30,11 @@ class Receta_reportadas_admin extends React.Component {
             height="150"
           />
           <Nav.Item>
-            <Nav.Link href="buscar_admin" eventKey="Busqueda" className="encabezado ">
+            <Nav.Link
+              href="buscar_admin"
+              eventKey="Busqueda"
+              className="encabezado "
+            >
               <h1>
                 {" "}
                 <BsSearch />{" "}
@@ -62,9 +63,8 @@ class Receta_reportadas_admin extends React.Component {
                   className="perfil-enlace  black"
                 >
                   <img
-                 
-                    className="foto-perfil"
-                    alt="foto de perfil"
+                    className="foto-perfil-2"
+                    alt="foto de perfil 2"
                     src="https://www.lapi.com.mx/image.ashx?s=57067&im=115321&t=p"
                   />
                 </Nav.Link>
@@ -108,8 +108,8 @@ class Receta_reportadas_admin extends React.Component {
             </Card.Body>
           </Card>
         </div>
-        <div className="boton">
-          <button className="report">Reportada</button>
+        <div className="boton" >
+          <button href="reporte_admin" className="report">Reportada</button>
         </div>
       </div>
     );
