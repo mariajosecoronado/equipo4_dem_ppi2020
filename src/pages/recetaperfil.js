@@ -7,6 +7,7 @@ import { BsSearch } from "react-icons/bs";
 import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import ReactPlayer from "react-player";
+import { BsArrowLeft } from "react-icons/bs";
 
 import {} from "react-bootstrap";
 
@@ -14,14 +15,14 @@ class recetaDulce extends React.Component {
   render() {
     return (
       <div>
-        <Nav className="justify-content-center " activeKey="/home">
-          <Nav.Item>
-            <Nav.Link eventKey="link-1" className="encabezado" href="menu">
-              <h1>
-                <BsList />
-              </h1>
-            </Nav.Link>
-          </Nav.Item>
+        <Nav className="justify-content-center " activeKey="/devolver">
+            <Nav.Item>
+              <Nav.Link href="perfil" eventKey="link-1" className="encabezado">
+                <h1>
+                  <BsArrowLeft />
+                </h1>
+              </Nav.Link>
+            </Nav.Item>
           <img
             className="icon-p"
             src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"

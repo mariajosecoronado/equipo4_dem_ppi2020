@@ -69,7 +69,7 @@ class perfil extends React.Component {
       <Button href="/editarperfil" className="boton-I">
           Editar mi perfil
         </Button>
-        <Button href="/nuevareceta" className="boton-I">
+        <Button href="/recetaperfil" className="boton-I">
           Crear una nueva publicación
         </Button>
       </div>
@@ -131,7 +131,7 @@ class perfil extends React.Component {
             <Card.Body>
               <Card.Title>Buñuelos de arequipe</Card.Title>
 
-              <Button href="/editarpublicacion" className="boton-I">
+              <Button href="/nuevareceta" className="boton-I">
                 Editar receta
               </Button>
             </Card.Body>
@@ -147,7 +147,7 @@ class perfil extends React.Component {
             <Card.Body>
               <Card.Title>Patacones con guacamole</Card.Title>
 
-              <Button href="/editarpublicacion" className="boton-I">
+              <Button href="/nuevareceta" className="boton-I">
                 Editar receta
               </Button>
             </Card.Body>

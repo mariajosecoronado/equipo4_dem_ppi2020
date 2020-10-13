@@ -9,14 +9,14 @@ class editarPublicacion extends React.Component {
   render() {
     return (
       <div>
-         <Nav className="justify-content-center " activeKey="/devolver">
-            <Nav.Item>
-              <Nav.Link href="perfil" eventKey="link-1" className="encabezado">
-                <h1>
-                  <BsArrowLeft />
-                </h1>
-              </Nav.Link>
-            </Nav.Item>
+        <Nav className="justify-content-center " activeKey="/devolver">
+          <Nav.Item>
+            <Nav.Link href="perfil" eventKey="link-1" className="encabezado">
+              <h1>
+                <BsArrowLeft />
+              </h1>
+            </Nav.Link>
+          </Nav.Item>
           <img
             className="icon-p"
             src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
