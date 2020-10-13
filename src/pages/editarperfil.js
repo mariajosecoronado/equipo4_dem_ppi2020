@@ -6,8 +6,12 @@ import { Nav } from "react-bootstrap";
 import { BsFillChatQuoteFill } from "react-icons/bs";
 import { Button } from "react-bootstrap";
 import { BsArrowLeft } from "react-icons/bs";
+import Swal from "sweetalert2";;
 
 class editarPerfil extends React.Component {
+  _Alerta()  {
+    Swal.fire("Tus cambios han sido guardados");;
+  }
   render() {
     return (
       <div>
@@ -66,7 +70,7 @@ class editarPerfil extends React.Component {
           <input placeholder="Edita tu correo"></input>
         </div>
         <br></br>
-        <Button href="/Perfil" className="boton-I">
+        <Button onClick={this._Alerta} href="/Perfil" className="boton-I">
           Guardar cambios
         </Button><br></br>
 

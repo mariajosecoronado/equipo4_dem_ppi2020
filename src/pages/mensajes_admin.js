@@ -55,11 +55,17 @@ class Mensajes_admin extends React.Component {
               <h4>Carla Cifuentes</h4>
               <p>Me gustó mucho la página</p>
             </Card>
+            <Nav.Link
+                 className="card_mensaje1_admin"
+                href="recetas_reportadas_admin"
+                 >
             <Card className="card_mensaje2_admin">
               <h4>Andres Agudelo</h4>
               <p>Podrían mejorar</p>
             </Card>
+            <nav.Link/>
           </Card>
+
         </div>
       </div>
     );

@@ -154,7 +154,7 @@ class perfil extends React.Component {
 
         <br></br>
 
-        <Button href="/editarpublicacion" className="boton-I">
+        <Button href="/nuevareceta" className="boton-I">
           Editar mis publicaciones
         </Button>
 

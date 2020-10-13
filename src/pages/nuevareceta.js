@@ -9,8 +9,12 @@ import { BsStar } from "react-icons/bs";
 import { AiOutlineFileAdd } from "react-icons/ai";
 import { AiFillClockCircle } from "react-icons/ai";
 import { BsArrowLeft } from "react-icons/bs";
+import Swal from "sweetalert2";;
 
 class nuevaReceta extends React.Component {
+  _Alert()  {
+    Swal.fire("La receta fue publicada con éxito");;
+  }
   render() {
     return (
       <div>
@@ -102,7 +106,7 @@ class nuevaReceta extends React.Component {
           </Card>
         </div>
         <div className="boton">
-          <Button href="/recetaperfil" className="boton-I">
+          <Button onClick={this._Alert} href="/recetaperfil" className="boton-I">
             Publicar
           </Button>
           <Button href="/Pefi" className="boton-I">

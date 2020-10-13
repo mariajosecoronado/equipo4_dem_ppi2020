@@ -8,42 +8,41 @@ import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import ReactPlayer from "react-player";
 import { BsArrowLeft } from "react-icons/bs";
-import Swal from "sweetalert2"
+import Swal from "sweetalert2";;
 import {} from "react-bootstrap";
 
-
 class recetaDulce extends React.Component {
-  _Alerta(){
-    Swal.fire("Publicación reportada")
+  _Alerta()  {
+    Swal.fire("Publicación reportada");;
   }
-  _Alert(){
-    Swal.fire("Receta descargada")
+  _Alert()  {
+    Swal.fire("Receta descargada");;
   }
   render() {
     return (
       <div>
         <div className="encabezado">
-            <Nav.Link eventKey="link-1" className="encabezado" href="menu">
-              <h1>
-                <BsList />
-              </h1>
-            </Nav.Link>
+          <Nav.Link eventKey="link-1" className="encabezado" href="menu">
+            <h1>
+              <BsList />
+            </h1>
+          </Nav.Link>
 
-            <img
-              className="icon-p"
-              src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
-              alt="logo"
-              width="200"
-              height="150"
-            />
+          <img
+            className="icon-p"
+            src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
+            alt="logo"
+            width="200"
+            height="150"
+          />
 
-            <Nav.Link eventKey="Busqueda" className="encabezado ">
-              <h1>
-                {" "}
-                <BsSearch />{" "}
-              </h1>
-            </Nav.Link>
-          </div>
+          <Nav.Link eventKey="Busqueda" className="encabezado ">
+            <h1>
+              {" "}
+              <BsSearch />{" "}
+            </h1>
+          </Nav.Link>
+        </div>
 
         <Nav className="justify-content-end" activeKey="/home">
           <Nav.Item></Nav.Item>
@@ -85,23 +84,29 @@ class recetaDulce extends React.Component {
             <BsStar />
             <BsStar />
           </p>
-          <div></div>
+          
         </div>
         <div className="public-flex">
-          <Card border="success" style={{ width: "18rem" }}>
+        <Card border="success" style={{ width: "18rem" }}>
             <Card.Header>Ingredientes</Card.Header>
             <Card.Body>
               
               <Card.Text>
-                <p>1</p>
-1              </Card.Text>
+              Huevos: 1
+Azúcar; 1/2 taza (100 gr)
+Aceite: 1/4 taza (65 ml)
+Sal: pizca
+Cacao: 1/3 taza ( 30 gr)
+Harina 0000: 1 taza y cuarto aprox (150 gr)
+Polvo de hornear: 1 cdita
+              </Card.Text>
             </Card.Body>
           </Card>
-          <br />
+         
           <Card border="success" style={{ width: "18rem" }}>
-            <Card.Header>Receta</Card.Header>
+            <Card.Header>Receta - Tiempo</Card.Header>
             <Card.Body>
-              <Card.Title>Success Card Title</Card.Title>
+         
               <Card.Text>
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -109,11 +114,20 @@ class recetaDulce extends React.Component {
             </Card.Body>
           </Card>
         </div>
+        
         <div className="boton">
-          <button onClick={this._Alert} className="button">Descargar</button>
-          <button onClick={this._Alerta}className="report">Reportar</button>
+          <button onClick={this._Alert} className="button">
+            
+            Descargar
+          
+          </button>
+          <button onClick={this._Alerta}  className="report">
+            
+            Reportar
+          
+          </button>
         </div>
-
+        
         <div>
           <BsFillChatDotsFill />
           <input placeholder="Deja un comentario" />
@@ -130,6 +144,9 @@ class recetaDulce extends React.Component {
           </button>
           <Nav.Link href="/mensaje" className="black"></Nav.Link>{" "}
         </footer>
+      
+
+      
       </div>
     );
   }

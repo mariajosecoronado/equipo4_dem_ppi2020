@@ -302,7 +302,8 @@ justify-content: space-evenly;
 }
 .card_mensaje1_admin {
   border: 2px solid #33ff46;
-}
+  color:black;
+  }
 .card_mensaje2_admin {
   border: 2px solid #33ff46;
   margin-top: 2px;
