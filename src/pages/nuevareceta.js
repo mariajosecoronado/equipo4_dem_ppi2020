@@ -4,6 +4,7 @@ import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
 import { Card } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import { BsStar } from "react-icons/bs";
 import { AiOutlineFileAdd } from "react-icons/ai";
 import { AiFillClockCircle} from "react-icons/ai";
@@ -39,10 +40,12 @@ class nuevaReceta extends React.Component {
         <Nav className="justify-content-end" activeKey="/home">
           <Nav.Item></Nav.Item>
         </Nav>
+        <hr/>
         <Nav.Link className="black">
           <AiOutlineFileAdd className="edit-public" />
         </Nav.Link>
         <br />
+        <hr/>
         <div className="public-flex">
           <Nav className="justify-content-end" activeKey="/home">
             <Nav.Item>
@@ -95,7 +98,13 @@ class nuevaReceta extends React.Component {
           </Card>
         </div>
         <div className="boton">
-        
+        <Button href="/perfil2" className="boton-I">
+                Publicar
+              </Button>
+              <Button href="/perfil" className="boton-I">
+              
+                Cancelar
+              </Button>
         </div>
 
         <footer className="header">

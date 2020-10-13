@@ -2,34 +2,33 @@ import React from "react";
 import "../style/style.css";
 import { Nav } from "react-bootstrap";
 
-class Chat_admin extends React.Component {
+
+class chat_admin extends React.Component {
   render() {
-    return 
-    <Nav variant="pills" activeKey="1" onSelect={handleSelect}>
-      <Nav.Item>
-        <Nav.Link eventKey="1" href="#/home">
-          NavLink 1 content
-        </Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="2" title="Item">
-          NavLink 2 content
-        </Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="3" disabled>
-          NavLink 3 content
-        </Nav.Link>
-      </Nav.Item>
-      <NavDropdown title="Dropdown" id="nav-dropdown">
-        <NavDropdown.Item eventKey="4.1">Action</NavDropdown.Item>
-        <NavDropdown.Item eventKey="4.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item eventKey="4.3">Something else here</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item eventKey="4.4">Separated link</NavDropdown.Item>
-      </NavDropdown>
-    </Nav>
+    return (
+      <div>
+        <Nav
+  activeKey="/home"
+  onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
+>
+  <Nav.Item>
+    <Nav.Link href="/home">Active</Nav.Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Nav.Link eventKey="link-1">Link</Nav.Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Nav.Link eventKey="link-2">Link</Nav.Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Nav.Link eventKey="disabled" disabled>
+      Guacala
+    </Nav.Link>
+  </Nav.Item>
+</Nav> 
+      </div>
+    );
   }
 }
+export default chat_admin;
 
-export default Chat_admin;
