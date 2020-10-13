@@ -36,7 +36,8 @@ class chat_admin extends React.Component {
 
           <Nav.Item>
             <Nav.Link className="administradoras">
-              Administradoras COOK TO WORK
+            Administradoras COOK TO WORK</h2> 
+              
             </Nav.Link>
           </Nav.Item>
         </Nav>

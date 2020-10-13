@@ -50,11 +50,13 @@ class Mensaje_reporte_admin extends React.Component {
             <Nav.Item></Nav.Item>
           </Nav>
         </>
-        <h2 className="mensajes_admin">Recetas reportadas</h2>
+        <h2 className="mensajes_admin" >
+          Recetas reportadas
+        </h2>
         <div>
           <Card>
-            <Card className="card_mensaje1_admin">
-              <h1>
+            <Card href="recetas_reportadas_admin" className="card_mensaje1_admin">
+              <h1 >
                 <BsExclamationCircleFill />
                 <p>Receta reportada</p>
               </h1>

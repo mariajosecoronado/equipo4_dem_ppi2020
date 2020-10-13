@@ -201,6 +201,7 @@ justify-content: space-evenly;
 }
 .administradoras {
   color: black;
+  text-align: center;
 }
 
 .edit-public {
