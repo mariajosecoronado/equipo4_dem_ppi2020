@@ -11,5 +11,5 @@ class bienvenida extends React.Component {
       </div>
     );
   }
-}
+} 
 export default bienvenida;

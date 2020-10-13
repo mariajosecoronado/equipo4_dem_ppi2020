@@ -6,13 +6,13 @@
   border-radius: 50px;
   color: rgb(70, 70, 70);
 }
-.edit-public{
+.edit-public {
   width: 500px;
   height: 200px;
 }
-.nombredereceta{
-background-color: #14dd28;
-padding: 10px;
+.nombredereceta {
+  background-color: #14dd28;
+  padding: 10px;
 }
 .menu {
   background-color: #14dd28;
@@ -79,16 +79,15 @@ padding: 10px;
 .mensajes_admin {
   text-align: center;
 }
-.Busqueda{
+.Busqueda {
   display: flex;
   justify-content: center;
   border: 1px solid white;
   background-color: #14dd28;
   text-align: right;
   border: 2px solid rgb(8, 8, 8);
-   
 }
-.Lupa{
+.Lupa {
   margin-top: 20px;
   color: black;
 }
@@ -148,28 +147,27 @@ padding: 10px;
   padding: 3px;
   border-radius: 10px;
   color: rgb(2, 2, 2);
-  
 }
-.boton-mensajes_admin{
+.boton-mensajes_admin {
   display: flex;
   justify-content: center;
   background-color: #14dd28;
   text-align: right;
 }
-.boton-reportes_admin{
+.boton-reportes_admin {
   display: flex;
   justify-content: center;
   background-color: #14dd28;
   text-align: right;
 }
-.botonR1{
+.botonR1 {
   display: flex;
   justify-content: center;
   border: 1px solid white;
   background-color: #14dd28;
   text-align: right;
 }
-.botonR{
+.botonR {
   display: flex;
   justify-content: center;
   border: 1px solid white;
@@ -177,11 +175,21 @@ padding: 10px;
   text-align: right;
 }
 
-.input{
+.input {
   display: flex;
   justify-content: center;
 }
-.sin-reporta{
-background-color:#14dd28;
-justify-content: center;
+.sin-reporta {
+  background-color: #14dd28;
+  justify-content: center;
+}
+.navegacion-chat {
+  background-color: #14dd28;
+}
+.devolver-admin {
+  background-color: #14dd28;
+  border: 6px solid #14dd28;
+}
+.administradoras {
+  color: black;
 }

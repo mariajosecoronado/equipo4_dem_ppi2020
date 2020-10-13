@@ -98,10 +98,10 @@ class nuevaReceta extends React.Component {
           </Card>
         </div>
         <div className="boton">
-        <Button href="/perfil2" className="boton-I">
+        <Button href="/recetaperfil" className="boton-I">
                 Publicar
               </Button>
-              <Button href="/perfil" className="boton-I">
+              <Button href="/nuevareceta" className="boton-I">
               
                 Cancelar
               </Button>

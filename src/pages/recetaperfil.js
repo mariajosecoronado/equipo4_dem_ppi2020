@@ -3,25 +3,25 @@ import "../style/style.css";
 import { Nav } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 import { BsList } from "react-icons/bs";
-import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
-import { BsFillChatQuoteFill } from "react-icons/bs";
-import { BsArrowLeft } from "react-icons/bs";
+import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
+import { BsFillChatDotsFill } from "react-icons/bs";
+import ReactPlayer from "react-player";
 
 import {} from "react-bootstrap";
 
-class recetaSalada extends React.Component {
+class recetaDulce extends React.Component {
   render() {
     return (
       <div>
-        <Nav className="justify-content-center " activeKey="/devolver">
-            <Nav.Item>
-              <Nav.Link href="inicio" eventKey="link-1" className="encabezado">
-                <h1>
-                  <BsArrowLeft />
-                </h1>
-              </Nav.Link>
-            </Nav.Item>
+        <Nav className="justify-content-center " activeKey="/home">
+          <Nav.Item>
+            <Nav.Link eventKey="link-1" className="encabezado" href="menu">
+              <h1>
+                <BsList />
+              </h1>
+            </Nav.Link>
+          </Nav.Item>
           <img
             className="icon-p"
             src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
@@ -42,75 +42,61 @@ class recetaSalada extends React.Component {
           <Nav.Item></Nav.Item>
         </Nav>
         <div>
-          <img
-            src="https://i.blogs.es/b7ec34/crepes/1366_2000.jpg"
-            alt="publicacion de receta salada"
-            height="250px"
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=JuewYWvosn4"
+            className="react-player"
+            playing
             width="100%"
+            height="270px"
           />
-          <p className="text-muted"> Publicado el 09/05/2020</p>
+          <p className="text-muted"> Publicado el 11/09/2020</p>
           <div className="public-flex">
             <Nav className="justify-content-end" activeKey="/home">
               <Nav.Item>
                 <Nav.Link
                   eventKey="link-1"
-                  href="Perfil3"
+                  href="perfil2"
                   className="perfil-enlace  black"
                 >
                   <img
                     className="foto-perfil"
                     alt="foto de perfil"
-                    src="https://elhombreconfuso.files.wordpress.com/2010/11/alejandrosalgueirosexyhunk01.jpg"
+                    src="https://www.lapi.com.mx/image.ashx?s=57067&im=115321&t=p"
                   />
                 </Nav.Link>
               </Nav.Item>
             </Nav>
-            <p className="nombre-receta">Receceta de crepes</p>
+            <p className="nombre-receta">Galletas de chocolate</p>
           </div>
-          <div className="punt">
-            <p>Puntuación</p>
-            <p>
-              <BsStarFill />
-              <BsStarFill />
-              <BsStarFill />
-              <BsStarHalf />
-              <BsStar />
-            </p>
-          </div>
+        </div>
+        <div className="punt">
+          <p>Puntuación</p>
+          <p>
+            <BsStarFill />
+            <BsStarFill />
+            <BsStarHalf />
+            <BsStar />
+            <BsStar />
+          </p>
+          <div></div>
         </div>
         <div className="public-flex">
           <Card border="success" style={{ width: "18rem" }}>
             <Card.Header>Ingredientes</Card.Header>
             <Card.Body>
               <Card.Text>
-                2 huevos
-                <br />
-                150 g de harina
-                <br />
-                250 ml de leche
-                <br />
-                1 cucharada de azúcar
-                <br />
-                1 cucharada de aceite de oliva virgen extra
-                <br />
-                1 pizca de sal
-                <br />
-                Aceite de oliva virgen extra para engrasar la sartén Opcional: 1
-                cucharada de brandy
+                <p>1</p>1{" "}
               </Card.Text>
             </Card.Body>
           </Card>
-          <br></br>
+          <br />
           <Card border="success" style={{ width: "18rem" }}>
-            <Card.Header>Preparación</Card.Header>
+            <Card.Header>Receta</Card.Header>
             <Card.Body>
+              <Card.Title>Success Card Title</Card.Title>
               <Card.Text>
-                Para elaborar crepes hay que preparar una mezcla con harina,
-                huevos y leche, casi líquida, a diferencia de las tortitas
-                americanas, y se cocinan en una sartén antiadherente (hay
-                algunas especialmente destinadas a preparar crepes). Si son
-                dulces podemos aromatizar la masa, por ejemplo con vainilla y si
-                son saladas, se puede añadir a la mezcla especias o hierbas.
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -119,10 +105,10 @@ class recetaSalada extends React.Component {
           <button className="button">Descargar</button>
           <button className="report">Reportar</button>
         </div>
-        <div className="input">
-          <BsFillChatQuoteFill />
 
-          <input placeholder="Deja un comentario aquí"></input>
+        <div>
+          <BsFillChatDotsFill />
+          <input placeholder="Deja un comentario" />
         </div>
         <br />
         <br />
@@ -141,4 +127,4 @@ class recetaSalada extends React.Component {
   }
 }
 
-export default recetaSalada;
+export default recetaDulce;

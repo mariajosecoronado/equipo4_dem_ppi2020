@@ -22,7 +22,7 @@ class perfil extends React.Component {
       <div>
         <Nav className="justify-content-center " activeKey="/devolver">
             <Nav.Item>
-              <Nav.Link href="perfil2" eventKey="link-1" className="encabezado">
+              <Nav.Link href="inicio" eventKey="link-1" className="encabezado">
                 <h1>
                   <BsArrowLeft />
                 </h1>

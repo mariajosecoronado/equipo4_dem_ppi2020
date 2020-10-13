@@ -12,7 +12,7 @@ class chat_admin extends React.Component {
           onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
         >
           <Nav.Item>
-            <button>devolver</button>
+            <button className="devolver-admin">leee</button>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="link-1">Link</Nav.Link>
