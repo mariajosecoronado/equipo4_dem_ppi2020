@@ -6,6 +6,7 @@ import { Nav } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 import { BsStar } from "react-icons/bs";
 import { AiOutlineFileAdd } from "react-icons/ai";
+import { AiFillClockCircle} from "react-icons/ai";
 
 class nuevaReceta extends React.Component {
   render() {
@@ -86,15 +87,15 @@ class nuevaReceta extends React.Component {
           </Card>
           <br></br>
           <Card border="success" style={{ width: "18rem" }}>
-            <Card.Header>Preparación</Card.Header>
+            <Card.Header>Preparación  - Tiempo <AiFillClockCircle/></Card.Header>
+           
             <Card.Body>
               <Card.Text>..</Card.Text>
             </Card.Body>
           </Card>
         </div>
         <div className="boton">
-          <button className="button">Decargar</button>
-          <button className="report">Reportar</button>
+        
         </div>
 
         <footer className="header">

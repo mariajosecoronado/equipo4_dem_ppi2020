@@ -5,7 +5,7 @@ import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
 import { Card,Button} from "react-bootstrap";
 
-class reporte_admin extends React.Component {
+class reporte_dos_admin extends React.Component {
   render() {
     return (
       <div>
@@ -74,21 +74,7 @@ class reporte_admin extends React.Component {
             </Card.Body>
           </Card>
 
-          <Card style={{ width: "12rem" }}>
-            <Card.Img
-              width="50"
-              height="100"
-              src="https://t1.rg.ltmcdn.com/es/images/6/8/2/galletas_de_mantequilla_con_chocolate_55286_600.jpg"
-            />
-
-            <Card.Body>
-              <Card.Title>Galletas de Chocolate</Card.Title>
-
-              <Button href="" className="botonR">
-                Ver más
-              </Button>
-            </Card.Body>
-          </Card>
+         
         </div>
        
       </div>
@@ -96,4 +82,4 @@ class reporte_admin extends React.Component {
   }
 }
 
-export default reporte_admin;
+export default reporte_dos_admin;

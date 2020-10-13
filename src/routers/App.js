@@ -27,6 +27,7 @@ import RecetaRollos from "../pages/recetaRollos";
 import EditarPerfil from "../pages/editarperfil";
 import EditarPublicacion from "../pages/editarpublicacion";
 import Reporte_admin from "../pages/reporte_admin";
+import Reporte_dos_admin from "../pages/reporte_dos_admin";
 import NuevaReceta from "../pages/nuevareceta";
 import RecetaGalletas from "../pages/recetaGalletas";
 import Recetas_reportadas_admin from "../pages/recetas_reportadas_admin";
@@ -77,6 +78,7 @@ const App = () => {
         <Route exact path="/editarperfil" component={EditarPerfil} />
         <Route exact path="/recetaRollos" component={RecetaRollos} />
         <Route exact path="/reporte_admin" component={Reporte_admin} />
+        <Route exact path="/reporte_dos_admin" component={Reporte_dos_admin} />
         <Route
           exact
           path="/botones_mensajes_admin"
