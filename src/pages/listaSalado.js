@@ -11,14 +11,13 @@ class listaSalado extends React.Component {
     return (
       <div>
         <>
-          <Nav className="justify-content-center " activeKey="/home">
-            <Nav.Item>
-              <Nav.Link eventKey="link-1" className="encabezado" href="menu">
-                <h1>
-                  <BsList />
-                </h1>
-              </Nav.Link>
-            </Nav.Item>
+        <div className="encabezado">
+            <Nav.Link eventKey="link-1" className="encabezado" href="menu">
+              <h1>
+                <BsList />
+              </h1>
+            </Nav.Link>
+
             <img
               className="icon-p"
               src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
@@ -26,15 +25,16 @@ class listaSalado extends React.Component {
               width="200"
               height="150"
             />
-            <Nav.Item>
-              <Nav.Link eventKey="Busqueda" className="encabezado">
-                <h1>
-                  {" "}
-                  <BsSearch />{" "}
-                </h1>
-              </Nav.Link>
-            </Nav.Item>
-          </Nav>
+
+            <Nav.Link eventKey="Busqueda" className="encabezado ">
+              <h1>
+                {" "}
+                <BsSearch />{" "}
+              </h1>
+            </Nav.Link>
+          </div>
+
+
           <Nav className="justify-content-end" activeKey="/home">
             <Nav.Item></Nav.Item>
           </Nav>

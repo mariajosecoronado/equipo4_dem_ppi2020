@@ -6,6 +6,10 @@
   border-radius: 50px;
   color: rgb(70, 70, 70);
 }
+.encabezado{
+display: flex;
+justify-content: space-evenly;
+}
 .edit-public {
   width: 500px;
   height: 200px;
@@ -192,4 +196,8 @@
 }
 .administradoras {
   color: black;
+}
+.form-chat{
+  width: 400px;
+  height: 400px;
 }

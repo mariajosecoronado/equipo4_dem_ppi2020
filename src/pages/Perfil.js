@@ -20,32 +20,29 @@ class perfil extends React.Component {
   render() {
     return (
       <div>
-        <Nav className="justify-content-center " activeKey="/devolver">
-            <Nav.Item>
-              <Nav.Link href="inicio" eventKey="link-1" className="encabezado">
-                <h1>
-                  <BsArrowLeft />
-                </h1>
-              </Nav.Link>
-            </Nav.Item>
+        <div className="encabezado">
+            <Nav.Link eventKey="link-1" className="encabezado" href="menu">
+              <h1>
+                <BsList />
+              </h1>
+            </Nav.Link>
 
-          <img
-            className="icon-p"
-            src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
-            alt="logo"
-            width="200"
-            height="150"
-          />
+            <img
+              className="icon-p"
+              src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
+              alt="logo"
+              width="200"
+              height="150"
+            />
 
-          <Nav.Item>
             <Nav.Link eventKey="Busqueda" className="encabezado ">
               <h1>
                 {" "}
                 <BsSearch />{" "}
               </h1>
             </Nav.Link>
-          </Nav.Item>
-        </Nav>
+          </div>
+
 
         <Nav className="justify-content-end" activeKey="/home">
           <Nav.Item></Nav.Item>
@@ -69,7 +66,8 @@ class perfil extends React.Component {
       <Button href="/editarperfil" className="boton-I">
           Editar mi perfil
         </Button>
-        <Button href="/recetaperfil" className="boton-I">
+        <Button href="/nuevareceta" className="boton-I">
+        
           Crear una nueva publicación
         </Button>
       </div>
