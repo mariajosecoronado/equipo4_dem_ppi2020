@@ -12,20 +12,19 @@ class chat_admin extends React.Component {
           activeKey="/home"
           onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
         >
-          <Nav.Item href="/recetas_sin_reportar_admin" className="encabezado">
-          <Nav.Item href="/recetas_sin_reportar_admin" className="encabezado">
-          <Nav.Item href="/recetas_sin_reportar_admin" className="encabezado">
-        
-            <img
-              className="icon-p"
-              src="https://www.flaticon.es/svg/static/icons/svg/109/109618.svg"
-              alt="logo"
-              width="70"
-              height="50"
-            />
+          <Nav.Item className="encabezado">
+            <Nav.Link eventKey="link-1" href="/mensajes_admin">
+              <img
+                className="icon-p"
+                src="https://www.flaticon.es/svg/static/icons/svg/109/109618.svg"
+                alt="logo"
+                width="70"
+                height="50"
+              /> 
+            </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="link-1">
+            <Nav.Link eventKey="link-1" href="/buscar_admin">
               <img
                 className="icon-p"
                 src="https://www.flaticon.es/svg/static/icons/svg/2620/2620582.svg"

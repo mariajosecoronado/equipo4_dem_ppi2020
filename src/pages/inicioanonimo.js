@@ -7,8 +7,13 @@ import { Carousel } from "react-bootstrap";
 import { CardDeck } from "react-bootstrap";
 import { Jumbotron } from "react-bootstrap";
 import { Card } from "react-bootstrap";
+import Swal from "sweetalert2";;
+
 
 class inicioanonimo extends React.Component {
+  _Alert()  {
+    Swal.fire("Debes iniciar sesión o registrarte");;
+  }
   render() {
     return (
       <div>
@@ -38,7 +43,7 @@ class inicioanonimo extends React.Component {
           <Nav.Item>
             <Nav.Link
               eventKey="link-1"
-              onClick={this._Alert} href="/recetaperfil"
+              onClick={this._Alert} href="/iniciarS"
               className="perfil-enlace  black"
             >
               Mi perfil

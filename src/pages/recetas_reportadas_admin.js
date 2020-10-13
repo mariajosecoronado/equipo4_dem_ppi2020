@@ -103,14 +103,21 @@ class Receta_reportadas_admin extends React.Component {
             <Card.Body>
               <Card.Title>PREPARACIÓN</Card.Title>
               <Card.Text>
-               
-              -Mezclamos todo hasta obtener una masita y luego lo ponemos en el horno por 15 minutos.
+              Ponemos la mantequilla en un bol y la derretimos unos segundos en el microondas. En menos de un minuto, ya vemos que comienza a derretirse.
+Mezclamos la mantequilla con el azúcar en un bol y comenzamos a batir hasta conseguir una crema uniforme.
+Aregamos el huevo y la esencia de vainilla a la mezcla y seguimos batiendo hasta que se integren.
+En otro bol mezclamos la harina con la levadura y la añadimos a la mezcla de huevo, mantequilla y azúcar.
+Con un cuchillo troceamos el chocolate en dados irregulares y los incorporamos a la mezcla anterior.
+Con la ayuda de un tenedor comenzamos a integrar los ingredientes secos con los líquidos. Cuando tengamos una especie de arena comenzamos a compactarlos con las manos hasta formar una bola.
+Cogemos pequeñas porciones, de unos 30 g. y formamos una bola con las manos.
+Achatamos la bolita y la colocamos sobre papel de horno o parafinado en una fuente de horno.
+ Vamos haciendo lo mismo con el resto de la masa.
               </Card.Text>
             </Card.Body>
           </Card>
         </div>
         <div className="boton" href="reporte_admin">
-admin          <button className="report">Reportada</button>
+         <button className="report">Reportada</button>
   </div>
   </div>
     );

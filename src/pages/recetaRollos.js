@@ -7,6 +7,7 @@ import { BsArrowLeft } from "react-icons/bs";
 import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { BsFillChatQuoteFill } from "react-icons/bs";
+import Swal from "sweetalert2";
 
 import {} from "react-bootstrap";
 
@@ -15,13 +16,13 @@ class recetaRollos extends React.Component {
     return (
       <div>
         <Nav className="justify-content-center " activeKey="/devolver">
-            <Nav.Item>
-              <Nav.Link href="perfil2" eventKey="link-1" className="encabezado">
-                <h1>
-                  <BsArrowLeft />
-                </h1>
-              </Nav.Link>
-            </Nav.Item>
+          <Nav.Item>
+            <Nav.Link href="perfil2" eventKey="link-1" className="encabezado">
+              <h1>
+                <BsArrowLeft />
+              </h1>
+            </Nav.Link>
+          </Nav.Item>
           <img
             className="icon-p"
             src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
@@ -114,8 +115,12 @@ class recetaRollos extends React.Component {
           </Card>
         </div>
         <div className="boton">
-          <button className="button">Descargar</button>
-          <button className="report">Reportar</button>
+          <button onClick={this._Alert} className="button">
+            Descargar
+          </button>
+          <button onClick={this._Alerta} className="report">
+            Reportar
+          </button>
         </div>
         <div className="input">
           <BsFillChatQuoteFill />

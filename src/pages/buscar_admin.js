@@ -3,9 +3,7 @@ import "../style/style.css";
 import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
-import { Form,FormControl } from "react-bootstrap";
-
-
+import { Form, FormControl } from "react-bootstrap";
 
 class buscar_admin extends React.Component {
   render() {
@@ -27,26 +25,23 @@ class buscar_admin extends React.Component {
               width="200"
               height="150"
             />
-
           </Nav>
           <Form inline>
-      <FormControl  type="text" placeholder="Search" className="Busqueda" />
-      <Nav.Item>
-              <Nav.Link href="/recetas_sin_reportar_admin"  className="Lupa">
+            <FormControl
+              type="text"
+              placeholder="Search"
+              className="Busqueda"
+            />
+            <Nav.Item>
+              <Nav.Link href="/recetas_sin_reportar_admin" className="Lupa">
                 <h1>
                   {" "}
                   <BsSearch />{" "}
                 </h1>
               </Nav.Link>
             </Nav.Item>
-          
-    </Form>
-    
-          </>  
-          
-
-          
-
+          </Form>
+        </>
       </div>
     );
   }

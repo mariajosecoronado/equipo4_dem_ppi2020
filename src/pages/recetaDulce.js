@@ -115,7 +115,8 @@ En otro bol mezclamos la harina con la levadura y la añadimos a la mezcla de hu
 Con un cuchillo troceamos el chocolate en dados irregulares y los incorporamos a la mezcla anterior.
 Con la ayuda de un tenedor comenzamos a integrar los ingredientes secos con los líquidos. Cuando tengamos una especie de arena comenzamos a compactarlos con las manos hasta formar una bola.
 Cogemos pequeñas porciones, de unos 30 g. y formamos una bola con las manos.
-Achatamos la bolita y la colocamos sobre papel de horno o parafinado en una fuente de horno. Vamos haciendo lo mismo con el resto de la masa.
+Achatamos la bolita y la colocamos sobre papel de horno o parafinado en una fuente de horno.
+ Vamos haciendo lo mismo con el resto de la masa.
               </Card.Text>
             </Card.Body>
           </Card>

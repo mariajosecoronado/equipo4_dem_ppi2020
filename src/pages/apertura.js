@@ -36,7 +36,7 @@ class Inicio extends React.Component {
                 <br />
                 <br />
                 
-                <Nav.Link href="/iniciarS" className="black">
+                <Nav.Link href="/inicioanonimo" className="black">
                   <Spinner animation="border" role="status">
                     <span className="sr-only">Loading...</span>
                   </Spinner>

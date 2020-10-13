@@ -51,7 +51,7 @@ class botones_mensajes_admin extends React.Component {
         </Button>
         <br />
 
-        <Button href="./mensajes_admin" className="boton-reportes_admin">
+        <Button href="./mensaje_reporte_admin" className="boton-reportes_admin">
           VER REPORTE DE RECETAS
         </Button>
       </div>
