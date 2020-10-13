@@ -43,12 +43,13 @@ class listaSalado_admin extends React.Component {
         <CardDeck>
           <Card>
             <Card.Title>RECETAS SALADAS</Card.Title>
+            <Card.Link href="recetas_reportadas_admin">
             <Card.Img
               variant="top"
               src="https://live.mrf.io/statics/i/ps/www.cocinacaserayfacil.net/wp-content/uploads/2020/02/Almuerzos-faciles-y-rapidos-de-hacer.jpg?width=1200&enable=upscale"
             />
 
-            
+</Card.Link>
           </Card>
           <br></br>
           <Card>
