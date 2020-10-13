@@ -32,21 +32,31 @@ class inicio extends React.Component {
 </Dropdown>
               </Nav.Link>
             </Nav.Item>
-            <img
-              className="icon-p"
-              src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
-              alt="logo"
-              width="200"
-              height="150"
-            />
+
             <Nav.Item>
-              <Nav.Link eventKey="Busqueda" className="encabezado">
-                <h1>
-                  {" "}
-                  <BsSearch />{" "}
-                </h1>
+              <Nav.Link eventKey="link-1" className="encabezado">
+              <Dropdown>
+  <Dropdown.Toggle variant="success" id="dropdown-basic">
+    Menú
+  </Dropdown.Toggle>
+
+  <Dropdown.Menu>
+    <Dropdown.Item href="#/action-1">PRINCIPAL</Dropdown.Item>
+    <Dropdown.Item href="#/action-2">PERFIL</Dropdown.Item>
+    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+    <Dropdown.Item href="#/action-3">RECETAS</Dropdown.Item>
+    <Dropdown.Divider />
+  <Dropdown.Item eventKey="4">SALADAS</Dropdown.Item>
+   <Dropdown.Item eventKey="4">DULCES</Dropdown.Item>
+  </Dropdown.Menu>
+</Dropdown>
               </Nav.Link>
             </Nav.Item>
+
+            
+            
+            
+            
           </Nav>
           </>   
 

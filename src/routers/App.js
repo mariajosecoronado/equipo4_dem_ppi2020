@@ -35,6 +35,7 @@ import Recetas_sin_reportar_admin from "../pages/recetas_sin_reportar_admin";
 import Chat_admin from "../pages/chat_admin";
 import Nuevareceta from "../pages/nuevareceta";
 import recetaperfil from "../pages/recetaperfil";
+import inicioanonimo from "../pages/inicioanonimo";
 
 const App = () => {
   return (
@@ -61,6 +62,7 @@ const App = () => {
         <Route exact path="/mensajes_admin" component={Mensajes_admin} />
         <Route exact path="/editarpublicacion" component={EditarPublicacion} />
         <Route exact path="/recetaperfil" component={recetaperfil} />
+        <Route exact path="/inicioanonimo" component={inicioanonimo} />
         <Route
           exact
           path="/mensaje_reporte_admin"

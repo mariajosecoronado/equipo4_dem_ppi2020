@@ -4,8 +4,15 @@ import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
 import { Card,Button} from "react-bootstrap";
+import Swal from "sweetalert2";;
 
 class reporte_admin extends React.Component {
+  
+  _Alert()  {
+    Swal.fire("Está publicación ha sido eliminada");;
+  }
+  
+  
   render() {
     return (
       <div>
