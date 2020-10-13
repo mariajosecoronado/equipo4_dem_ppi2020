@@ -12,7 +12,7 @@ class Mensajes_admin extends React.Component {
         <>
           <Nav className="justify-content-center " activeKey="/devolver">
             <Nav.Item>
-              <Nav.Link eventKey="link-1" className="encabezado">
+              <Nav.Link href="botones_mensajes_admin " className="encabezado">
                 <h1>
                   <BsArrowLeft />
                 </h1>
@@ -20,7 +20,11 @@ class Mensajes_admin extends React.Component {
             </Nav.Item>
             <h1 className="titulo">COOK TO WORK</h1>
             <Nav.Item>
-              <Nav.Link eventKey="Busqueda" className="encabezado">
+              <Nav.Link
+                href="buscar_admin "
+                eventKey="Busqueda"
+                className="encabezado"
+              >
                 <h1>
                   {" "}
                   <BsSearch />{" "}

@@ -105,7 +105,8 @@ class nuevaReceta extends React.Component {
           <Button href="/recetaperfil" className="boton-I">
             Publicar
           </Button>
-          <Button href="/nuevareceta" className="boton-I">
+          <Button href="/Pefi" className="boton-I">
+          
             Cancelar
           </Button>
         </div>

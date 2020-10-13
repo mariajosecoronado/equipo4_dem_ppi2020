@@ -8,15 +8,17 @@ import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import ReactPlayer from "react-player";
 import { BsArrowLeft } from "react-icons/bs";
-
+import Swal from "sweetalert2"
 import {} from "react-bootstrap";
 
 
-
-
-
-
 class recetaDulce extends React.Component {
+  _Alerta(){
+    Swal.fire("Publicación reportada")
+  }
+  _Alert(){
+    Swal.fire("Receta descargada")
+  }
   render() {
     return (
       <div>
@@ -108,8 +110,8 @@ class recetaDulce extends React.Component {
           </Card>
         </div>
         <div className="boton">
-          <button className="button">Descargar</button>
-          <button className="report">Reportar</button>
+          <button onClick={this._Alert} className="button">Descargar</button>
+          <button onClick={this._Alerta}className="report">Reportar</button>
         </div>
 
         <div>

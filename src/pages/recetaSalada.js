@@ -7,14 +7,21 @@ import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { BsFillChatQuoteFill } from "react-icons/bs";
 import { BsArrowLeft } from "react-icons/bs";
-
+import Swal from "sweetalert2"
 import {} from "react-bootstrap";
 
 class recetaSalada extends React.Component {
+  _Alerta(){
+    Swal.fire("Publicación reportada")
+  }
+  _Alert(){
+    Swal.fire("Receta descargada")
+  }
+  
   render() {
     return (
       <div>
-        <div className="encabezado">
+       <div className="encabezado">
             <Nav.Link eventKey="link-1" className="encabezado" href="menu">
               <h1>
                 <BsList />
@@ -115,8 +122,8 @@ class recetaSalada extends React.Component {
           </Card>
         </div>
         <div className="boton">
-          <button className="button">Descargar</button>
-          <button className="report">Reportar</button>
+          <button onClick={this._Alert} className="button">Descargar</button>
+          <button onClick={this._Alerta} className="report">Reportar</button>
         </div>
         <div className="input">
           <BsFillChatQuoteFill />

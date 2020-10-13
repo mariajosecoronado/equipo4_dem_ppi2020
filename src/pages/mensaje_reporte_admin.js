@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/style.css";
 import { Nav } from "react-bootstrap";
-import { Card } from "react-bootstrap";
+import { Card, CardDeck } from "react-bootstrap";
 import { BsArrowLeft } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { BsExclamationCircleFill } from "react-icons/bs";
@@ -50,24 +50,25 @@ class Mensaje_reporte_admin extends React.Component {
             <Nav.Item></Nav.Item>
           </Nav>
         </>
-        <h2 className="mensajes_admin" >
-          Recetas reportadas
-        </h2>
         <div>
-          <Card>
-            <Card href="recetas_reportadas_admin" className="card_mensaje1_admin">
-              <h1 >
-                <BsExclamationCircleFill />
-                <p>Receta reportada</p>
-              </h1>
-            </Card>
-            <Card className="card_mensaje2_admin">
-              <h1>
-                <BsExclamationCircleFill />
-                <p>Receta reportada</p>
-              </h1>
-            </Card>
-          </Card>
+          <div>
+            <CardDeck>
+              <Nav.Link href="listaDulce " className="black">
+                <Card>
+                  <Card.Body>
+                    <Card.Title>Recetas reportadas</Card.Title>
+                  </Card.Body>
+                </Card>
+              </Nav.Link>
+              <Nav.Link href="listaSalado" className="black">
+                <Card>
+                  <Card.Body>
+                    <Card.Title>Recetas reportadas</Card.Title>
+                  </Card.Body>
+                </Card>
+              </Nav.Link>
+            </CardDeck>
+          </div>
         </div>
       </div>
     );
