@@ -15,6 +15,7 @@ class recetaDulce extends React.Component {
   render() {
     return (
       <div>
+        s
         <Nav className="justify-content-center " activeKey="/devolver">
             <Nav.Item>
               <Nav.Link href="perfil" eventKey="link-1" className="encabezado">
@@ -44,7 +45,7 @@ class recetaDulce extends React.Component {
         </Nav>
         <div>
           <ReactPlayer
-            url="https://www.youtube.com/watch?v=JuewYWvosn4"
+            url="https://www.youtube.com/watch?v=aBcr5Wa1yHo"
             className="react-player"
             playing
             width="100%"
@@ -62,7 +63,7 @@ class recetaDulce extends React.Component {
                   <img
                     className="foto-perfil"
                     alt="foto de perfil"
-                    src="https://www.lapi.com.mx/image.ashx?s=57067&im=115321&t=p"
+                    src="https://elhombreconfuso.files.wordpress.com/2010/11/alejandrosalgueirosexyhunk01.jpg"
                   />
                 </Nav.Link>
               </Nav.Item>
