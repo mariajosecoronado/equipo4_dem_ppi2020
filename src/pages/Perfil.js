@@ -12,7 +12,7 @@ import { Card } from "react-bootstrap";
 
 import { Button } from "react-bootstrap";
 
-
+import { BsArrowLeft } from "react-icons/bs";
 
 
 
@@ -20,14 +20,14 @@ class perfil extends React.Component {
   render() {
     return (
       <div>
-        <Nav className="justify-content-center " activeKey="/home">
-          <Nav.Item>
-            <Nav.Link eventKey="link-1" className="encabezado" href="menu">
-              <h1>
-                <BsList />
-              </h1>
-            </Nav.Link>
-          </Nav.Item>
+        <Nav className="justify-content-center " activeKey="/devolver">
+            <Nav.Item>
+              <Nav.Link href="perfil2" eventKey="link-1" className="encabezado">
+                <h1>
+                  <BsArrowLeft />
+                </h1>
+              </Nav.Link>
+            </Nav.Item>
 
           <img
             className="icon-p"

@@ -71,6 +71,7 @@ class reporte_admin extends React.Component {
               
                 Ver más
               </Button>
+          
             </Card.Body>
           </Card>
 
