@@ -7,20 +7,17 @@ class chat_admin extends React.Component {
   render() {
     return (
       <div>
-        <Nav
-          className="navegacion-chat"
-          activeKey="/home"
-          onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
-        >
+        <Nav className="navegacion-chat">
           <Nav.Item className="encabezado">
             <Nav.Link eventKey="link-1" href="/mensajes_admin">
               <img
+                href="mensajes_admin"
                 className="icon-p"
                 src="https://www.flaticon.es/svg/static/icons/svg/109/109618.svg"
                 alt="logo"
                 width="70"
                 height="50"
-              /> 
+              />
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>

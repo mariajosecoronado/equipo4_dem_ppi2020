@@ -14,30 +14,28 @@ class inicio_admin extends React.Component {
     return (
       <div>
         <>
-          <Nav className="justify-content-center " activeKey="/home">
-            <Nav.Item>
-              <Nav.Link eventKey="link-1" className="encabezado">
-                <h1>
-                  <BsList />
-                </h1>
-              </Nav.Link>
-            </Nav.Item>
-            <img
-              className="icon-p"
-              src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
-              alt="logo"
-              width="200"
-              height="150"
-            />
-            <Nav.Item>
-              <Nav.Link eventKey="Busqueda" className="encabezado ">
-                <h1>
-                  {" "}
-                  <BsSearch />{" "}
-                </h1>
-              </Nav.Link>
-            </Nav.Item>
-          </Nav>
+        <div className="encabezado">
+          <Nav.Link eventKey="link-1" className="encabezado" href="menu_admin">
+            <h1>
+              <BsList />
+            </h1>
+          </Nav.Link>
+
+          <img
+            className="icon-p"
+            src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
+            alt="logo"
+            width="200"
+            height="150"
+          />
+
+          <Nav.Link href="buscar_admin" eventKey="Busqueda" className="encabezado ">
+            <h1>
+              {" "}
+              <BsSearch />{" "}
+            </h1>
+          </Nav.Link>
+        </div>
           <Nav className="justify-content-end" activeKey="/home">
             <Nav.Item></Nav.Item>
           </Nav>
@@ -159,6 +157,8 @@ class inicio_admin extends React.Component {
           Es un servicio en el cual el usuario podrá encontrar soluciones rápidas y fáciles para cocinar, utilizando ingredientes ya sean pocos o básicos, esta es una página web que se llama Cook to work, este producto le permitirá al usuario encontrar ideas para realizar recetas con pocos ingredientes al alcance de su presupuesto, notamos una diferencia en común con otras páginas web la cual es que estas ya tienen unos ingredientes incorporados, mientras que Cook to work permite que los usuarios busquen recetas con los ingredientes que tienen a la mano, está dirigido a las personas que quieren ser creativas a la hora de cocinar.
           </p>
         </Jumbotron>
+
+              
 
       </div>
     );

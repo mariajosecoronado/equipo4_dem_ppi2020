@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Apertura from "../pages/apertura";
 import Registro from "../pages/registro";
-import Menu from "../pages/menu";
 import Menu_admin from "../pages/menu_admin";
 import Bienvenida from "../pages/bienvenida";
 import Inicio from "../pages/inicio";
@@ -43,7 +42,6 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={Apertura} />
         <Route exact path="/registro" component={Registro} />
-        <Route exact path="/menu" component={Menu} />
         <Route exact path="/menu_admin" component={Menu_admin} />
         <Route exact path="/bienvenida" component={Bienvenida} />
         <Route exact path="/inicio" component={Inicio} />

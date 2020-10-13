@@ -112,7 +112,7 @@ class inicioanonimo extends React.Component {
         </div>
         <div>
           <CardDeck>
-            <Nav.Link onClick={this._Alert} href="/recetaperfil" className="black">
+            <Nav.Link onClick={this._Alert} href="/iniciarS" className="black">
               <Card>
                 <Card.Img
                   variant="top"
@@ -128,7 +128,7 @@ class inicioanonimo extends React.Component {
                 </Card.Body>
               </Card>
             </Nav.Link>
-            <Nav.Link onClick={this._Alert} href="/recetaperfil" className="black">
+            <Nav.Link onClick={this._Alert} href="/iniciarS" className="black">
               <Card>
                 <Card.Img
                   variant="top"

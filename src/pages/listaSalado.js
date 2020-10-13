@@ -6,7 +6,7 @@ import { Nav } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 import { CardDeck } from "react-bootstrap";
 
-class listaSalado extends React.Component {
+class ListaSalado extends React.Component {
   render() {
     return (
       <div>
@@ -118,4 +118,4 @@ class listaSalado extends React.Component {
   }
 }
 
-export default listaSalado;
+export default ListaSalado;

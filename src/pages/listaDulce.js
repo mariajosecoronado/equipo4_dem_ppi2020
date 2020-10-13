@@ -12,7 +12,7 @@ class listaDulce extends React.Component {
       <div>
         <>
         <div className="encabezado">
-            <Nav.Link eventKey="link-1" className="encabezado" href="menu">
+        <Nav.Link eventKey="link-1" className="encabezado" href="menu">
               <h1>
                 <BsList />
               </h1>

@@ -107,7 +107,7 @@ class inicio extends React.Component {
         </div>
         <div>
           <CardDeck>
-            <Nav.Link href="listaDulce " className="black">
+            <Nav.Link href="listaDulce" className="black">
               <Card>
                 <Card.Img
                   variant="top"
