@@ -9,7 +9,8 @@ import Swal from "sweetalert2";;
 class reporte_admin extends React.Component {
   
   _Alert()  {
-    Swal.fire("Está publicación ha sido eliminada");;
+    Swal.fire("Está publicación no ha sido reportada");;
+    
   }
   
   
@@ -92,7 +93,7 @@ class reporte_admin extends React.Component {
             <Card.Body>
               <Card.Title>Galletas de Chocolate</Card.Title>
 
-              <Button href="" className="botonR">
+              <Button onClick={this._Alert} href="" className="botonR">
                 Ver más
               </Button>
             </Card.Body>

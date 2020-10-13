@@ -197,12 +197,16 @@ class Receta_reportadas_admin extends React.Component {
               
           <Nav.Link href="mensajes_radmin " className="encabezado">
           
-       <div
-    
-       <div
-    
-       <div
-    
+       
+<div/>    
+       
+<div/>    
+       
+<div/>    
+       
+<div/>    
+       
+<div/>    
     );
   }
 }

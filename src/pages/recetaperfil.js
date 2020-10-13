@@ -125,7 +125,7 @@ Achatamos la bolita y la colocamos sobre papel de horno o parafinado en una fuen
           <Button onClick={this._Alert} href="/Perfil" className="boton-I">
             Eliminar
           </Button>
-          <Button  href="/nuevareceta" className="boton-I">
+          <Button onClick={this._Alerta} href="/nuevareceta" className="boton-I">
           Editar
           </Button>
   </div>
