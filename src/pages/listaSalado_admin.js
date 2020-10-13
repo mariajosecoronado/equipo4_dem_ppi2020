@@ -78,7 +78,7 @@ class listaSalado_admin extends React.Component {
         <CardDeck>
           <Card>
             <Card.Title>RECETAS SALADAS</Card.Title>
-            <Card.Link href="recetas_reportadas_admin">
+            <Card.Link href="recetas_sin_reportar_admin">
             <Card.Img
               variant="top"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRYcrzVqHcrlaTt8V-jjJ9bbsQ-SsR5cWv_eA&usqp=CAU"
@@ -103,11 +103,16 @@ class listaSalado_admin extends React.Component {
           <br></br>
           <Card>
             <Card.Title>RECETAS SALADAS</Card.Title>
+            <Card.Link href="recetas_reportadas_admin">
+            
             <Card.Img
               variant="top"
               src="https://agendadeisa.com/wp-content/uploads/2019/06/Huevos-rellenos.jpg"
             />
 
+          
+        
+</Card.Link>
           
           </Card>
         </CardDeck>
