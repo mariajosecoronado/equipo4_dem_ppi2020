@@ -85,7 +85,7 @@ class perfil extends React.Component {
             <Card.Body>
               <Card.Title>Rollos de Pollo</Card.Title>
 
-              <Button href="/recetaSalada" className="boton-I">
+              <Button href="/recetaRollos" className="boton-I">
                 Ver más
               </Button>
             </Card.Body>
@@ -101,7 +101,7 @@ class perfil extends React.Component {
             <Card.Body>
               <Card.Title>Galletas de Chocolate</Card.Title>
 
-              <Button href="/recetaDulce" className="boton-I">
+              <Button href="/recetaGalletas" className="boton-I">
                 Ver más
               </Button>
             </Card.Body>

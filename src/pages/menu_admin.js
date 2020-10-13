@@ -17,13 +17,17 @@ class inicio extends React.Component {
               <Nav.Link eventKey="link-1" className="encabezado">
               <Dropdown>
   <Dropdown.Toggle variant="success" id="dropdown-basic">
-    Dropdown Button
+    Menú
   </Dropdown.Toggle>
 
   <Dropdown.Menu>
-    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+    <Dropdown.Item href="#/action-1">PRINCIPAL</Dropdown.Item>
+    <Dropdown.Item href="#/action-2">PERFIL</Dropdown.Item>
     <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+    <Dropdown.Item href="#/action-3">RECETAS</Dropdown.Item>
+    <Dropdown.Divider />
+  <Dropdown.Item eventKey="4">SALADAS</Dropdown.Item>
+   <Dropdown.Item eventKey="4">DULCES</Dropdown.Item>
   </Dropdown.Menu>
 </Dropdown>
               </Nav.Link>

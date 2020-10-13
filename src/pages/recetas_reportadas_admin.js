@@ -108,10 +108,10 @@ class Receta_reportadas_admin extends React.Component {
             </Card.Body>
           </Card>
         </div>
-        <div className="boton" >
-          <button href="reporte_admin" className="report">Reportada</button>
-        </div>
-      </div>
+        <div className="boton" href="">
+          <button className="report">Reportada</button>
+  </div>
+  </div>
     );
   }
 }
