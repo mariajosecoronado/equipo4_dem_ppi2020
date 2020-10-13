@@ -7,6 +7,7 @@ import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
 import { BsFillChatDotsFill } from "react-icons/bs";
+import { AiFillClockCircle } from "react-icons/ai";
 import ReactPlayer from "react-player";
 import { BsArrowLeft } from "react-icons/bs";
 
@@ -97,7 +98,7 @@ class recetaDulce extends React.Component {
           </Card>
           <br />
           <Card border="success" style={{ width: "18rem" }}>
-            <Card.Header>Receta - Tiempo</Card.Header>
+            <Card.Header>Receta - Tiempo < AiFillClockCircle/></Card.Header>
             <Card.Body>
               <Card.Text>
                 Some quick example text to build on the card title and make up

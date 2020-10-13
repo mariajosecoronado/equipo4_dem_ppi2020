@@ -2,8 +2,7 @@ import React from "react";
 import "../style/style.css";
 import { Nav } from "react-bootstrap";
 import { Form } from "react-bootstrap";
-import { AiOutlineSend } from "react-icons/ai";
-import { AiOutlineArrowLeft } from "react-icons/ai";
+
 
 class chat_admin extends React.Component {
   render() {
@@ -17,14 +16,22 @@ class chat_admin extends React.Component {
           <Nav.Item className="encabezado">
           <img
             className="icon-p"
-            src="https://www.flaticon.es/svg/static/icons/svg/736/736212.svg"
+            src="https://www.flaticon.es/svg/static/icons/svg/109/109618.svg"
             alt="logo"
-            width="20"
+            width="70"
             height="50"
           />
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="link-1">Link</Nav.Link>
+            <Nav.Link eventKey="link-1">
+            <img
+            className="icon-p"
+            src="https://www.flaticon.es/svg/static/icons/svg/2620/2620582.svg"
+            alt="logo"
+            width="70"
+            height="50"
+          />
+            </Nav.Link>
           </Nav.Item>
 
           <Nav.Item>
@@ -65,7 +72,13 @@ class chat_admin extends React.Component {
             />
           </Form>{" "}
           <Nav.Link className="enviar"></Nav.Link>
-          <AiOutlineSend />
+          <img
+            className="icon-p"
+            src="https://www.flaticon.es/svg/static/icons/svg/736/736212.svg"
+            alt="logo"
+            width="50"
+            height="30"
+          />
         </footer>
       </div>
     );
