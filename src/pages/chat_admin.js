@@ -17,7 +17,7 @@ class chat_admin extends React.Component {
           <Nav.Item className="encabezado">
           <img
             className="icon-p"
-            src=""
+            src="https://www.flaticon.es/svg/static/icons/svg/736/736212.svg"
             alt="logo"
             width="20"
             height="50"
