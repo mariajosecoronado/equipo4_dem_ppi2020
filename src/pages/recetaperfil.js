@@ -2,6 +2,7 @@ import React from "react";
 import "../style/style.css";
 import { Nav } from "react-bootstrap";
 import { Card } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
@@ -17,13 +18,13 @@ class recetaDulce extends React.Component {
       <div>
         s
         <Nav className="justify-content-center " activeKey="/devolver">
-            <Nav.Item>
-              <Nav.Link href="perfil" eventKey="link-1" className="encabezado">
-                <h1>
-                  <BsArrowLeft />
-                </h1>
-              </Nav.Link>
-            </Nav.Item>
+          <Nav.Item>
+            <Nav.Link href="perfil" eventKey="link-1" className="encabezado">
+              <h1>
+                <BsArrowLeft />
+              </h1>
+            </Nav.Link>
+          </Nav.Item>
           <img
             className="icon-p"
             src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
@@ -87,7 +88,10 @@ class recetaDulce extends React.Component {
             <Card.Header>Ingredientes</Card.Header>
             <Card.Body>
               <Card.Text>
-                <p>1</p>1{" "}
+                <p>
+                  - 500g de queso blando, tipo mozzarella - 3 huevos - Pan
+                  rallado - Aceite
+                </p>{" "}
               </Card.Text>
             </Card.Body>
           </Card>
@@ -95,7 +99,6 @@ class recetaDulce extends React.Component {
           <Card border="success" style={{ width: "18rem" }}>
             <Card.Header>Receta</Card.Header>
             <Card.Body>
-              <Card.Title>Success Card Title</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -104,10 +107,13 @@ class recetaDulce extends React.Component {
           </Card>
         </div>
         <div className="boton">
-          <button className="button">Descargar</button>
-          <button className="report">Reportar</button>
+          <Button href="/perfil2" className="boton-I">
+            Eliminar
+          </Button>
+          <Button href="/perfil2" className="boton-I">
+            Cancelar
+          </Button>
         </div>
-
         <div>
           <BsFillChatDotsFill />
           <input placeholder="Deja un comentario" />
