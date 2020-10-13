@@ -54,44 +54,51 @@ class listaSalado_admin extends React.Component {
           <br></br>
           <Card>
             <Card.Title>RECETAS SALADAS</Card.Title>
+            <Card.Link href="recetas_reportadas_admin">
             <Card.Img
               variant="top"
               src="https://sevilla.abc.es/gurme/wp-content/uploads/sites/24/2014/04/receta-tortilla-calabacin.jpg"
             />
 
-            
+</Card.Link>
           </Card>
           <br></br>
           <Card>
             <Card.Title>RECETAS SALADAS</Card.Title>
+            <Card.Link href="recetas_reportadas_admin">
             <Card.Img
               variant="top"
               src="https://animalgourmet.com/wp-content/uploads/2020/04/recetas-faciles-y-economicas-1-e1586898220791.jpg"
             />
 
-            
+</Card.Link>
           </Card>
         </CardDeck>
         <br></br>
         <CardDeck>
           <Card>
             <Card.Title>RECETAS SALADAS</Card.Title>
+            <Card.Link href="recetas_reportadas_admin">
             <Card.Img
               variant="top"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRYcrzVqHcrlaTt8V-jjJ9bbsQ-SsR5cWv_eA&usqp=CAU"
             />
 
             
+</Card.Link>
+            
           </Card>
           <br></br>
           <Card>
             <Card.Title>RECETAS SALADAS</Card.Title>
+            <Card.Link href="recetas_reportadas_admin">
             <Card.Img
               variant="top"
               src="https://www.clara.es/medio/2020/03/18/rollitos-de-tortilla_48273735_1280x720.jpg"
             />
 
-            
+</Card.Link>
+
           </Card>
           <br></br>
           <Card>

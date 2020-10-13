@@ -21,7 +21,7 @@ class inicio extends React.Component {
   </Dropdown.Toggle>
 
   <Dropdown.Menu>
-  
+  <Dropdown.Item href="inicio_admin">PRINCIPAL</Dropdown.Item>
     <Dropdown.Item href="perfil">MI PERFIL</Dropdown.Item>
     <Dropdown.Item href="#/action-3">RECETAS</Dropdown.Item>
     <Dropdown.Divider />
