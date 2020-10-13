@@ -38,14 +38,14 @@ class inicioanonimo extends React.Component {
           <Nav.Item>
             <Nav.Link
               eventKey="link-1"
-              href="perfil"
+              onClick={this._Alert} href="/recetaperfil"
               className="perfil-enlace  black"
             >
               Mi perfil
               <img
                 className="foto-perfil"
                 alt="foto de perfil"
-                src="https://elhombreconfuso.files.wordpress.com/2010/11/alejandrosalgueirosexyhunk01.jpg"
+                src="https://benidorm.org/filmoffice/sites/default/files/styles/perfil_profesional__300x300_/public/default_images/perfil-anonimo.jpg?itok=MTSxbpSw"
               />
             </Nav.Link>
           </Nav.Item>
@@ -107,7 +107,7 @@ class inicioanonimo extends React.Component {
         </div>
         <div>
           <CardDeck>
-            <Nav.Link href="listaDulce " className="black">
+            <Nav.Link onClick={this._Alert} href="/recetaperfil" className="black">
               <Card>
                 <Card.Img
                   variant="top"
@@ -123,7 +123,7 @@ class inicioanonimo extends React.Component {
                 </Card.Body>
               </Card>
             </Nav.Link>
-            <Nav.Link href="listaSalado" className="black">
+            <Nav.Link onClick={this._Alert} href="/recetaperfil" className="black">
               <Card>
                 <Card.Img
                   variant="top"

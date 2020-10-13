@@ -30,9 +30,9 @@ class buscar_admin extends React.Component {
 
           </Nav>
           <Form inline>
-      <FormControl type="text" placeholder="Search" className="Busqueda" />
+      <FormControl  type="text" placeholder="Search" className="Busqueda" />
       <Nav.Item>
-              <Nav.Link eventKey="Busqueda" className="Lupa">
+              <Nav.Link href="/recetas_sin_reportar_admin"  className="Lupa">
                 <h1>
                   {" "}
                   <BsSearch />{" "}

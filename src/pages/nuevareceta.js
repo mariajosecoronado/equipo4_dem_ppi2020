@@ -109,7 +109,7 @@ class nuevaReceta extends React.Component {
           <Button onClick={this._Alert} href="/recetaperfil" className="boton-I">
             Publicar
           </Button>
-          <Button href="/Pefi" className="boton-I">
+          <Button href="/Pefil" className="boton-I">
           
             Cancelar
           </Button>

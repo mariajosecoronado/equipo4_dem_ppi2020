@@ -12,7 +12,10 @@ class chat_admin extends React.Component {
           activeKey="/home"
           onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
         >
-          <Nav.Item className="encabezado">
+          <Nav.Item href="/recetas_sin_reportar_admin" className="encabezado">
+          <Nav.Item href="/recetas_sin_reportar_admin" className="encabezado">
+          <Nav.Item href="/recetas_sin_reportar_admin" className="encabezado">
+        
             <img
               className="icon-p"
               src="https://www.flaticon.es/svg/static/icons/svg/109/109618.svg"
