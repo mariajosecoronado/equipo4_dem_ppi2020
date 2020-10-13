@@ -2,6 +2,7 @@ import React from "react";
 import "../style/style.css";
 import { Nav } from "react-bootstrap";
 import { Form } from "react-bootstrap";
+import { AiOutlineSend } from "react-icons/ai";
 
 class chat_admin extends React.Component {
   render() {
@@ -46,10 +47,11 @@ class chat_admin extends React.Component {
             <Form.Control
               className="form-chat"
               type="text"
-              placeholder="Enter email"
+              placeholder="Escribe un mensaje"
             />
           </Form>{" "}
           <Nav.Link className="enviar"></Nav.Link>{" "}
+      <  AiOutlineSend />
         </footer>
       </div>
     );

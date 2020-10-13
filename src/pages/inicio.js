@@ -34,9 +34,21 @@ class inicio extends React.Component {
             </h1>
           </Nav.Link>
         </div>
-
         <Nav className="justify-content-end" activeKey="/home">
-          <Nav.Item></Nav.Item>
+          <Nav.Item>
+            <Nav.Link
+              eventKey="link-1"
+              href="perfil"
+              className="perfil-enlace  black"
+            >
+              Mi perfil
+              <img
+                className="foto-perfil"
+                alt="foto de perfil"
+                src="https://elhombreconfuso.files.wordpress.com/2010/11/alejandrosalgueirosexyhunk01.jpg"
+              />
+            </Nav.Link>
+          </Nav.Item>
         </Nav>
 
         <div className="container2">
