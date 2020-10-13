@@ -50,21 +50,32 @@ class Mensajes_admin extends React.Component {
         </>
         <h2 className="mensajes_admin">Mensajes</h2>
         <div>
-          <Card>
-            <Card className="card_mensaje1_admin">
-              <h4>Carla Cifuentes</h4>
-              <p>Me gustó mucho la página</p>
-            </Card>
-            <Nav.Link
-                 className="card_mensaje1_admin"
+        <Card>
+              <Nav.Link
+                className="card_mensaje2_admin"
+                className="card_mensaje2_admin"
+                className="card_mensaje2_admin"
+                className="card_mensaje2_admin"
                 href="recetas_reportadas_admin"
-                 >
-            <Card className="card_mensaje2_admin">
-              <h4>Andres Agudelo</h4>
-              <p>Podrían mejorar</p>
+              >
+                <Card>
+                
+
+                  <h1>Receta reportada</h1>
+                </Card>
+              </Nav.Link>
+              <Nav.Link
+                href="recetas_reportadas_admin"
+                className="card_mensaje1_admin"
+              >
+                <Card>
+                 
+                    
+                    <p>Receta reportada</p>
+                 
+                </Card>
+              </Nav.Link>
             </Card>
-            <nav.Link/>
-          </Card>
 
         </div>
       </div>

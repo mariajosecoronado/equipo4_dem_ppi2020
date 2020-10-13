@@ -14,35 +14,32 @@ import { Button } from "react-bootstrap";
 
 import { BsArrowLeft } from "react-icons/bs";
 
-
-
 class perfil extends React.Component {
   render() {
     return (
       <div>
         <div className="encabezado">
-            <Nav.Link eventKey="link-1" className="encabezado" href="menu">
-              <h1>
-                <BsList />
-              </h1>
-            </Nav.Link>
+          <Nav.Link eventKey="link-1" className="encabezado" href="menu">
+            <h1>
+              <BsList />
+            </h1>
+          </Nav.Link>
 
-            <img
-              className="icon-p"
-              src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
-              alt="logo"
-              width="200"
-              height="150"
-            />
+          <img
+            className="icon-p"
+            src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
+            alt="logo"
+            width="200"
+            height="150"
+          />
 
-            <Nav.Link eventKey="Busqueda" className="encabezado ">
-              <h1>
-                {" "}
-                <BsSearch />{" "}
-              </h1>
-            </Nav.Link>
-          </div>
-
+          <Nav.Link eventKey="Busqueda" className="encabezado ">
+            <h1>
+              {" "}
+              <BsSearch />{" "}
+            </h1>
+          </Nav.Link>
+        </div>
 
         <Nav className="justify-content-end" activeKey="/home">
           <Nav.Item></Nav.Item>
@@ -63,17 +60,16 @@ class perfil extends React.Component {
         </div>
 
         <div>
-      <Button href="/editarperfil" className="boton-I">
-          Editar mi perfil
-        </Button>
-        <Button href="/nuevareceta" className="boton-I">
-        
-          Crear una nueva publicación
-        </Button>
-      </div>
+          <Button href="/editarperfil" className="boton-I">
+            Editar mi perfil
+          </Button>
+          <Button href="/nuevareceta" className="boton-I">
+            Crear una nueva publicación
+          </Button>
+        </div>
 
-      <br></br>
-      <div className="unotitulo">
+        <br></br>
+        <div className="unotitulo">
           <h6> Recetas que te podrían interesar </h6>
         </div>
         <hr></hr>
@@ -113,7 +109,7 @@ class perfil extends React.Component {
         </div>
 
         <br></br>
-      <div className="unotitulo">
+        <div className="unotitulo">
           <h6> Tus publicaciones </h6>
         </div>
         <hr></hr>
