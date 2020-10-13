@@ -147,8 +147,7 @@ class inicio extends React.Component {
           <h1>QUIENES SOMOS?</h1>
           <h4> COOK TO WORK</h4>
           <p>
-            This is a simple hero unit, a simple jumbotron-style component for
-            calling extra attention to featured content or information.
+          Es un servicio en el cual el usuario podrá encontrar soluciones rápidas y fáciles para cocinar, utilizando ingredientes ya sean pocos o básicos, esta es una página web que se llama Cook to work, este producto le permitirá al usuario encontrar ideas para realizar recetas con pocos ingredientes al alcance de su presupuesto, notamos una diferencia en común con otras páginas web la cual es que estas ya tienen unos ingredientes incorporados, mientras que Cook to work permite que los usuarios busquen recetas con los ingredientes que tienen a la mano, está dirigido a las personas que quieren ser creativas a la hora de cocinar.
           </p>
         </Jumbotron>
 

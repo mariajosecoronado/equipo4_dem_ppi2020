@@ -11,7 +11,6 @@ import { AiFillClockCircle } from "react-icons/ai";
 import ReactPlayer from "react-player";
 import { BsArrowLeft } from "react-icons/bs";
 import Swal from "sweetalert2";;
-
 import {} from "react-bootstrap";
 
 class recetaDulce extends React.Component {
@@ -19,7 +18,8 @@ class recetaDulce extends React.Component {
     Swal.fire("Está publicación ha sido eliminada");;
   }
   _Alerta()  {
-    Swal.fire("Está publicación ha sido eliminada");;
+    Swal.fire("Tu publicación ha sido editada exitosamente");;
+   
   }
   render() {
     return (
@@ -119,7 +119,7 @@ class recetaDulce extends React.Component {
           <Button onClick={this._Alert} href="/Perfil" className="boton-I">
             Eliminar
           </Button>
-          <Button href="/nuevareceta" className="boton-I">
+          <Button  href="/nuevareceta" className="boton-I">
           Editar
           </Button>
   </div>

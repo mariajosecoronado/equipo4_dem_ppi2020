@@ -17,7 +17,9 @@ class Receta_reportadas_admin extends React.Component {
       <div>
         <Nav className="justify-content-center " activeKey="/home">
           <Nav.Item>
-            <Nav.Link eventKey="link-1" className="encabezado" href="menu">
+            <Nav.Link  className="encabezado" href="menu_admin">
+            
+            
               <h1>
                 <BsList />
               </h1>
@@ -31,7 +33,7 @@ class Receta_reportadas_admin extends React.Component {
             height="150"
           />
           <Nav.Item>
-            <Nav.Link eventKey="Busqueda" className="encabezado ">
+            <Nav.Link href="buscar_admin" eventKey="Busqueda" className="encabezado ">
               <h1>
                 {" "}
                 <BsSearch />{" "}
@@ -60,6 +62,7 @@ class Receta_reportadas_admin extends React.Component {
                   className="perfil-enlace  black"
                 >
                   <img
+                 
                     className="foto-perfil"
                     alt="foto de perfil"
                     src="https://www.lapi.com.mx/image.ashx?s=57067&im=115321&t=p"

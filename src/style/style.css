@@ -6,6 +6,18 @@
   border-radius: 50px;
   color: rgb(70, 70, 70);
 }
+.fondoInicio{
+  overflow:hidden;
+width:100%;
+height:height;
+margin:0 ;
+padding:0;
+background: url("https://media.istockphoto.com/vectors/fast-food-frame-border-background-template-with-trendy-doodle-of-vector-id1218705014") no-repeat;
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+background-color: #464646;
+}
 .encabezado{
 display: flex;
 justify-content: space-evenly;
