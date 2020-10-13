@@ -14,6 +14,7 @@ class inicio extends React.Component {
           <Nav className="justify-content-center " activeKey="/home">
             <Nav.Item>
               <Nav.Link eventKey="link-1" className="encabezado">
+              </Nav.Link>
               <Dropdown>
   <Dropdown.Toggle variant="success" id="dropdown-basic">
     Menú
@@ -30,7 +31,7 @@ class inicio extends React.Component {
    <Dropdown.Item href="/apertura">CERRAR SESIÓN</Dropdown.Item>
   </Dropdown.Menu>
 </Dropdown>
-</Nav.Link>
+
             </Nav.Item>
           
           </Nav>
