@@ -11,9 +11,9 @@ import { Card } from "react-bootstrap";
 class inicio extends React.Component {
   render() {
     return (
-      <div>
-        <>
-          <div className="encabezado">
+      
+   <div>
+     <div className="encabezado">
             <Nav.Link eventKey="link-1" className="encabezado" href="menu">
               <h1>
                 <BsList />
@@ -36,30 +36,20 @@ class inicio extends React.Component {
             </Nav.Link>
           </div>
 
-          <Nav className="justify-content-end" activeKey="/home">
-            <Nav.Item></Nav.Item>
-          </Nav>
 
-          <Nav className="justify-content-end" activeKey="/home">
-            <Nav.Item>
-              <Nav.Link
-                eventKey="link-1"
-                href="Perfil"
-                className="perfil-enlace  black"
-              >
-                Mi perfil{" "}
-                <img
-                  className="foto-perfil"
-                  alt="foto de perfil"
-                  src="https://elhombreconfuso.files.wordpress.com/2010/11/alejandrosalgueirosexyhunk01.jpg"
-                />
-              </Nav.Link>
-            </Nav.Item>
-            <div></div>
-            <Nav.Item></Nav.Item>
-          </Nav>
-        </>
+        <Nav className="justify-content-end" activeKey="/home">
+          <Nav.Item></Nav.Item>
+        </Nav>
 
+        <div className="fotoperfil">
+          <img
+            className="fotoperfil"
+            src="https://elhombreconfuso.files.wordpress.com/2010/11/alejandrosalgueirosexyhunk01.jpg"
+            alt="logo"
+            width="130"
+            height="150"
+          />
+        </div>
         <div className="container2">
           <Carousel className="caru-tamaño">
             <Carousel.Item>

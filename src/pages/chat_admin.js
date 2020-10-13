@@ -24,16 +24,16 @@ class chat_admin extends React.Component {
           </Nav.Item>
           <Nav.Item>
             <Nav.Link className="administradoras">
-            Administradoras COOK TO WORK
+              Administradoras COOK TO WORK
             </Nav.Link>
           </Nav.Item>
         </Nav>
-        <br></br> 
-        <br></br> 
-        <br></br> 
         <br></br>
-         <br></br>
-          <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <br></br>
         <br></br>
         <br></br>
@@ -45,23 +45,19 @@ class chat_admin extends React.Component {
         <br></br>
         <br></br>
         <footer className="header">
-        <Form>
-
-    <Form.Control className="form-chat" type="text" placeholder="Enter email" />
-   
-</Form>
-          
-            {" "}
-            <Nav.Link href="/mensaje" className="black">
-              CLICK AQUÍ
-            </Nav.Link>{" "}
-        
-         
+          <Form>
+            <Form.Control
+              className="form-chat"
+              type="text"
+              placeholder="Enter email"
+            />
+          </Form>{" "}
+          <Nav.Link className="enviar">
+            <BsExclamationCircleFill />
+          </Nav.Link>{" "}
         </footer>
       </div>
     );
   }
 }
 export default chat_admin;
-            
-            
