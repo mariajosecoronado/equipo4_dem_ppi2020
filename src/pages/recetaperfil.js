@@ -69,7 +69,7 @@ class recetaDulce extends React.Component {
                 </Nav.Link>
               </Nav.Item>
             </Nav>
-            <p className="nombre-receta">Galletas de chocolate</p>
+            <p className="nombre-receta">Palitos de queso</p>
           </div>
         </div>
         <div className="punt">
@@ -97,7 +97,7 @@ class recetaDulce extends React.Component {
           </Card>
           <br />
           <Card border="success" style={{ width: "18rem" }}>
-            <Card.Header>Receta</Card.Header>
+            <Card.Header>Receta - Tiempo</Card.Header>
             <Card.Body>
               <Card.Text>
                 Some quick example text to build on the card title and make up
@@ -107,10 +107,10 @@ class recetaDulce extends React.Component {
           </Card>
         </div>
         <div className="boton">
-          <Button href="/perfil2" className="boton-I">
+          <Button href="/Perfil" className="boton-I">
             Eliminar
           </Button>
-          <Button href="/perfil2" className="boton-I">
+          <Button href="/nuevareceta" className="boton-I">
             Editar
           </Button>
         </div>

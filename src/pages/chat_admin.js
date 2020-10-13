@@ -15,11 +15,13 @@ class chat_admin extends React.Component {
           onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
         >
           <Nav.Item className="encabezado">
-            <img
-              className="flecha-devolver"
-              alt="flecha-devolver"
-              src="https://w7.pngwing.com/pngs/775/103/png-transparent-arrow-computer-icons-right-arrow-angle-hand-desktop-wallpaper.png"
-            />
+          <img
+            className="icon-p"
+            src=""
+            alt="logo"
+            width="20"
+            height="50"
+          />
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="link-1">Link</Nav.Link>
