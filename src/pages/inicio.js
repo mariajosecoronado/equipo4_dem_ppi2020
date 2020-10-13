@@ -11,45 +11,34 @@ import { Card } from "react-bootstrap";
 class inicio extends React.Component {
   render() {
     return (
-      
-   <div>
-     <div className="encabezado">
-            <Nav.Link eventKey="link-1" className="encabezado" href="menu">
-              <h1>
-                <BsList />
-              </h1>
-            </Nav.Link>
+      <div>
+        <div className="encabezado">
+          <Nav.Link eventKey="link-1" className="encabezado" href="menu">
+            <h1>
+              <BsList />
+            </h1>
+          </Nav.Link>
 
-            <img
-              className="icon-p"
-              src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
-              alt="logo"
-              width="200"
-              height="150"
-            />
+          <img
+            className="icon-p"
+            src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
+            alt="logo"
+            width="200"
+            height="150"
+          />
 
-            <Nav.Link eventKey="Busqueda" className="encabezado ">
-              <h1>
-                {" "}
-                <BsSearch />{" "}
-              </h1>
-            </Nav.Link>
-          </div>
-
+          <Nav.Link eventKey="Busqueda" className="encabezado ">
+            <h1>
+              {" "}
+              <BsSearch />{" "}
+            </h1>
+          </Nav.Link>
+        </div>
 
         <Nav className="justify-content-end" activeKey="/home">
           <Nav.Item></Nav.Item>
         </Nav>
 
-        <div className="fotoperfil">
-          <img
-            className="fotoperfil"
-            src="https://elhombreconfuso.files.wordpress.com/2010/11/alejandrosalgueirosexyhunk01.jpg"
-            alt="logo"
-            width="130"
-            height="150"
-          />
-        </div>
         <div className="container2">
           <Carousel className="caru-tamaño">
             <Carousel.Item>

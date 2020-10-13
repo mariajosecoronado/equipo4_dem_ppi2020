@@ -2,7 +2,6 @@ import React from "react";
 import "../style/style.css";
 import { Nav } from "react-bootstrap";
 import { Form } from "react-bootstrap";
-import { BsExclamationCircleFill } from "react-icons/bs";
 
 class chat_admin extends React.Component {
   render() {
@@ -19,9 +18,7 @@ class chat_admin extends React.Component {
           <Nav.Item>
             <Nav.Link eventKey="link-1">Link</Nav.Link>
           </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="link-2">Link</Nav.Link>
-          </Nav.Item>
+
           <Nav.Item>
             <Nav.Link className="administradoras">
               Administradoras COOK TO WORK
@@ -52,9 +49,7 @@ class chat_admin extends React.Component {
               placeholder="Enter email"
             />
           </Form>{" "}
-          <Nav.Link className="enviar">
-            <BsExclamationCircleFill />
-          </Nav.Link>{" "}
+          <Nav.Link className="enviar"></Nav.Link>{" "}
         </footer>
       </div>
     );
