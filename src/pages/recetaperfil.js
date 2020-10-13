@@ -111,13 +111,10 @@ class recetaDulce extends React.Component {
             Eliminar
           </Button>
           <Button href="/perfil2" className="boton-I">
-            Cancelar
+            Editar
           </Button>
         </div>
-        <div>
-          <BsFillChatDotsFill />
-          <input placeholder="Deja un comentario" />
-        </div>
+       
         <br />
         <br />
         <footer className="header">
