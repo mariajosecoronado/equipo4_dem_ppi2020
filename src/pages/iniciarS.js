@@ -9,11 +9,11 @@ class iniciarS extends React.Component {
         <div className="row">
           <div className="col">
             <img
-              className="d-block w-100"
+              className="d-block w-50"
               src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
               alt="logo"
               width="100"
-              height="250"
+              
             />
 
             <h1 className="titulo-IR">
