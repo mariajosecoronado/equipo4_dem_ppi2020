@@ -16,7 +16,7 @@ class Inicio extends React.Component {
                 <br/>
                 <img
                   className="icon-p"
-                  src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
+                  src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logo-principal-paint.ico"
                   alt="logo"
                   width="200"
                   height="150"

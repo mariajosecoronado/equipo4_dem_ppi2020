@@ -30,6 +30,7 @@ import Reporte_dos_admin from "../pages/reporte_dos_admin";
 import NuevaReceta from "../pages/nuevareceta";
 import RecetaGalletas from "../pages/recetaGalletas";
 import Recetas_reportadas_admin from "../pages/recetas_reportadas_admin";
+import Recetas_reportadasR_admin from "../pages/recetas_reportadas_admin";
 import Recetas_sin_reportar_admin from "../pages/recetas_sin_reportar_admin";
 import Chat_admin from "../pages/chat_admin";
 import Nuevareceta from "../pages/nuevareceta";
@@ -70,6 +71,11 @@ const App = () => {
         <Route
           exact
           path="/recetas_reportadas_admin"
+          component={Recetas_reportadas_admin}
+        />
+         <Route
+          exact
+          path="/recetas_reportadasR_admin"
           component={Recetas_reportadas_admin}
         />
         <Route

@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/style.css";
-import { BsList } from "react-icons/bs";
+import { BsArrowLeft } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
 import { Card } from "react-bootstrap";
@@ -12,10 +12,14 @@ class listaSalado_admin extends React.Component {
       <div>
         <>
           <Nav className="justify-content-center " activeKey="/home">
-            <Nav.Item>
-              <Nav.Link eventKey="link-1" className="encabezado">
+          <Nav.Item>
+              <Nav.Link
+                eventKey="link-1"
+                className="encabezado"
+                href="./inicio_admin"
+              >
                 <h1>
-                  <BsList />
+                  <BsArrowLeft />
                 </h1>
               </Nav.Link>
             </Nav.Item>

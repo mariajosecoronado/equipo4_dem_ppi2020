@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/style.css";
-import { BsList } from "react-icons/bs";
+import { BsArrowLeft } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
 import { Card } from "react-bootstrap";
@@ -11,13 +11,18 @@ class ListaSalado extends React.Component {
     return (
       <div>
         <>
-        <div className="encabezado">
-            <Nav.Link eventKey="link-1" className="encabezado" href="menu">
-              <h1>
-                <BsList />
-              </h1>
-            </Nav.Link>
-
+          <div className="encabezado">
+            <Nav.Item>
+              <Nav.Link
+                eventKey="link-1"
+                className="encabezado"
+                href="./inicio_admin"
+              >
+                <h1>
+                  <BsArrowLeft />
+                </h1>
+              </Nav.Link>
+            </Nav.Item>
             <img
               className="icon-p"
               src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
@@ -33,7 +38,6 @@ class ListaSalado extends React.Component {
               </h1>
             </Nav.Link>
           </div>
-
 
           <Nav className="justify-content-end" activeKey="/home">
             <Nav.Item></Nav.Item>
