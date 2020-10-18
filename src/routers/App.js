@@ -30,8 +30,9 @@ import Reporte_dos_admin from "../pages/reporte_dos_admin";
 import NuevaReceta from "../pages/nuevareceta";
 import RecetaGalletas from "../pages/recetaGalletas";
 import Recetas_reportadas_admin from "../pages/recetas_reportadas_admin";
-import Recetas_reportadasR_admin from "../pages/recetas_reportadas_admin";
+import Recetas_reportadasR_admin from "../pages/recetas_reportadasR_admin";
 import Recetas_sin_reportar_admin from "../pages/recetas_sin_reportar_admin";
+import Recetas_sin_reportarR_admin from "../pages/recetas_sin_reportarR_admin";
 import Chat_admin from "../pages/chat_admin";
 import Nuevareceta from "../pages/nuevareceta";
 import recetaperfil from "../pages/recetaperfil";
@@ -76,12 +77,17 @@ const App = () => {
          <Route
           exact
           path="/recetas_reportadasR_admin"
-          component={Recetas_reportadas_admin}
+          component={Recetas_reportadasR_admin}
         />
         <Route
           exact
           path="/recetas_sin_reportar_admin"
           component={Recetas_sin_reportar_admin}
+        />
+        <Route
+          exact
+          path="/recetas_sin_reportarR_admin"
+          component={Recetas_sin_reportarR_admin}
         />
         <Route exact path="/editarperfil" component={EditarPerfil} />
         <Route exact path="/recetaRollos" component={RecetaRollos} />
