@@ -33,10 +33,10 @@ class inicioanonimo extends React.Component {
   <Dropdown.Item href="/inicioanonimo">PRINCIPAL</Dropdown.Item>
     <Dropdown.Item href="iniciarS">PERFIL</Dropdown.Item>
     <Dropdown.Divider />
-  <Dropdown.Item href="/">RECETAS SALADAS</Dropdown.Item>
-   <Dropdown.Item href="/">RECETAS DULCES</Dropdown.Item>
+  <Dropdown.Item href="/iniciarS">RECETAS SALADAS</Dropdown.Item>
+   <Dropdown.Item href="/iniciarS">RECETAS DULCES</Dropdown.Item>
    <Dropdown.Divider />
-   <Dropdown.Item href="/iniciars">INICIAR SESIÓN</Dropdown.Item>
+   <Dropdown.Item href="/iniciarS">INICIAR SESIÓN</Dropdown.Item>
    <Dropdown.Item href="/registro">REGISTRARSE</Dropdown.Item>
   </Dropdown.Menu>
 </Dropdown>
