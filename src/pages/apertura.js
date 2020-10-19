@@ -15,12 +15,12 @@ class Inicio extends React.Component {
                 <br />
                 <br/>
                 <img
-                  className="icon-p"
-                  src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logo-principal-paint.ico"
-                  alt="logo"
-                  width="200"
-                  height="150"
-                />
+              className="icon-p"
+              src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
+              alt="logo"
+              width="200"
+              height="150"
+            />
               </div>
             </div>
             <div className="row">
@@ -28,7 +28,7 @@ class Inicio extends React.Component {
                 <br />
                 <br />
                 
-                <h3>CLIC AQUÍ!</h3>
+                
               </div>
             </div>
             <div className="row">

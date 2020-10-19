@@ -2,12 +2,11 @@ import React from "react";
 import "../style/style.css";
 import { Nav } from "react-bootstrap";
 import { Card } from "react-bootstrap";
-import { BsList } from "react-icons/bs";
+
 import { BsArrowLeft } from "react-icons/bs";
 import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
-import { BsFillChatQuoteFill } from "react-icons/bs";
-import Swal from "sweetalert2";
+
 
 import {} from "react-bootstrap";
 
@@ -17,7 +16,7 @@ class recetaRollosAdmin extends React.Component {
       <div>
         <Nav className="justify-content-center " activeKey="/devolver">
           <Nav.Item>
-            <Nav.Link href="perfil2" eventKey="link-1" className="encabezado">
+            <Nav.Link href="listaSalado_admin" eventKey="link-1" className="encabezado">
               <h1>
                 <BsArrowLeft />
               </h1>
@@ -114,31 +113,10 @@ class recetaRollosAdmin extends React.Component {
             </Card.Body>
           </Card>
         </div>
-        <div className="boton">
-          <button onClick={this._Alert} className="button">
-            Descargar
-          </button>
-          <button onClick={this._Alerta} className="report">
-            Reportar
-          </button>
-        </div>
-        <div className="input">
-          <BsFillChatQuoteFill />
 
-          <input placeholder="Deja un comentario aquí"></input>
+        <div className="boton" href="reporte_admin">
+          <button className="report">Reportada</button>
         </div>
-        <br />
-        <br />
-        <footer className="header">
-          CONTÁCTENOS
-          <button className="button">
-            {" "}
-            <Nav.Link href="/mensaje" className="black">
-              CLICK AQUÍ
-            </Nav.Link>{" "}
-          </button>
-          <Nav.Link href="/mensaje" className="black"></Nav.Link>{" "}
-        </footer>
       </div>
     );
   }

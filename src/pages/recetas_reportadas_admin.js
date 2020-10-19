@@ -16,7 +16,7 @@ class Receta_reportadas_admin extends React.Component {
       <div>
         <Nav className="justify-content-center " activeKey="/home">
         <Nav.Item>
-            <Nav.Link href="mensaje_reporte_admin " className="encabezado">
+            <Nav.Link href="listaSalado_admin " className="encabezado">
               
               <h1>
                 <BsArrowLeft />
