@@ -118,10 +118,7 @@ background-color: #464646;
   margin-top: 20px;
   color: black;
 }
-.search {
-  margin-top: 20px;
-  color: black;
-}
+
 .nombre-receta {
   background-color: #14dd28;
   padding: 10px;
@@ -342,6 +339,7 @@ background-color: #464646;
   border: 1px solid white;
   background-color: green;
 }
+
 .icon-p {
   text-align: center;
 }

@@ -15,13 +15,14 @@ class menu_admin extends React.Component {
       <div>
         <nav class="navbar navbar-dark">
         <>
-          <Nav className="justify-content-center " activeKey="/home">
+          <Nav className="justify-content-center " activeKey="/home" >
             <Nav.Item>
               <Nav.Link eventKey="link-1" className="encabezado">
               </Nav.Link>
               <Dropdown>
   <Dropdown.Toggle variant="success" id="dropdown-basic">
-  <BsList />
+  <BsList 
+    />
   </Dropdown.Toggle>
 
   <Dropdown.Menu>

@@ -11,7 +11,14 @@ import Swal from "sweetalert2";
 
 import {} from "react-bootstrap";
 
+
 class recetaRollos extends React.Component {
+  _Alerta(){
+    Swal.fire("Publicación reportada")
+  }
+  _Alert(){
+    Swal.fire("Receta descargada")
+  }
   render() {
     return (
       <div>

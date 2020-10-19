@@ -20,13 +20,17 @@ class recetaDulce extends React.Component {
   }
   render() {
     return (
-      <div>
+      
+      
         <div className="encabezado">
-          <Nav.Link eventKey="link-1" className="encabezado" href="menu">
-            <h1>
-              <BsList />
-            </h1>
-          </Nav.Link>
+        <Nav className="justify-content-center " activeKey="/devolver">
+          <Nav.Item>
+            <Nav.Link href="perfil2" eventKey="link-1" className="encabezado">
+              <h1>
+                <BsArrowLeft />
+              </h1>
+            </Nav.Link>
+          </Nav.Item>
 
           <img
             className="icon-p"
