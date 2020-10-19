@@ -1,8 +1,12 @@
 import React from "react";
 import "../style/style.css";
+import Swal from "sweetalert2";;
 import { Form, Button } from "react-bootstrap";
 
 class confirmarC extends React.Component {
+  _Alerta()  {
+    Swal.fire("Tu contraseña se ha recuperado con éxito");;
+  }
   render() {
     return (
       <div className="container-fluid ">
@@ -38,7 +42,7 @@ class confirmarC extends React.Component {
                 
                 <br />
                 <br />
-                <Button  href="/iniciarS" className="boton-I">
+                <Button onClick={this._Alerta} href="/iniciarS" className="boton-I">
                  Confirmar
                 </Button>
               </Form>

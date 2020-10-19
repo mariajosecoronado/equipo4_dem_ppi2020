@@ -25,6 +25,7 @@ class Inicio extends React.Component {
               src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
               alt="logo"
               width="100"
+              
               /> 
                 
               </div>

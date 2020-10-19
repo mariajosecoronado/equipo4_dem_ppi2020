@@ -26,12 +26,13 @@ class perfil extends React.Component {
           </Nav.Link>
 
           <img
-            className="icon-p"
-            src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
-            alt="logo"
-            width="200"
-            height="150"
-          />
+              className="d-block w-50"
+              src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
+              alt="logo"
+              width="100"
+              
+              
+            />
 
           <Nav.Link eventKey="Busqueda" className="encabezado ">
             <h1>
