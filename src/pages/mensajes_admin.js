@@ -62,10 +62,10 @@ class Mensajes_admin extends React.Component {
                 href="recetas_sin_reportar_admin"
                 
               >
-                <Card>
+                <Card className="mensajes_admin">
                 
 
-                  <h1>Camila Arroyave</h1>
+                  <h1 >Camila Arroyave</h1>
                  Me gusto la pagina
                 </Card>
               </Nav.Link>
@@ -73,7 +73,7 @@ class Mensajes_admin extends React.Component {
                 href="recetas_reportadas_admin"
                 className="card_mensaje1_admin"
               >
-                <Card>
+                <Card className="mensajes_admin">
                  
                     
                     <h1>Andres Agudelo</h1>

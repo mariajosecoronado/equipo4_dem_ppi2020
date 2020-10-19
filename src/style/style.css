@@ -424,4 +424,7 @@ background-color: #464646;
   width: 80px;
   height: 30px;
 }
-
+.mensajes_admin{
+  color: black;
+  justify-content: left; 
+}
