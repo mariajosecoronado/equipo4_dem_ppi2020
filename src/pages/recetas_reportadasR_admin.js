@@ -7,7 +7,6 @@ import { BsArrowLeft } from "react-icons/bs";
 import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 
-
 import {} from "react-bootstrap";
 
 class recetaRollosAdmin extends React.Component {
@@ -16,7 +15,11 @@ class recetaRollosAdmin extends React.Component {
       <div>
         <Nav className="justify-content-center " activeKey="/devolver">
           <Nav.Item>
-            <Nav.Link href="listaSalado_admin" eventKey="link-1" className="encabezado">
+            <Nav.Link
+              href="listaSalado_admin"
+              eventKey="link-1"
+              className="encabezado"
+            >
               <h1>
                 <BsArrowLeft />
               </h1>
@@ -30,7 +33,7 @@ class recetaRollosAdmin extends React.Component {
             height="150"
           />
           <Nav.Item>
-            <Nav.Link eventKey="Busqueda" className="encabezado ">
+            <Nav.Link href="buscar_admin" eventKey="Busqueda" className="encabezado ">
               <h1>
                 {" "}
                 <BsSearch />{" "}
@@ -54,7 +57,7 @@ class recetaRollosAdmin extends React.Component {
               <Nav.Item>
                 <Nav.Link
                   eventKey="link-1"
-                  href="Perfil3"
+                  href="reporte_admin"
                   className="perfil-enlace  black"
                 >
                   <img
@@ -113,10 +116,11 @@ class recetaRollosAdmin extends React.Component {
             </Card.Body>
           </Card>
         </div>
-
-        <div className="boton" href="reporte_admin">
-          <button className="report">Reportada</button>
-        </div>
+        <Nav.Link href="reporte_admin">
+          <div className="boton" href="reporte_admin">
+            <button className="report">Reportada</button>
+          </div>
+        </Nav.Link>
       </div>
     );
   }
