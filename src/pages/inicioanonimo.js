@@ -15,6 +15,12 @@ class inicioanonimo extends React.Component {
   _Alert()  {
     Swal.fire("Debes iniciar sesión o registrarte");;
   }
+  _Alerta()  {
+    Swal.fire("Debes iniciar sesión o registrarte");;
+  }
+  _Alerta2()  {
+    Swal.fire("Debes iniciar sesión o registrarte");;
+  }
   render() {
     return (
       <div>
@@ -33,8 +39,8 @@ class inicioanonimo extends React.Component {
   <Dropdown.Item href="/inicioanonimo">PRINCIPAL</Dropdown.Item>
     <Dropdown.Item href="iniciarS">PERFIL</Dropdown.Item>
     <Dropdown.Divider />
-  <Dropdown.Item href="/iniciarS">RECETAS SALADAS</Dropdown.Item>
-   <Dropdown.Item href="/iniciarS">RECETAS DULCES</Dropdown.Item>
+  <Dropdown.Item onClick={this._Alerta} href="/iniciarS">RECETAS SALADAS</Dropdown.Item>
+   <Dropdown.Item onClick={this._Alerta2} href="/iniciarS">RECETAS DULCES</Dropdown.Item>
    <Dropdown.Divider />
    <Dropdown.Item href="/iniciarS">INICIAR SESIÓN</Dropdown.Item>
    <Dropdown.Item href="/registro">REGISTRARSE</Dropdown.Item>
