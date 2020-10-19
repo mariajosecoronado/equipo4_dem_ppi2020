@@ -35,7 +35,7 @@ class iniciarS extends React.Component {
                 >
                   <Form.Control type="password" placeholder="Contraseña:" />
                 </Form.Group>
-                <p><a href="/olvidaste_contraseña" className="O-contraseña">Has olvidado tu contraseña?</a></p>
+                <p><a href="/olvidaste_contraseña" className="O-contraseña">¿Has olvidado tu contraseña?</a></p>
                 
                 
 

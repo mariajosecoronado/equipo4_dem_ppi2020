@@ -41,6 +41,7 @@ class buscar extends React.Component {
             height="150"
           />
 
+
           <Nav.Link  eventKey="Busqueda" className="encabezado ">
             <h1>
               {" "}
