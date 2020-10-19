@@ -12,15 +12,17 @@ class Inicio extends React.Component {
           <div className="col-sm-4 col-md-4 col-lg-4">
             <div className="row">
               <div className="col text-center">
+              <br />
+                <br/>
+                 <br />
+                <br/>
+                 <br />
+                <br/>
                 <br />
                 <br/>
-                <img
-              className="icon-p"
-              src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
-              alt="logo"
-              width="200"
-              height="150"
-            />
+                <br />
+                
+                
               </div>
             </div>
             <div className="row">

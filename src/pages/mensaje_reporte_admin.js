@@ -55,7 +55,7 @@ class Mensaje_reporte_admin extends React.Component {
             <Card>
               <Nav.Link
                 className="card_mensaje1_admin"
-                href="recetas_reportadas_admin"
+                href="recetas_reportadasR_admin"
               >
                 <Card>
                   <h1>
