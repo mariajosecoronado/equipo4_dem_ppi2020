@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/style.css";
+import "../components/menu_admin.js";
 import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
@@ -10,6 +11,7 @@ class buscar_admin extends React.Component {
     return (
       <div>
         <>
+
           <Nav className="justify-content-center " activeKey="/home">
             <Nav.Item>
               <Nav.Link eventKey="link-1" className="encabezado" href="menu">

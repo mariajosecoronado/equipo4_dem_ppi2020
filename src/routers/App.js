@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Apertura from "../pages/apertura";
 import Registro from "../pages/registro";
-import Menu_admin from "../pages/menu_admin";
+import Menu_admin from "../components/menu_admin";
 import Bienvenida from "../pages/bienvenida";
 import Inicio from "../pages/inicio";
 import Inicio_admin from "../pages/inicio_admin";
@@ -37,6 +37,9 @@ import Chat_admin from "../pages/chat_admin";
 import Nuevareceta from "../pages/nuevareceta";
 import recetaperfil from "../pages/recetaperfil";
 import inicioanonimo from "../pages/inicioanonimo";
+import Olvidaste_contraseña from "../pages/olvidaste_contraseña";
+import Confirmar_contraseña from "../pages/confirmar_contraseña";
+
 
 const App = () => {
   return (
@@ -105,6 +108,8 @@ const App = () => {
         <Route exact path="/recetaRollos" component={RecetaRollos} />
         <Route exact path="/chat_admin" component={Chat_admin} />
         <Route exact path="/nuevareceta" component={Nuevareceta} />
+        <Route exact path="/olvidaste_contraseña" component={Olvidaste_contraseña} />
+        <Route exact path="/confirmar_contraseña" component={Confirmar_contraseña} />
       </Switch>
     </BrowserRouter>
   );

@@ -1,26 +1,44 @@
 import React from "react";
 import "../style/style.css";
-import { BsList } from "react-icons/bs";
-import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
 import { Carousel } from "react-bootstrap";
 import { CardDeck } from "react-bootstrap";
 import { Jumbotron } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 import { AiOutlineMessage } from "react-icons/ai";
+import { BsList } from "react-icons/bs";
+import { BsSearch } from "react-icons/bs";
+import { Dropdown } from "react-bootstrap";
+
 
 class inicio_admin extends React.Component {
   render() {
     return (
       <div>
         <>
-        <div className="encabezado">
-          <Nav.Link eventKey="link-1" className="encabezado" href="menu_admin">
-            <h1>
-              <BsList />
-            </h1>
-          </Nav.Link>
+        <nav class="navbar navbar-dark">
+        <>
+          <Nav className="justify-content-center " activeKey="/home">
+            <Nav.Item>
+              <Nav.Link eventKey="link-1" className="encabezado">
+              </Nav.Link>
+              <Dropdown>
+  <Dropdown.Toggle variant="success" id="dropdown-basic">
+  <BsList />
+  </Dropdown.Toggle>
 
+  <Dropdown.Menu>
+  <Dropdown.Item href="inicio_admin">PRINCIPAL</Dropdown.Item>
+    <Dropdown.Item href="mensajes_admin">MENSAJES</Dropdown.Item>
+    <Dropdown.Divider />
+  <Dropdown.Item href="/listaSalado_admin">RECETAS SALADAS</Dropdown.Item>
+   <Dropdown.Item href="/listaDulce_admin">RECETAS DULCES</Dropdown.Item>
+   <Dropdown.Divider />
+   <Dropdown.Item href="/apertura">CERRAR SESIÓN</Dropdown.Item>
+  </Dropdown.Menu>
+</Dropdown>
+            </Nav.Item>
+          </Nav>
           <img
             className="icon-p"
             src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
@@ -35,11 +53,13 @@ class inicio_admin extends React.Component {
               <BsSearch />{" "}
             </h1>
           </Nav.Link>
-        </div>
-          <Nav className="justify-content-end" activeKey="/home">
-            <Nav.Item></Nav.Item>
-          </Nav>
+         
 
+        
+          </> 
+        
+          </nav>
+       
           <Nav className="justify-content-end" activeKey="/home">
             <Nav.Item>
               <Nav.Link
@@ -47,6 +67,7 @@ class inicio_admin extends React.Component {
                 href="botones_mensajes_admin"
                 className="botones_mensajes_admin black"
               >
+                
                <h1>
                   <AiOutlineMessage/>
                 </h1> 

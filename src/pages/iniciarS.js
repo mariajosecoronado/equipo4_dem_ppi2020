@@ -2,6 +2,7 @@ import React from "react";
 import "../style/style.css";
 import { Form, Button } from "react-bootstrap";
 
+
 class iniciarS extends React.Component {
   render() {
     return (
@@ -13,6 +14,7 @@ class iniciarS extends React.Component {
               src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
               alt="logo"
               width="100"
+              
               
             />
 
@@ -33,8 +35,9 @@ class iniciarS extends React.Component {
                 >
                   <Form.Control type="password" placeholder="Contraseña:" />
                 </Form.Group>
+                <p><a href="/olvidaste_contraseña" className="O-contraseña">Has olvidado tu contraseña?</a></p>
                 
-                <p className="O-contraseña">¿Has olvidado tu contraseña?</p>
+                
 
                 <Button href="/inicio" className="boton-I">
                    INICIAR SESIÓN COMO USUARIO

@@ -43,12 +43,12 @@ justify-content: space-evenly;
   justify-content: space-around;
 }
 .fondoInicio{
-  overflow:hidden;
+overflow:hidden;
 width:100%;
 height:height;
 margin:0 ;
 padding:0;
-background: url("https://raw.githubusercontent.com/Saracas-022/PPI4--2/main/ahora%20yes.PNG") no-repeat;
+background: url("https://img.freepik.com/vector-gratis/fondo-dibujado-comida-deliciosa_52683-16136.jpg?size=626&ext=jpg") no-repeat;
 background-position: center center;
 background-size: cover;
 background-attachment: fixed;
@@ -115,6 +115,10 @@ background-color: #464646;
   border: 2px solid rgb(8, 8, 8);
 }
 .Lupa {
+  margin-top: 20px;
+  color: black;
+}
+.search {
   margin-top: 20px;
   color: black;
 }
@@ -383,6 +387,10 @@ background-color: #464646;
   border: 1px solid white;
   background-color: #14dd28;
   text-align: right;
+}
+.Bmenu{
+  background-color: #14dd28;
+  color: rgb(2, 2, 2);
 }
 .botonR {
   display: flex;

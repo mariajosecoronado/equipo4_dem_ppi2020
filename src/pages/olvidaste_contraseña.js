@@ -28,9 +28,9 @@ class olvidarC extends React.Component {
                 <br />
                 <br/>
                 
-                <Button href="/inicio" className="boton-I">
-                   CONFIRMAR
-                </Button>
+                <Button  href="/confirmar_contraseña" className="boton-I">
+                Confirmar
+               </Button>
                
               </Form>
             </div>

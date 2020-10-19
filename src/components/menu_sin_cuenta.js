@@ -7,7 +7,7 @@ import { Nav } from "react-bootstrap";
 
 
 
-class menu_admin extends React.Component {
+class menu_sin_cuenta extends React.Component {
 
 
   render() {
@@ -25,13 +25,14 @@ class menu_admin extends React.Component {
   </Dropdown.Toggle>
 
   <Dropdown.Menu>
-  <Dropdown.Item href="inicio_admin">PRINCIPAL</Dropdown.Item>
-    <Dropdown.Item href="mensajes_admin">MENSAJES</Dropdown.Item>
+  <Dropdown.Item href="/inicioanonimo">PRINCIPAL</Dropdown.Item>
+    <Dropdown.Item href="iniciarS">PERFIL</Dropdown.Item>
     <Dropdown.Divider />
-  <Dropdown.Item href="/listaSalado_admin">RECETAS SALADAS</Dropdown.Item>
-   <Dropdown.Item href="/listaDulce_admin">RECETAS DULCES</Dropdown.Item>
+  <Dropdown.Item href="/">RECETAS SALADAS</Dropdown.Item>
+   <Dropdown.Item href="">RECETAS DULCES</Dropdown.Item>
    <Dropdown.Divider />
-   <Dropdown.Item href="/apertura">CERRAR SESIÓN</Dropdown.Item>
+   <Dropdown.Item href="/iniciars">INICIAR SESIÓN</Dropdown.Item>
+   <Dropdown.Item href="/registro">REGISTRARSE</Dropdown.Item>
   </Dropdown.Menu>
 </Dropdown>
             </Nav.Item>
@@ -44,7 +45,7 @@ class menu_admin extends React.Component {
             height="150"
           />
 
-          <Nav.Link href="buscar_admin" eventKey="Busqueda" className="encabezado ">
+          <Nav.Link href="iniciarS" eventKey="Busqueda" className="encabezado ">
             <h1>
               {" "}
               <BsSearch />{" "}
@@ -60,4 +61,4 @@ class menu_admin extends React.Component {
         );
   }
 }
-export default menu_admin;
+export default menu_sin_cuenta;
