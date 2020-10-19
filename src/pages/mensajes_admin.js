@@ -73,11 +73,12 @@ class Mensajes_admin extends React.Component {
                 href="recetas_reportadas_admin"
                 className="card_mensaje1_admin"
               >
+                
                 <Card className="mensajes_admin">
                  
                     
                     <h1>Andres Agudelo</h1>
-                    Deberían mejora
+                    Deberían mejorar
                  
                   
                 </Card>

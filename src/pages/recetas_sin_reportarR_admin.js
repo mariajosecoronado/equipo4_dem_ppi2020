@@ -14,7 +14,7 @@ class Recetas_sin_reportarR_admin extends React.Component {
       <div>
         <Nav className="justify-content-center " activeKey="/devolver">
           <Nav.Item>
-            <Nav.Link href="perfil2" eventKey="link-1" className="encabezado">
+            <Nav.Link href="listaSalado_admin" eventKey="link-1" className="encabezado">
               <h1>
                 <BsArrowLeft />
               </h1>
@@ -28,7 +28,7 @@ class Recetas_sin_reportarR_admin extends React.Component {
             height="150"
           />
           <Nav.Item>
-            <Nav.Link eventKey="Busqueda" className="encabezado ">
+            <Nav.Link href="buscar_admin" eventKey="Busqueda" className="encabezado ">
               <h1>
                 {" "}
                 <BsSearch />{" "}
@@ -52,7 +52,7 @@ class Recetas_sin_reportarR_admin extends React.Component {
               <Nav.Item>
                 <Nav.Link
                   eventKey="link-1"
-                  href="Perfil3"
+                  href="reporte_admin"
                   className="perfil-enlace  black"
                 >
                   <img
@@ -111,6 +111,11 @@ class Recetas_sin_reportarR_admin extends React.Component {
             </Card.Body>
           </Card>
         </div>
+        <Nav.Link href="reporte_admin">
+        <div className="boton">
+          <button className="sin-reporta">Sin reportar</button>
+        </div>
+        </Nav.Link>
       </div>
     );
   }

@@ -294,7 +294,8 @@ background-color: #464646;
   text-align: right;
 }
 .mensajes_admin {
-  text-align: center;
+  text-align:left;
+  
 }
 .Busqueda {
   display: flex;
@@ -321,7 +322,8 @@ background-color: #464646;
 }
 .card_mensaje1_admin {
   border: 2px solid #33ff46;
-  color:black;
+  color:rgb(202, 31, 31);
+  
   }
 .card_mensaje2_admin {
   border: 2px solid #33ff46;

@@ -9,7 +9,11 @@ import Swal from "sweetalert2";;
 class reporte_admin extends React.Component {
   
   _Alert()  {
-    Swal.fire("Está publicación no ha sido reportada");;
+    Swal.fire("Está publicación no ha sido reportada");
+    
+  }
+  _Alert2()  {
+    Swal.fire("Está publicación ha sido reportada");
     
   }
   
@@ -75,7 +79,7 @@ class reporte_admin extends React.Component {
             <Card.Body>
               <Card.Title>Rollos de Pollo</Card.Title>
 
-              <Button href="/perfil2" className="botonR1">
+              <Button onClick={this._Alert}  className="botonR1">
               
                 Ver más
               </Button>
@@ -93,7 +97,7 @@ class reporte_admin extends React.Component {
             <Card.Body>
               <Card.Title>Galletas de Chocolate</Card.Title>
 
-              <Button onClick={this._Alert} href="" className="botonR">
+              <Button onClick={this._Alert2} href="/reporte_dos_admin" className="botonR">
                 Ver más
               </Button>
             </Card.Body>

@@ -16,7 +16,7 @@ class Receta_reportadas_admin extends React.Component {
       <div>
         <Nav className="justify-content-center " activeKey="/home">
         <Nav.Item>
-            <Nav.Link href="listaSalado_admin " className="encabezado">
+            <Nav.Link href="listaDulce_admin " className="encabezado">
               
               <h1>
                 <BsArrowLeft />
@@ -60,7 +60,7 @@ class Receta_reportadas_admin extends React.Component {
               <Nav.Item>
                 <Nav.Link
                   eventKey="link-1"
-                  href="perfil2"
+                  href="reporte_admin"
                   className="perfil-enlace  black"
                 >
                   <img
@@ -116,9 +116,12 @@ Achatamos la bolita y la colocamos sobre papel de horno o parafinado en una fuen
             </Card.Body>
           </Card>
         </div>
+        <Nav.Link  href="reporte_admin">
         <div className="boton" href="reporte_admin">
          <button className="report">Reportada</button>
+
   </div>
+  </Nav.Link>
   </div>
     );
   }
