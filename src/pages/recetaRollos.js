@@ -16,18 +16,18 @@ class recetaRollos extends React.Component {
     Swal.fire("Publicación reportada");
   }
   _Alert() {
-    Swal.fire("¡EXCELENTE!", "Receta descargada correctamente", "success");
+    Swal.fire(
+      '¡EXCELENTE!',
+      'Receta descargada correctamente',
+      'success'
+    )
   }
   render() {
     return (
       <div>
         <Nav className="justify-content-center " activeKey="/devolver">
           <Nav.Item>
-            <Nav.Link
-              href="listaSalado"
-              eventKey="link-1"
-              className="encabezado"
-            >
+            <Nav.Link href="perfil2" eventKey="link-1" className="encabezado">
               <h1>
                 <BsArrowLeft />
               </h1>
@@ -41,7 +41,7 @@ class recetaRollos extends React.Component {
             height="150"
           />
           <Nav.Item>
-            <Nav.Link href="buscar" eventKey="Busqueda" className="encabezado ">
+            <Nav.Link eventKey="Busqueda" className="encabezado ">
               <h1>
                 {" "}
                 <BsSearch />{" "}
