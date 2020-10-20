@@ -2,7 +2,7 @@ import React from "react";
 
 import "../style/style.css";
 
-import { BsList } from "react-icons/bs";
+
 
 import { BsSearch } from "react-icons/bs";
 
@@ -19,11 +19,17 @@ class perfil extends React.Component {
     return (
       <div>
         <div className="encabezado">
-          <Nav.Link eventKey="link-1" className="encabezado" href="menu">
-            <h1>
-              <BsList />
-            </h1>
-          </Nav.Link>
+        <Nav.Item>
+              <Nav.Link
+                eventKey="link-1"
+                className="encabezado"
+                href="./inicio"
+              >
+                <h1>
+                  <BsArrowLeft />
+                </h1>
+              </Nav.Link>
+            </Nav.Item>
 
           <img
             className="icon-p"
@@ -34,7 +40,7 @@ class perfil extends React.Component {
           />
 
 
-          <Nav.Link eventKey="Busqueda" className="encabezado ">
+          <Nav.Link href="buscar" eventKey="Busqueda" className="encabezado ">
             <h1>
               {" "}
               <BsSearch />{" "}
@@ -151,7 +157,7 @@ class perfil extends React.Component {
 
         <br></br>
 
-        <Button href="/nuevareceta" className="boton-I">
+        <Button href="/editarpublicacion" className="boton-I">
           Editar mis publicaciones
         </Button>
 

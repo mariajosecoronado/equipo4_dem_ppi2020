@@ -4,11 +4,11 @@ import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
 import { Card,Button} from "react-bootstrap";
-import Swal from "sweetalert2";;
+import Swal from "sweetalert2";
 
 class reporte_dos_admin extends React.Component {
   _Alert()  {
-    Swal.fire("Está publicación no ha sido reportada");;
+    Swal.fire("Está publicación no ha sido reportada");
     
   }
   render() {
@@ -72,7 +72,7 @@ class reporte_dos_admin extends React.Component {
             <Card.Body>
               <Card.Title>Rollos de Pollo</Card.Title>
 
-              <Button onClick={this._Alert} href="/perfil2" className="botonR1">
+              <Button onClick={this._Alert}  className="botonR1">
               
                 Ver más
               </Button>

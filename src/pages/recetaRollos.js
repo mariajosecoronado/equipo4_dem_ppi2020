@@ -2,7 +2,7 @@ import React from "react";
 import "../style/style.css";
 import { Nav } from "react-bootstrap";
 import { Card } from "react-bootstrap";
-import { BsList } from "react-icons/bs";
+
 import { BsArrowLeft } from "react-icons/bs";
 import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
@@ -11,13 +11,12 @@ import Swal from "sweetalert2";
 
 import {} from "react-bootstrap";
 
-
 class recetaRollos extends React.Component {
-  _Alerta(){
-    Swal.fire("Publicación reportada")
+  _Alerta() {
+    Swal.fire("Publicación reportada");
   }
-  _Alert(){
-    Swal.fire("Receta descargada")
+  _Alert() {
+    Swal.fire("Receta descargada");
   }
   render() {
     return (

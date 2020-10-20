@@ -4,18 +4,44 @@ import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
 import { Card,Button} from "react-bootstrap";
-import Swal from "sweetalert2";;
+import Swal from "sweetalert2";
+
 
 class reporte_admin extends React.Component {
   
   _Alert()  {
-    Swal.fire("Está publicación no ha sido reportada");
+    Swal.fire(
+      'SIN REPORTAR!',
+  'Esta receta no ha sido reportada!',
+  'aceptar'
+    )
     
   }
   _Alert2()  {
-    Swal.fire("Está publicación ha sido reportada");
+    Swal.fire({
+      title: 'RECETA REPORTADA',
+      text: "¿Desea eliminar esta receta?",
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Sí, eliminar!'
+     
+    }).then((result) => {
+      if (result.isConfirmed) {
+        Swal.fire(
+          '¡ELIMINADO!',
+      'Su archivo ha sido eliminado .',
+      'success'
+      
+      
+        )
+      }
+    })
+    
     
   }
+ 
   
   
   render() {
@@ -97,9 +123,10 @@ class reporte_admin extends React.Component {
             <Card.Body>
               <Card.Title>Galletas de Chocolate</Card.Title>
 
-              <Button onClick={this._Alert2} href="/reporte_dos_admin" className="botonR">
+              <Button onClick={this._Alert2}   className="botonR">
                 Ver más
               </Button>
+              
             </Card.Body>
           </Card>
         </div>
