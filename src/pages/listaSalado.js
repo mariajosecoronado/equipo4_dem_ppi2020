@@ -16,7 +16,7 @@ class ListaSalado extends React.Component {
               <Nav.Link
                 eventKey="link-1"
                 className="encabezado"
-                href="./inicio_admin"
+                href="./inicio"
               >
                 <h1>
                   <BsArrowLeft />
@@ -31,7 +31,7 @@ class ListaSalado extends React.Component {
               height="150"
             />
 
-            <Nav.Link eventKey="Busqueda" className="encabezado ">
+            <Nav.Link href="buscar" eventKey="Busqueda" className="encabezado ">
               <h1>
                 {" "}
                 <BsSearch />{" "}
@@ -45,7 +45,7 @@ class ListaSalado extends React.Component {
         </>
         <br></br>
         <CardDeck>
-          <Nav.Link className="black" href="recetaSalada">
+          <Nav.Link className="black" href="recetaRollos">
             <Card>
               <Card.Title>RECETAS SALADAS</Card.Title>
               <Card.Img
@@ -55,7 +55,7 @@ class ListaSalado extends React.Component {
             </Card>
           </Nav.Link>
           <br></br>
-          <Nav.Link className="black" href="recetaSalada">
+          <Nav.Link className="black" href="recetaRollos">
             <Card>
               <Card.Title>RECETAS SALADAS</Card.Title>
               <Card.Img
@@ -65,7 +65,7 @@ class ListaSalado extends React.Component {
             </Card>
           </Nav.Link>
           <br></br>
-          <Nav.Link className="black" href="recetaSalada">
+          <Nav.Link className="black" href="recetaRollos">
             <Card>
               <Card.Title>RECETAS SALADAS</Card.Title>
               <Card.Img
@@ -77,7 +77,7 @@ class ListaSalado extends React.Component {
         </CardDeck>
         <br></br>
         <CardDeck>
-          <Nav.Link className="black" href="recetaSalada">
+          <Nav.Link className="black" href="recetaRollos">
             <Card>
               <Card.Title>RECETAS SALADAS</Card.Title>
               <Card.Img
@@ -87,7 +87,7 @@ class ListaSalado extends React.Component {
             </Card>
           </Nav.Link>
           <br></br>
-          <Nav.Link className="black" href="recetaSalada">
+          <Nav.Link className="black" href="recetaRollos">
             <Card>
               <Card.Title>RECETAS SALADAS</Card.Title>
               <Card.Img
@@ -97,7 +97,7 @@ class ListaSalado extends React.Component {
             </Card>
           </Nav.Link>
           <br></br>
-          <Nav.Link className="black" href="recetaSalada">
+          <Nav.Link className="black" href="recetaRollos">
             <Card>
               <Card.Title>RECETAS SALADAS</Card.Title>
               <Card.Img
