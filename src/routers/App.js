@@ -15,6 +15,7 @@ import ListaDulce_admin from "../pages/listaDulce_admin";
 import ListaSalado_admin from "../pages/listaSalado_admin";
 import Mensaje_reporte_admin from "../pages/mensaje_reporte_admin";
 import Mensajes_admin from "../pages/mensajes_admin";
+import Mensajes_admi from "../pages/mensajes_admi";
 import Mensaje from "../pages/mensaje";
 import RecetaDulce from "../pages/recetaDulce";
 import RecetaSalada from "../pages/recetaSalada";
@@ -24,7 +25,8 @@ import Buscar from "../pages/buscar";
 import Perfil2 from "../pages/perfil2";
 import RecetaRollos from "../pages/recetaRollos";
 import EditarPerfil from "../pages/editarperfil";
-import EditarPublicacion from "../pages/editarpublicacion";
+import  Editarpublicacion from "../pages/editarpublicacion";
+import  Editarpublicacion_dos from "../pages/editarpublicacion_dos";
 import Reporte_admin from "../pages/reporte_admin";
 import Reporte_dos_admin from "../pages/reporte_dos_admin";
 import NuevaReceta from "../pages/nuevareceta";
@@ -63,7 +65,9 @@ const App = () => {
         <Route exact path="/recetaDulce" component={RecetaDulce} />
         <Route exact path="/recetaGalletas" component={RecetaGalletas} />
         <Route exact path="/mensajes_admin" component={Mensajes_admin} />
-        <Route exact path="/editarpublicacion" component={EditarPublicacion} />
+        <Route exact path="/mensajes_admi" component={Mensajes_admi} />
+        <Route exact path="/editarpublicacion" component={Editarpublicacion} />
+        <Route exact path="/editarpublicacion_dos" component={Editarpublicacion_dos} />
         <Route exact path="/recetaperfil" component={recetaperfil} />
         <Route exact path="/inicioanonimo" component={inicioanonimo} />
         <Route

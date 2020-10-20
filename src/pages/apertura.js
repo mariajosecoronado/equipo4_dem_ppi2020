@@ -21,11 +21,11 @@ class Inicio extends React.Component {
                 <br />
                 <br/>
                 <img
-            className="icon-p"
-            src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
+            className="icono-ico"
+            src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/1455739720_Kitchen_Bold_Line_Color_Mix-28_icon-icons.com_53404.ico"
             alt="logo"
-            width="200"
-            height="150"
+            width="150"
+            height="180"
           />
 
                 

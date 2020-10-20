@@ -6,7 +6,7 @@ import { Nav } from "react-bootstrap";
 import { BsArrowLeft } from "react-icons/bs";
 import Swal from "sweetalert2";
 
-class editarpublicacion extends React.Component {
+class editarpublicacion_dos extends React.Component {
   _Alert() {
     Swal.fire({
       title: 'ELIMINAR PUBLICACIÓN',
@@ -75,21 +75,7 @@ class editarpublicacion extends React.Component {
             </Card.Body>
           </Card>
 
-          <Card style={{ width: "10rem" }}>
-            <Card.Img
-              width="50"
-              height="100"
-              src="https://truffle-assets.imgix.net/1t1bxm43v4e3_5sdtiLAzkssogGAcc2MUAs_patacones-con-guacamole_landscapeThumbnail_es.jpeg"
-            />
-
-            <Card.Body>
-              <Card.Title>Patacones con guacamole</Card.Title>
-
-              <Button  className="boton-I" onClick={this._Alert}>
-                VER MÁS
-              </Button>
-            </Card.Body>
-          </Card>
+          
        </div>
        <br></br>
         <br></br>
@@ -123,4 +109,4 @@ class editarpublicacion extends React.Component {
   }
 }
 
-export default editarpublicacion;
+export default editarpublicacion_dos;

@@ -44,12 +44,12 @@ justify-content: space-evenly;
 }
 .fondoInicio{
 overflow:hidden;
-width:100%;
-height:height;
+width:1500px;
+height:1800px;
 margin:0 ;
 padding:0;
 background: url("https://raw.githubusercontent.com/Saracas-022/holamundo/main/pngtree-vector-hand-drawn-green-vegetables-catering-gourmet-background-image_153561.jpg") no-repeat;
-background-position: center center;
+background-position: center;
 background-size: cover;
 background-attachment: fixed;
 background-color: #464646;

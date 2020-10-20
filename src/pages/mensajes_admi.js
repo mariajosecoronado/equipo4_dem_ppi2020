@@ -3,7 +3,7 @@ import "../style/style.css";
 import { Nav } from "react-bootstrap";
 import { Form } from "react-bootstrap";
 
-class mensaje extends React.Component {
+class Mensaje_admi extends React.Component {
   render() {
     return  <div>
     <Nav
@@ -84,4 +84,4 @@ class mensaje extends React.Component {
   }
 }
 
-export default mensaje;
+export default Mensaje_admi;
