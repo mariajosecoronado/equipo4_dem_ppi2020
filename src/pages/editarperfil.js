@@ -10,7 +10,7 @@ import Swal from "sweetalert2";;
 
 class editarPerfil extends React.Component {
   _Alerta()  {
-    Swal.fire("Tus cambios han sido guardados");;
+    Swal.fire("Tus cambios han sido guardados");
   }
   render() {
     return (

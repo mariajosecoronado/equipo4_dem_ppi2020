@@ -11,8 +11,8 @@ class Confirmar_contraseña extends React.Component {
     Swal.fire({
       title: "!Tu contraseña se ha recuperado con éxito¡",
       showCancelButton: true,
-      confirmButtonColor: "#33ff46",
-      cancelButtonColor: "#33ff46",
+      confirmButtonColor: "#14dd28",
+      cancelButtonColor: "#14dd28",
       confirmButtonText: "Iniciar sesión"
     }).then((resultado) => {
       if (resultado.value) {

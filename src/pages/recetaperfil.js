@@ -18,8 +18,8 @@ class recetaDulce extends React.Component {
     Swal.fire({
       title:"Está publicación ha sido eliminada",
       showCancelButton: true,
-      confirmButtonColor: "#3085d6",
-      cancelButtonColor: "#3085d6",
+      confirmButtonColor: "#14dd28",
+      cancelButtonColor: "#14dd28",
       confirmButtonText: "Aceptar",
       cancelButtonText: "Cancelar"
     }).then((resultado) => {

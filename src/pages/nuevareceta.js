@@ -43,7 +43,7 @@ class nuevaReceta extends React.Component {
     return (
       <div>
         <div className="encabezado">
-          <Nav.Link eventKey="link-1" className="encabezado" href="recetaperfil">
+          <Nav.Link eventKey="link-1" className="encabezado" href="perfil">
             <h1>
               <BsArrowLeft />
             </h1>
@@ -57,7 +57,7 @@ class nuevaReceta extends React.Component {
             height="150"
           />
 
-          <Nav.Link eventKey="Busqueda" className="encabezado ">
+          <Nav.Link href="buscar" eventKey="Busqueda" className="encabezado ">
             <h1>
               {" "}
               <BsSearch />{" "}

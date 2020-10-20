@@ -13,17 +13,12 @@ class editarpublicacion extends React.Component {
       text: "¿Estás seguro de que quieres eliminar esta publicación?",
       icon: 'warning',
       showCancelButton: true,
-      confirmButtonColor: "#33ff46",
-      cancelButtonColor: "#33ff46",
+      confirmButtonColor: "#14dd28",
+      cancelButtonColor: "#14dd28",
       confirmButtonText: 'SÍ, ELIMINAR!'
-    }).then((result) => {
-      if (result.isConfirmed) {
-        Swal.fire(
-          'Deleted!',
-          'Your file has been deleted.',
-          'success',
-         
-        )
+    }).then((resultado) => {
+      if (resultado.value) {
+        window.location.href = "/editarpublicacion_dos";
       }
     });
   }

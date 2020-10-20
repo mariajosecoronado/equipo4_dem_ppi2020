@@ -15,8 +15,8 @@ class inicioanonimo extends React.Component {
     Swal.fire({
       title: "Debes iniciar sesión o registrarte",
       showCancelButton: true,
-      confirmButtonColor: "#3085d6",
-      cancelButtonColor: "#3085d6",
+      confirmButtonColor: "#14dd28",
+      cancelButtonColor: "#14dd28",
       confirmButtonText: "Iniciar sesión",
       cancelButtonText: "Cancelar"
     }).then((resultado) => {

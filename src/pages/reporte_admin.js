@@ -23,8 +23,8 @@ class reporte_admin extends React.Component {
       text: "¿Desea eliminar esta receta?",
       icon: 'warning',
       showCancelButton: true,
-      confirmButtonColor: '#3085d6',
-      cancelButtonColor: '#d33',
+      confirmButtonColor: '#14dd28',
+      cancelButtonColor: '#14dd28',
       confirmButtonText: 'Sí, eliminar!'
      
     }).then((resultado) => {
