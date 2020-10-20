@@ -19,7 +19,7 @@ class inicioanonimo extends React.Component {
       confirmButtonColor: '#3085d6',
       cancelButtonColor: '#3085d6',
       confirmButtonText: 'Iniciar sesión',
-      cancelButtonText: 'Registrarse'
+      
      
     }).then((resultado) => {
       if (resultado.value) {

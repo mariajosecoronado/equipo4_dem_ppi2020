@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/style.css";
-import { BsList } from "react-icons/bs";
+
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
 import { BsArrowLeft } from "react-icons/bs";
