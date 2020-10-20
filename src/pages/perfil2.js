@@ -27,7 +27,7 @@ class perfil2 extends React.Component {
           />
 
           <Nav.Item>
-            <Nav.Link eventKey="Busqueda" className="encabezado ">
+            <Nav.Link href="buscar" eventKey="Busqueda" className="encabezado ">
               <h1>
                 {" "}
                 <BsSearch />{" "}

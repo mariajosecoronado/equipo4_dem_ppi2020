@@ -12,7 +12,7 @@ class perfil3 extends React.Component {
       <div>
         <Nav className="justify-content-center " activeKey="/home">
           <Nav.Item>
-            <Nav.Link eventKey="link-1" className="encabezado" href="menu">
+            <Nav.Link eventKey="link-1" className="encabezado" href="perfil2">
               <h1>
                 <BsArrowLeft />
               </h1>
@@ -28,7 +28,7 @@ class perfil3 extends React.Component {
           />
 
           <Nav.Item>
-            <Nav.Link eventKey="Busqueda" className="encabezado ">
+            <Nav.Link href="buscar" eventKey="Busqueda" className="encabezado ">
               <h1>
                 {" "}
                 <BsSearch />{" "}
@@ -51,7 +51,7 @@ class perfil3 extends React.Component {
           />
         </div>
         <div className="unotitulo">
-          <h6> Valeria Gómez </h6>
+          <h6> Carolina Agudelo </h6>
         </div>
 
         <hr></hr>
@@ -71,7 +71,7 @@ class perfil3 extends React.Component {
             <Card.Body>
               <Card.Title>Papas gratinadas</Card.Title>
 
-              <Button href="/perfil2" className="boton-I">
+              <Button href="/recetaRollos" className="boton-I">
                 Ver más
               </Button>
             </Card.Body>
@@ -87,7 +87,7 @@ class perfil3 extends React.Component {
             <Card.Body>
               <Card.Title>Alfajores de Maizena</Card.Title>
 
-              <Button href="/" className="boton-I">
+              <Button href="/recetaDulce" className="boton-I">
                 Ver más
               </Button>
             </Card.Body>
@@ -127,7 +127,7 @@ class perfil3 extends React.Component {
             <Card.Body>
               <Card.Title>Galletas de Chocolate</Card.Title>
 
-              <Button href="/editarpublicacion" className="boton-I">
+              <Button href="/recetaGalletas" className="boton-I">
                 Ver receta
               </Button>
             </Card.Body>
