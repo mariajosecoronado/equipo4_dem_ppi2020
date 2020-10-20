@@ -32,7 +32,7 @@ class listaDulce_admin extends React.Component {
             />
             <Nav.Item>
               <Nav.Link
-                href="buscar"
+                href="buscar_amin"
                 eventKey="Busqueda"
                 className="encabezado"
               >

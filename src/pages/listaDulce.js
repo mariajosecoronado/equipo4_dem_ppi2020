@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/style.css";
-import { BsList } from "react-icons/bs";
+import { BsArrowLeft } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
 import { Card } from "react-bootstrap";
@@ -11,13 +11,18 @@ class listaDulce extends React.Component {
     return (
       <div>
         <>
-        <div className="encabezado">
-        <Nav.Link eventKey="link-1" className="encabezado" href="menu">
-              <h1>
-                <BsList />
-              </h1>
-            </Nav.Link>
-
+          <Nav className="justify-content-center " activeKey="/home">
+            <Nav.Item>
+              <Nav.Link
+                eventKey="link-1"
+                className="encabezado"
+                href="./inicio"
+              >
+                <h1>
+                  <BsArrowLeft />
+                </h1>
+              </Nav.Link>
+            </Nav.Item>
             <img
               className="icon-p"
               src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
@@ -25,19 +30,24 @@ class listaDulce extends React.Component {
               width="200"
               height="150"
             />
-
-            <Nav.Link eventKey="Busqueda" className="encabezado ">
-              <h1>
-                {" "}
-                <BsSearch />{" "}
-              </h1>
-            </Nav.Link>
-          </div>
-
+            <Nav.Item>
+              <Nav.Link
+                href="buscar"
+                eventKey="Busqueda"
+                className="encabezado"
+              >
+                <h1>
+                  {" "}
+                  <BsSearch />{" "}
+                </h1>
+              </Nav.Link>
+            </Nav.Item>
+          </Nav>
           <Nav className="justify-content-end" activeKey="/home">
             <Nav.Item></Nav.Item>
           </Nav>
         </>
+
         <br></br>
         <CardDeck>
           <Nav.Link className="black" href="recetaDulce">
