@@ -8,78 +8,78 @@ import { Carousel } from "react-bootstrap";
 import { CardDeck } from "react-bootstrap";
 import { Jumbotron } from "react-bootstrap";
 import { Card } from "react-bootstrap";
-import Swal from "sweetalert2";;
-
+import Swal from "sweetalert2";
 
 class inicioanonimo extends React.Component {
-  _Alert()  {
+  _Alert() {
     Swal.fire({
       title: "Debes iniciar sesión o registrarte",
       showCancelButton: true,
-      confirmButtonColor: '#3085d6',
-      cancelButtonColor: '#3085d6',
-      confirmButtonText: 'Iniciar sesión',
-      
-     
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#3085d6",
+      confirmButtonText: "Iniciar sesión"
     }).then((resultado) => {
       if (resultado.value) {
         window.location.href = "/iniciarS";
       }
-    })
-  
+    });
   }
- 
+
   render() {
-    
     return (
       <div>
-         <nav class="navbar navbar-dark">
-        <>
-          <Nav className="justify-content-center " activeKey="/home">
-            <Nav.Item>
-              <Nav.Link eventKey="link-1" className="encabezado">
-              </Nav.Link>
-              <Dropdown>
-  <Dropdown.Toggle variant="success" id="dropdown-basic">
-  <BsList />
-  </Dropdown.Toggle>
+        <nav class="navbar navbar-dark">
+          <>
+            <Nav className="justify-content-center " activeKey="/home">
+              <Nav.Item>
+                <Nav.Link eventKey="link-1" className="encabezado"></Nav.Link>
+                <Dropdown>
+                  <Dropdown.Toggle variant="success" id="dropdown-basic">
+                    <BsList />
+                  </Dropdown.Toggle>
 
-  <Dropdown.Menu>
-  <Dropdown.Item href="/inicioanonimo">PRINCIPAL</Dropdown.Item>
-    <Dropdown.Item href="iniciarS">PERFIL</Dropdown.Item>
-    <Dropdown.Divider />
-  <Dropdown.Item onClick={this._Alerta} href="/iniciarS">RECETAS SALADAS</Dropdown.Item>
-   <Dropdown.Item onClick={this._Alerta2} href="/iniciarS">RECETAS DULCES</Dropdown.Item>
-   <Dropdown.Divider />
-   <Dropdown.Item href="/iniciarS">INICIAR SESIÓN</Dropdown.Item>
-   <Dropdown.Item href="/registro">REGISTRARSE</Dropdown.Item>
-  </Dropdown.Menu>
-</Dropdown>
-            </Nav.Item>
-          </Nav>
-          <img
-            className="icon-p"
-            src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
-            alt="logo"
-            width="200"
-            height="150"
-          />
+                  <Dropdown.Menu>
+                    <Dropdown.Item href="/inicioanonimo">
+                      PRINCIPAL
+                    </Dropdown.Item>
+                    <Dropdown.Item href="iniciarS">PERFIL</Dropdown.Item>
+                    <Dropdown.Divider />
+                    <Dropdown.Item onClick={this._Alerta} href="/iniciarS">
+                      RECETAS SALADAS
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={this._Alerta2} href="/iniciarS">
+                      RECETAS DULCES
+                    </Dropdown.Item>
+                    <Dropdown.Divider />
+                    <Dropdown.Item href="/iniciarS">
+                      INICIAR SESIÓN
+                    </Dropdown.Item>
+                    <Dropdown.Item href="/registro">REGISTRARSE</Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
+              </Nav.Item>
+            </Nav>
+            <img
+              className="icon-p"
+              src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
+              alt="logo"
+              width="200"
+              height="150"
+            />
 
-          <Nav.Link href="" eventKey="Busqueda" className="encabezado ">
-            <h1>
-              {" "}
-              <BsSearch />{" "}
-            </h1>
-          </Nav.Link>
-         
-          </> 
-        
-          </nav>
+            <Nav.Link href="" eventKey="Busqueda" className="encabezado ">
+              <h1>
+                {" "}
+                <BsSearch />{" "}
+              </h1>
+            </Nav.Link>
+          </>
+        </nav>
         <Nav className="justify-content-end" activeKey="/home">
           <Nav.Item>
             <Nav.Link
               eventKey="link-1"
-              onClick={this._Alert} 
+              onClick={this._Alert}
               className="perfil-enlace  black"
             >
               Mi perfil
@@ -188,7 +188,16 @@ class inicioanonimo extends React.Component {
           <h1>QUIENES SOMOS?</h1>
           <h4> COOK TO WORK</h4>
           <p>
-          Es un servicio en el cual el usuario podrá encontrar soluciones rápidas y fáciles para cocinar, utilizando ingredientes ya sean pocos o básicos, esta es una página web que se llama Cook to work, este producto le permitirá al usuario encontrar ideas para realizar recetas con pocos ingredientes al alcance de su presupuesto, notamos una diferencia en común con otras páginas web la cual es que estas ya tienen unos ingredientes incorporados, mientras que Cook to work permite que los usuarios busquen recetas con los ingredientes que tienen a la mano, está dirigido a las personas que quieren ser creativas a la hora de cocinar.
+            Es un servicio en el cual el usuario podrá encontrar soluciones
+            rápidas y fáciles para cocinar, utilizando ingredientes ya sean
+            pocos o básicos, esta es una página web que se llama Cook to work,
+            este producto le permitirá al usuario encontrar ideas para realizar
+            recetas con pocos ingredientes al alcance de su presupuesto, notamos
+            una diferencia en común con otras páginas web la cual es que estas
+            ya tienen unos ingredientes incorporados, mientras que Cook to work
+            permite que los usuarios busquen recetas con los ingredientes que
+            tienen a la mano, está dirigido a las personas que quieren ser
+            creativas a la hora de cocinar.
           </p>
         </Jumbotron>
 
