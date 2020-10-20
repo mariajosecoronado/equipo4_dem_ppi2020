@@ -10,7 +10,7 @@ class Mensaje_admi extends React.Component {
       className="navegacion-chat"
     >
       <Nav.Item className="encabezado">
-        <Nav.Link   href="inicio">
+        <Nav.Link   href="mensajes_admin">
         <img
         href="inicio"
           className="icon-p"

@@ -430,3 +430,6 @@ background-color: #464646;
   color: black;
   justify-content: left; 
 }
+.letra_logo{
+  font-family: 'Lobster', cursive;
+}

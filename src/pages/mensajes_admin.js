@@ -19,12 +19,12 @@ class Mensajes_admin extends React.Component {
               </Nav.Link>
             </Nav.Item>
             <img
-            className="icon-p"
-            src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
-            alt="logo"
-            width="200"
-            height="150"
-          />
+              className="icon-p"
+              src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
+              alt="logo"
+              width="200"
+              height="150"
+            />
             <Nav.Item>
               <Nav.Link
                 href="buscar_admin "
@@ -56,35 +56,20 @@ class Mensajes_admin extends React.Component {
         </>
         <h2 className="mensajes_admin">Mensajes</h2>
         <div>
-        <Card>
-              <Nav.Link
-                className="card_mensaje2_admin"
-                href="recetas_sin_reportar_admin"
-                
-              >
-                <Card className="mensajes_admin">
-                
-
-                  <h1 >Camila Arroyave</h1>
-                 Me gusto la pagina
-                </Card>
-              </Nav.Link>
-              <Nav.Link
-                href="recetas_reportadas_admin"
-                className="card_mensaje1_admin"
-              >
-                
-                <Card className="mensajes_admin">
-                 
-                    
-                    <h1>Andres Agudelo</h1>
-                    Deberían mejorar
-                 
-                  
-                </Card>
-              </Nav.Link>
-            </Card>
-
+          <Card>
+            <Nav.Link className="card_mensaje2_admin" href="mensajes_admi">
+              <Card className="mensajes_admin">
+                <h1>Camila Arroyave</h1>
+                Me gusto la pagina
+              </Card>
+            </Nav.Link>
+            <Nav.Link href="mensajes_admi" className="card_mensaje1_admin">
+              <Card className="mensajes_admin">
+                <h1>Andres Agudelo</h1>
+                Deberían mejorar
+              </Card>
+            </Nav.Link>
+          </Card>
         </div>
       </div>
     );

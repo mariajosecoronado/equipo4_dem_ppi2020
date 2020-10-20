@@ -27,6 +27,7 @@ class Inicio extends React.Component {
             width="150"
             height="180"
           />
+<h1 className="letra_logo" >COOK TO WORK</h1>
 
                 
               </div>
