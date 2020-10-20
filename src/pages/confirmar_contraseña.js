@@ -1,7 +1,9 @@
 import React from "react";
 import "../style/style.css";
-import Swal from "sweetalert2";;
-import { Form, Button } from "react-bootstrap";
+import { Form,Button } from "react-bootstrap";
+import Swal from "sweetalert2";
+
+
 
 class confirmarC extends React.Component {
   _Alerta()  {

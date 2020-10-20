@@ -70,7 +70,7 @@ class inicioanonimo extends React.Component {
           <Nav.Item>
             <Nav.Link
               eventKey="link-1"
-              onClick={this._Alert} href="/iniciarS"
+              onClick={this._Alert} 
               className="perfil-enlace  black"
             >
               Mi perfil
