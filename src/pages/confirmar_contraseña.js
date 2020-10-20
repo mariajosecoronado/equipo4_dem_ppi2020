@@ -1,26 +1,46 @@
 import React from "react";
 import "../style/style.css";
 import { Form,Button } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 import Swal from "sweetalert2";
+import { BsArrowLeft } from "react-icons/bs";
 
 
-
-class confirmarC extends React.Component {
+class Confirmar_contraseña extends React.Component {
   _Alerta()  {
     Swal.fire("Tu contraseña se ha recuperado con éxito");;
   }
   render() {
     return (
-      <div className="container-fluid ">
-        <div className="row">
-          <div className="col">
-            <img
-              className="d-block w-50"
-              src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
-              alt="logo"
-              width="100"
-              
-            />
+      <div>
+      <div className="encabezado">
+      <Nav.Item>
+            <Nav.Link
+              eventKey="link-1"
+              className="encabezado"
+              href="./iniciarS"
+            >
+              <h1>
+                <BsArrowLeft />
+              </h1>
+            </Nav.Link>
+          </Nav.Item>
+
+        <img
+          className="icon-p"
+          src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
+          alt="logo"
+          width="200"
+          height="150"
+        />
+
+
+      
+      </div>
+
+      <Nav className="justify-content-end" activeKey="/home">
+        <Nav.Item></Nav.Item>
+      </Nav>
 
             <h1 className="titulo-IR">
            
@@ -50,10 +70,11 @@ class confirmarC extends React.Component {
               </Form>
             </div>
           </div>
-        </div>
-      </div>
-    );
-  }
-}
+        
+      
 
-export default confirmarC;
+        );
+      }
+    }
+    
+    export default Confirmar_contraseña;

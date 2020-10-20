@@ -13,15 +13,24 @@ import Swal from "sweetalert2";;
 
 class inicioanonimo extends React.Component {
   _Alert()  {
-    Swal.fire("Debes iniciar sesión o registrarte");;
+    Swal.fire({
+      title: "Debes iniciar sesión o registrarte",
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      confirmrButtonColor: '#3085d6',
+      confirmButtonText: 'Iniciar sesión',
+      confirmrButtonText: 'Registrarse'
+     
+    }).then((resultado) => {
+      if (resultado.value) {
+        window.location.href = "/iniciarS";
+      }
+    })
+  
   }
-  _Alerta()  {
-    Swal.fire("Debes iniciar sesión o registrarte");;
-  }
-  _Alerta2()  {
-    Swal.fire("Debes iniciar sesión o registrarte");;
-  }
+ 
   render() {
+    
     return (
       <div>
          <nav class="navbar navbar-dark">
