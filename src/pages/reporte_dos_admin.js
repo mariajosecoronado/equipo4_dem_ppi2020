@@ -8,7 +8,7 @@ import Swal from "sweetalert2";
 
 class reporte_dos_admin extends React.Component {
   _Alert()  {
-    Swal.fire("Está publicación no ha sido reportada");
+    Swal.fire("Esta publicación no ha sido reportada");
     
   }
   render() {

@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/style.css";
-import { BsList } from "react-icons/bs";
+import { BsArrowLeft } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
 import { Card } from "react-bootstrap";
@@ -14,7 +14,7 @@ class perfil3 extends React.Component {
           <Nav.Item>
             <Nav.Link eventKey="link-1" className="encabezado" href="menu">
               <h1>
-                <BsList />
+                <BsArrowLeft />
               </h1>
             </Nav.Link>
           </Nav.Item>

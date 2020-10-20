@@ -16,7 +16,11 @@ class recetaRollos extends React.Component {
     Swal.fire("Publicación reportada");
   }
   _Alert() {
-    Swal.fire("Receta descargada");
+    Swal.fire(
+      '¡EXCELENTE!',
+      'Receta descargada correctamente',
+      'success'
+    )
   }
   render() {
     return (

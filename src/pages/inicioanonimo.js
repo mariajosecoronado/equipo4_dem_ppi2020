@@ -17,7 +17,8 @@ class inicioanonimo extends React.Component {
       showCancelButton: true,
       confirmButtonColor: "#3085d6",
       cancelButtonColor: "#3085d6",
-      confirmButtonText: "Iniciar sesión"
+      confirmButtonText: "Iniciar sesión",
+      cancelButtonText: "Cancelar"
     }).then((resultado) => {
       if (resultado.value) {
         window.location.href = "/iniciarS";
@@ -44,10 +45,10 @@ class inicioanonimo extends React.Component {
                     </Dropdown.Item>
                     <Dropdown.Item href="iniciarS">PERFIL</Dropdown.Item>
                     <Dropdown.Divider />
-                    <Dropdown.Item onClick={this._Alerta} href="/iniciarS">
+                    <Dropdown.Item onClick={this._Alert}>
                       RECETAS SALADAS
                     </Dropdown.Item>
-                    <Dropdown.Item onClick={this._Alerta2} href="/iniciarS">
+                    <Dropdown.Item onClick={this._Alert}>
                       RECETAS DULCES
                     </Dropdown.Item>
                     <Dropdown.Divider />
@@ -148,7 +149,7 @@ class inicioanonimo extends React.Component {
         </div>
         <div>
           <CardDeck>
-            <Nav.Link onClick={this._Alert} href="/iniciarS" className="black">
+            <Nav.Link onClick={this._Alert}  className="black">
               <Card>
                 <Card.Img
                   variant="top"
@@ -164,7 +165,7 @@ class inicioanonimo extends React.Component {
                 </Card.Body>
               </Card>
             </Nav.Link>
-            <Nav.Link onClick={this._Alert} href="/iniciarS" className="black">
+            <Nav.Link onClick={this._Alert}  className="black">
               <Card>
                 <Card.Img
                   variant="top"

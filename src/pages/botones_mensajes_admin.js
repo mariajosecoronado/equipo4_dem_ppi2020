@@ -13,9 +13,7 @@ class botones_mensajes_admin extends React.Component {
             <Nav.Item>
               <Nav.Link
                 eventKey="link-1"
-                className="encabezado"
-                href="./inicio_admin"
-              >
+                className="encabezado" href="./inicio_admin">
                 <h1>
                   <BsArrowLeft />
                 </h1>

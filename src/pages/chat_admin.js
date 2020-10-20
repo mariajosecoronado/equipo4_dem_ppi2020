@@ -3,6 +3,7 @@ import "../style/style.css";
 import { Nav } from "react-bootstrap";
 import { Form } from "react-bootstrap";
 
+
 class chat_admin extends React.Component {
   render() {
     return (
@@ -38,7 +39,6 @@ class chat_admin extends React.Component {
             </Nav.Link>
           </Nav.Item>
         </Nav>
-        <br></br>
         <br></br>
         <br></br>
         <br></br>

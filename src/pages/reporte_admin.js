@@ -27,15 +27,9 @@ class reporte_admin extends React.Component {
       cancelButtonColor: '#d33',
       confirmButtonText: 'Sí, eliminar!'
      
-    }).then((result) => {
-      if (result.isConfirmed) {
-        Swal.fire(
-          '¡ELIMINADO!',
-      'Su archivo ha sido eliminado .',
-      'success'
-      
-      
-        )
+    }).then((resultado) => {
+      if (resultado.value) {
+        window.location.href = "/reporte_dos_admin";
       }
     })
     

@@ -7,8 +7,18 @@ import { BsArrowLeft } from "react-icons/bs";
 
 
 class Confirmar_contraseña extends React.Component {
-  _Alerta()  {
-    Swal.fire("Tu contraseña se ha recuperado con éxito");;
+  _Alert() {
+    Swal.fire({
+      title: "!Tu contraseña se ha recuperado con éxito¡",
+      showCancelButton: true,
+      confirmButtonColor: "#33ff46",
+      cancelButtonColor: "#33ff46",
+      confirmButtonText: "Iniciar sesión"
+    }).then((resultado) => {
+      if (resultado.value) {
+        window.location.href = "/iniciarS";
+      }
+    });
   }
   render() {
     return (
@@ -64,7 +74,7 @@ class Confirmar_contraseña extends React.Component {
                 
                 <br />
                 <br />
-                <Button onClick={this._Alerta} href="/iniciarS" className="boton-I">
+                <Button onClick={this._Alert}  className="boton-I">
                  Confirmar
                 </Button>
               </Form>

@@ -2,21 +2,25 @@ import React from "react";
 import "../style/style.css";
 import { Nav } from "react-bootstrap";
 import { Card } from "react-bootstrap";
-import { BsList } from "react-icons/bs";
+
 import { BsSearch } from "react-icons/bs";
 import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import ReactPlayer from "react-player";
 import { BsArrowLeft } from "react-icons/bs";
 import Swal from "sweetalert2";;
-import {} from "react-bootstrap";
+
 
 class recetaDulce extends React.Component {
   _Alerta()  {
     Swal.fire("Publicación reportada");;
   }
   _Alert()  {
-    Swal.fire("Receta descargada");;
+    Swal.fire(
+      '¡EXCELENTE!',
+      'Receta descargada correctamente',
+      'success'
+    )
   }
   render() {
     return ( 
@@ -24,9 +28,9 @@ class recetaDulce extends React.Component {
       
       <div>
         <div className="encabezado">
-          <Nav.Link eventKey="link-1" className="encabezado" href="menu">
+          <Nav.Link eventKey="link-1" className="encabezado" href="perfil2">
             <h1>
-              <BsList />
+              < BsArrowLeft  />
             </h1>
           </Nav.Link>
 
@@ -38,7 +42,7 @@ class recetaDulce extends React.Component {
             height="150"
           />
 
-          <Nav.Link eventKey="Busqueda" className="encabezado ">
+          <Nav.Link eventKey="Busqueda" className="encabezado " href="/buscar">
             <h1>
               {" "}
               <BsSearch />{" "}

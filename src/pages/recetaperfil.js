@@ -3,7 +3,6 @@ import "../style/style.css";
 import { Nav } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
-import { BsList } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
 import { BsFillChatDotsFill } from "react-icons/bs";
@@ -11,15 +10,37 @@ import { AiFillClockCircle } from "react-icons/ai";
 import ReactPlayer from "react-player";
 import { BsArrowLeft } from "react-icons/bs";
 import Swal from "sweetalert2";;
-import {} from "react-bootstrap";
+
 
 class recetaDulce extends React.Component {
-  _Alert()  {
-    Swal.fire("Está publicación ha sido eliminada");;
+ 
+  _Alert() {
+    Swal.fire({
+      title:"Está publicación ha sido eliminada",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#3085d6",
+      confirmButtonText: "Aceptar",
+      cancelButtonText: "Cancelar"
+    }).then((resultado) => {
+      if (resultado.value) {
+        window.location.href = "/Perfil";
+      }
+    });
   }
-  _Alerta()  {
-    Swal.fire("Tu publicación ha sido editada exitosamente");;
-   
+  _Alerta() {
+    Swal.fire({
+      title: "Tu publicación ha sido editada exitosamente",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#3085d6",
+      confirmButtonText: "Aceptar",
+      cancelButtonText: "Cancelar"
+    }).then((resultado) => {
+      if (resultado.value) {
+        window.location.href = "/nuevareceta";
+      }
+    });
   }
   render() {
     return (
@@ -122,10 +143,10 @@ Achatamos la bolita y la colocamos sobre papel de horno o parafinado en una fuen
         </div>
         
         <div className="boton">
-          <Button onClick={this._Alert} href="/Perfil" className="boton-I">
+          <Button onClick={this._Alert}  className="boton-I">
             Eliminar
           </Button>
-          <Button onClick={this._Alerta} href="/nuevareceta" className="boton-I">
+          <Button onClick={this._Alerta}  className="boton-I">
           Editar
           </Button>
   </div>

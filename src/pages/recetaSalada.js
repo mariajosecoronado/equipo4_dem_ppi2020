@@ -2,7 +2,7 @@ import React from "react";
 import "../style/style.css";
 import { Nav } from "react-bootstrap";
 import { Card } from "react-bootstrap";
-import { BsList } from "react-icons/bs";
+
 import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { BsFillChatQuoteFill } from "react-icons/bs";
@@ -15,16 +15,20 @@ class recetaSalada extends React.Component {
     Swal.fire("Publicación reportada")
   }
   _Alert(){
-    Swal.fire("Receta descargada")
+    Swal.fire(
+      '¡EXCELENTE!',
+      'Receta descargada correctamente',
+      'success'
+    )
   }
   
   render() {
     return (
       <div>
        <div className="encabezado">
-            <Nav.Link eventKey="link-1" className="encabezado" href="menu">
+            <Nav.Link eventKey="link-1" className="encabezado" href="">
               <h1>
-                <BsList />
+                <BsArrowLeft />
               </h1>
             </Nav.Link>
 

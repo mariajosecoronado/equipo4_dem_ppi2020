@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/style.css";
-import { BsList } from "react-icons/bs";
+
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
 import { Card } from "react-bootstrap";
@@ -21,13 +21,12 @@ class nuevaReceta extends React.Component {
     })
     .then((resultado) => {
       if (resultado.value) {
-        window.location.href = "/apertura";
+        window.location.href = "/recetaperfil";
       }
     });
 };
     
-  
- 
+
   _Alert2()  {
     Swal.fire({
       title: 'IMAGEN',
@@ -39,15 +38,14 @@ class nuevaReceta extends React.Component {
     });
    
   }
-  
-     
+ 
   render() {
     return (
       <div>
         <div className="encabezado">
-          <Nav.Link eventKey="link-1" className="encabezado" href="menu">
+          <Nav.Link eventKey="link-1" className="encabezado" href="recetaperfil">
             <h1>
-              <BsList />
+              <BsArrowLeft />
             </h1>
           </Nav.Link>
 
@@ -123,6 +121,7 @@ class nuevaReceta extends React.Component {
           <br></br>
           <Card border="success" style={{ width: "18rem" }}>
             <Card.Header>
+            
               Preparación - Tiempo <AiFillClockCircle />
             </Card.Header>
 
