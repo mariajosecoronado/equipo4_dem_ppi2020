@@ -5,18 +5,16 @@ import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import { BsSearch } from "react-icons/bs";
 import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
-import { BsFillChatDotsFill } from "react-icons/bs";
+
 import { AiFillClockCircle } from "react-icons/ai";
 import ReactPlayer from "react-player";
 import { BsArrowLeft } from "react-icons/bs";
-import Swal from "sweetalert2";;
-
+import Swal from "sweetalert2";
 
 class recetaDulce extends React.Component {
- 
   _Alert() {
     Swal.fire({
-      title:"Está publicación ha sido eliminada",
+      title: "Está publicación ha sido eliminada",
       showCancelButton: true,
       confirmButtonColor: "#14dd28",
       cancelButtonColor: "#14dd28",
@@ -30,7 +28,7 @@ class recetaDulce extends React.Component {
   }
   _Alerta() {
     Swal.fire({
-      title: "Tu publicación ha sido editada exitosamente",
+      title: "¿Quieres editar esta publicación?",
       showCancelButton: true,
       confirmButtonColor: "#3085d6",
       cancelButtonColor: "#3085d6",
@@ -62,7 +60,7 @@ class recetaDulce extends React.Component {
             height="150"
           />
           <Nav.Item>
-            <Nav.Link eventKey="Busqueda" className="encabezado ">
+            <Nav.Link href="buscar" eventKey="Busqueda" className="encabezado ">
               <h1>
                 {" "}
                 <BsSearch />{" "}
@@ -126,32 +124,39 @@ class recetaDulce extends React.Component {
           </Card>
           <br />
           <Card border="success" style={{ width: "18rem" }}>
-            <Card.Header>Receta - Tiempo < AiFillClockCircle/></Card.Header>
+            <Card.Header>
+              Receta - Tiempo <AiFillClockCircle />
+            </Card.Header>
             <Card.Body>
               <Card.Text>
-              Ponemos la mantequilla en un bol y la derretimos unos segundos en el microondas. En menos de un minuto, ya vemos que comienza a derretirse.
-Mezclamos la mantequilla con el azúcar en un bol y comenzamos a batir hasta conseguir una crema uniforme.
-Aregamos el huevo y la esencia de vainilla a la mezcla y seguimos batiendo hasta que se integren.
-En otro bol mezclamos la harina con la levadura y la añadimos a la mezcla de huevo, mantequilla y azúcar.
-Con un cuchillo troceamos el chocolate en dados irregulares y los incorporamos a la mezcla anterior.
-Con la ayuda de un tenedor comenzamos a integrar los ingredientes secos con los líquidos. Cuando tengamos una especie de arena comenzamos a compactarlos con las manos hasta formar una bola.
-Cogemos pequeñas porciones, de unos 30 g. y formamos una bola con las manos.
-Achatamos la bolita y la colocamos sobre papel de horno o parafinado en una fuente de horno. Vamos haciendo lo mismo con el resto de la masa.
+                Ponemos la mantequilla en un bol y la derretimos unos segundos
+                en el microondas. En menos de un minuto, ya vemos que comienza a
+                derretirse. Mezclamos la mantequilla con el azúcar en un bol y
+                comenzamos a batir hasta conseguir una crema uniforme. Aregamos
+                el huevo y la esencia de vainilla a la mezcla y seguimos
+                batiendo hasta que se integren. En otro bol mezclamos la harina
+                con la levadura y la añadimos a la mezcla de huevo, mantequilla
+                y azúcar. Con un cuchillo troceamos el chocolate en dados
+                irregulares y los incorporamos a la mezcla anterior. Con la
+                ayuda de un tenedor comenzamos a integrar los ingredientes secos
+                con los líquidos. Cuando tengamos una especie de arena
+                comenzamos a compactarlos con las manos hasta formar una bola.
+                Cogemos pequeñas porciones, de unos 30 g. y formamos una bola
+                con las manos. Achatamos la bolita y la colocamos sobre papel de
+                horno o parafinado en una fuente de horno. Vamos haciendo lo
+                mismo con el resto de la masa.
               </Card.Text>
             </Card.Body>
           </Card>
         </div>
-        
         <div className="boton">
-          <Button onClick={this._Alert}  className="boton-I">
+          <Button onClick={this._Alert} className="boton-I">
             Eliminar
           </Button>
-          <Button onClick={this._Alerta}  className="boton-I">
-          Editar
+          <Button onClick={this._Alerta} className="boton-I">
+            Editar
           </Button>
-  </div>
-         
-
+        </div>
         <footer className="header">
           CONTÁCTENOS
           <button className="button">
