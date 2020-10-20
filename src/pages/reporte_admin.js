@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/style.css";
-import { BsList } from "react-icons/bs";
+import { BsArrowLeft } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
 import { Card,Button} from "react-bootstrap";
@@ -42,14 +42,15 @@ class reporte_admin extends React.Component {
     return (
       <div>
         <Nav className="justify-content-center " activeKey="/home">
-          <Nav.Item>
-            <Nav.Link eventKey="link-1" className="encabezado" href="menu">
-              <h1>
-                <BsList />
-              </h1>
-            </Nav.Link>
-          </Nav.Item>
-
+        <Nav.Item>
+              <Nav.Link
+                eventKey="link-1"
+                className="encabezado" href="./recetas_reportadas_admin">
+                <h1>
+                  <BsArrowLeft />
+                </h1>
+              </Nav.Link>
+            </Nav.Item>
           <img
             className="icon-p"
             src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
@@ -59,7 +60,7 @@ class reporte_admin extends React.Component {
           />
 
           <Nav.Item>
-            <Nav.Link eventKey="Busqueda" className="encabezado ">
+            <Nav.Link href="buscar_admin" eventKey="Busqueda" className="encabezado ">
               <h1>
                 {" "}
                 <BsSearch />{" "}

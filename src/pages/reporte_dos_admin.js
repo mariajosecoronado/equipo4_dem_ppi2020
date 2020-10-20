@@ -1,24 +1,27 @@
 import React from "react";
 import "../style/style.css";
-import { BsList } from "react-icons/bs";
+import { BsArrowLeft } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
-import { Card,Button} from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
 import Swal from "sweetalert2";
 
 class reporte_dos_admin extends React.Component {
-  _Alert()  {
+  _Alert() {
     Swal.fire("Esta publicación no ha sido reportada");
-    
   }
   render() {
     return (
       <div>
         <Nav className="justify-content-center " activeKey="/home">
           <Nav.Item>
-            <Nav.Link eventKey="link-1" className="encabezado" href="menu">
+            <Nav.Link
+              eventKey="link-1"
+              className="encabezado"
+              href="./recetas_reportadas_admin"
+            >
               <h1>
-                <BsList />
+                <BsArrowLeft />
               </h1>
             </Nav.Link>
           </Nav.Item>
@@ -32,7 +35,11 @@ class reporte_dos_admin extends React.Component {
           />
 
           <Nav.Item>
-            <Nav.Link eventKey="Busqueda" className="encabezado ">
+            <Nav.Link
+              href="buscar_admin"
+              eventKey="Busqueda"
+              className="encabezado "
+            >
               <h1>
                 {" "}
                 <BsSearch />{" "}
@@ -72,16 +79,12 @@ class reporte_dos_admin extends React.Component {
             <Card.Body>
               <Card.Title>Rollos de Pollo</Card.Title>
 
-              <Button onClick={this._Alert}  className="botonR1">
-              
+              <Button onClick={this._Alert} className="botonR1">
                 Ver más
               </Button>
             </Card.Body>
           </Card>
-
-         
         </div>
-       
       </div>
     );
   }
