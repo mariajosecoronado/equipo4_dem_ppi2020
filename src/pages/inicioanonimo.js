@@ -17,9 +17,9 @@ class inicioanonimo extends React.Component {
       title: "Debes iniciar sesión o registrarte",
       showCancelButton: true,
       confirmButtonColor: '#3085d6',
-      confirmrButtonColor: '#3085d6',
+      cancelButtonColor: '#3085d6',
       confirmButtonText: 'Iniciar sesión',
-      confirmrButtonText: 'Registrarse'
+      cancelButtonText: 'Registrarse'
      
     }).then((resultado) => {
       if (resultado.value) {

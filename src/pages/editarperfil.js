@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/style.css";
-import { BsList } from "react-icons/bs";
+
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
 import { BsFillChatQuoteFill } from "react-icons/bs";
@@ -31,7 +31,7 @@ class editarPerfil extends React.Component {
             height="150"
           />
           <Nav.Item>
-            <Nav.Link eventKey="Busqueda" className="encabezado ">
+            <Nav.Link href="buscar" eventKey="Busqueda" className="encabezado ">
               <h1>
                 {" "}
                 <BsSearch />{" "}
