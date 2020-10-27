@@ -10,19 +10,22 @@ import Swal from "sweetalert2";;
 
 class editarPerfil extends React.Component {
   _Alerta()  {
-    Swal.fire("Tus cambios han sido guardados");
+    Swal.fire("¡EXCELENTE!", "Tus cambios han sido guardados correctamente", "success");
   }
+  _Alert() {
+    Swal.fire("¡EXCELENTE!","Foto cambiada correctamente",  "success");
+  }
+  _
   render() {
     return (
       <div>
-        <Nav className="justify-content-center " activeKey="/devolver">
-            <Nav.Item>
-              <Nav.Link href="perfil" eventKey="link-1" className="encabezado">
-                <h1>
-                  <BsArrowLeft />
-                </h1>
-              </Nav.Link>
-            </Nav.Item>
+         <div className="encabezado">
+          <Nav.Link eventKey="link-1" className="encabezado" href="perfil">
+            <h1>
+              <BsArrowLeft />
+            </h1>
+          </Nav.Link>
+
           <img
             className="icon-p"
             src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
@@ -30,18 +33,14 @@ class editarPerfil extends React.Component {
             width="200"
             height="150"
           />
-          <Nav.Item>
-            <Nav.Link href="buscar" eventKey="Busqueda" className="encabezado ">
-              <h1>
-                {" "}
-                <BsSearch />{" "}
-              </h1>
-            </Nav.Link>
-          </Nav.Item>
-        </Nav>
-        <Nav className="justify-content-end" activeKey="/home">
-          <Nav.Item></Nav.Item>
-        </Nav>
+
+          <Nav.Link eventKey="Busqueda" className="encabezado " href="/buscar">
+            <h1>
+              {" "}
+              <BsSearch />{" "}
+            </h1>
+          </Nav.Link>
+        </div>
         <div className="fotoperfil">
           <img
             className="fotoperfil"
@@ -54,7 +53,7 @@ class editarPerfil extends React.Component {
         <div className="unotitulo">
           <h6> Alejandro Pérez </h6>
         </div><br></br>
-        <Button href="/editarperfil" className="boton-I">
+        <Button href="/editarperfil" className="boton-I" onClick={this._Alert}>
           Subir nueva foto
         </Button><br></br>
         <div className="input">

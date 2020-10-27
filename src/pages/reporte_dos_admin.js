@@ -13,18 +13,12 @@ class reporte_dos_admin extends React.Component {
   render() {
     return (
       <div>
-        <Nav className="justify-content-center " activeKey="/home">
-          <Nav.Item>
-            <Nav.Link
-              eventKey="link-1"
-              className="encabezado"
-              href="./recetas_reportadas_admin"
-            >
-              <h1>
-                <BsArrowLeft />
-              </h1>
-            </Nav.Link>
-          </Nav.Item>
+       <div className="encabezado">
+          <Nav.Link eventKey="link-1" className="encabezado" href="recetas_reportadas_admin">
+            <h1>
+              <BsArrowLeft />
+            </h1>
+          </Nav.Link>
 
           <img
             className="icon-p"
@@ -34,19 +28,13 @@ class reporte_dos_admin extends React.Component {
             height="150"
           />
 
-          <Nav.Item>
-            <Nav.Link
-              href="buscar_admin"
-              eventKey="Busqueda"
-              className="encabezado "
-            >
-              <h1>
-                {" "}
-                <BsSearch />{" "}
-              </h1>
-            </Nav.Link>
-          </Nav.Item>
-        </Nav>
+          <Nav.Link eventKey="Busqueda" className="encabezado " href="/buscar_admin">
+            <h1>
+              {" "}
+              <BsSearch />{" "}
+            </h1>
+          </Nav.Link>
+        </div>
 
         <Nav className="justify-content-end" activeKey="/home">
           <Nav.Item></Nav.Item>

@@ -31,7 +31,7 @@ class buscar_admin extends React.Component {
   <Dropdown.Item href="/listaSalado_admin">RECETAS SALADAS</Dropdown.Item>
    <Dropdown.Item href="/listaDulce_admin">RECETAS DULCES</Dropdown.Item>
    <Dropdown.Divider />
-   <Dropdown.Item href="/apertura">CERRAR SESIÓN</Dropdown.Item>
+   <Dropdown.Item href="/iniciarS">CERRAR SESIÓN</Dropdown.Item>
   </Dropdown.Menu>
 </Dropdown>
             </Nav.Item>

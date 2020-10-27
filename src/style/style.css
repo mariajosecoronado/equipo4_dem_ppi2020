@@ -117,6 +117,8 @@ background-color: #464646;
 .Lupa {
   margin-top: 20px;
   color: black;
+  justify-content: center;
+  height:300;
 }
 
 .nombre-receta {
@@ -137,6 +139,12 @@ background-color: #464646;
   border: 2px solid #33ff46;
   margin-top: 2px;
   border-radius: 2px;
+}
+.cards{
+  margin-top: 2px;
+  border-radius: 2px;
+  width:150px;
+height:180px;
 }
 
 .header {

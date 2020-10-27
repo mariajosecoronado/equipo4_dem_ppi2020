@@ -3,7 +3,7 @@ import "../style/style.css";
 import { Spinner } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 
-class Inicio extends React.Component {
+class apertura extends React.Component {
   render() {
     return (
       <div className="container-fluid fondoInicio">
@@ -60,4 +60,4 @@ class Inicio extends React.Component {
   }
 }
 
-export default Inicio;
+export default apertura;

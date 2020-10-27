@@ -9,17 +9,15 @@ class botones_mensajes_admin extends React.Component {
     return (
       <div>
         <>
-          <Nav className="justify-content-center " activeKey="/home">
-            <Nav.Item>
-              <Nav.Link
-                eventKey="link-1"
-                className="encabezado" href="./inicio_admin">
-                <h1>
-                  <BsArrowLeft />
-                </h1>
-              </Nav.Link>
-            </Nav.Item>
-            <img
+        <div className="encabezado">
+          <Nav.Link eventKey="link-1" className="encabezado" 
+          href="inicio__admin">
+            <h1>
+              <BsArrowLeft />
+            </h1>
+          </Nav.Link>
+
+          <img
             className="icon-p"
             src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
             alt="logo"
@@ -27,20 +25,13 @@ class botones_mensajes_admin extends React.Component {
             height="150"
           />
 
-
-            <Nav.Item>
-              <Nav.Link
-                eventKey="Busqueda"
-                className="encabezado"
-                href="./buscar_admin"
-              >
-                <h1>
-                  {" "}
-                  <BsSearch />{" "}
-                </h1>
-              </Nav.Link>
-            </Nav.Item>
-          </Nav>
+          <Nav.Link eventKey="Busqueda" className="encabezado " href="/buscar_admin">
+            <h1>
+              {" "}
+              <BsSearch />{" "}
+            </h1>
+          </Nav.Link>
+        </div>
         </>
         <br />
         <br />

@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/style.css";
 import { Nav } from "react-bootstrap";
+import ReactPlayer from "react-player";
 import { Card } from "react-bootstrap";
 import { BsArrowLeft } from "react-icons/bs";
 import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
@@ -12,14 +13,13 @@ class Recetas_sin_reportarR_admin extends React.Component {
   render() {
     return (
       <div>
-        <Nav className="justify-content-center " activeKey="/devolver">
-          <Nav.Item>
-            <Nav.Link href="listaSalado_admin" eventKey="link-1" className="encabezado">
-              <h1>
-                <BsArrowLeft />
-              </h1>
-            </Nav.Link>
-          </Nav.Item>
+         <div className="encabezado">
+          <Nav.Link eventKey="link-1" className="encabezado" href="listaSalado_admin">
+            <h1>
+              <BsArrowLeft />
+            </h1>
+          </Nav.Link>
+
           <img
             className="icon-p"
             src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
@@ -27,24 +27,24 @@ class Recetas_sin_reportarR_admin extends React.Component {
             width="200"
             height="150"
           />
-          <Nav.Item>
-            <Nav.Link href="buscar_admin" eventKey="Busqueda" className="encabezado ">
-              <h1>
-                {" "}
-                <BsSearch />{" "}
-              </h1>
-            </Nav.Link>
-          </Nav.Item>
-        </Nav>
+
+          <Nav.Link eventKey="Busqueda" className="encabezado " href="/buscar_admin">
+            <h1>
+              {" "}
+              <BsSearch />{" "}
+            </h1>
+          </Nav.Link>
+        </div>
         <Nav className="justify-content-end" activeKey="/home">
           <Nav.Item></Nav.Item>
         </Nav>
         <div>
-          <img
-            src="https://recetasfacil.online/wp-content/uploads/2018/12/Recetas-f%C3%A1ciles-de-pollo-para-ni%C3%B1os-e1544662062923.jpg"
-            alt="publicacion de receta salada"
-            height="250px"
+        <ReactPlayer
+            url="https://www.youtube.com/watch?reload=9&v=fVRzpIMQliw"
+            className="react-player"
+            playing
             width="100%"
+            height="270px"
           />
           <p className="text-muted"> Publicado el 09/05/2020</p>
           <div className="public-flex">
