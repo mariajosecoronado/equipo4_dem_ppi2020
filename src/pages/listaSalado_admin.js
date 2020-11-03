@@ -101,25 +101,6 @@ class listaSalado_admin extends React.Component {
             </Card.Link>
           </Card>
         </CardDeck>
-
-        <Nav.Item>
-          <Nav.Link
-            eventKey="link-1"
-            className="encabezado"
-            href="./inicio_admin"
-          >
-            <h1>
-              <BsArrowLeft />
-            </h1>
-          </Nav.Link>
-        </Nav.Item>
-        <img
-          className="icon-p"
-          src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
-          alt="logo"
-          width="200"
-          height="150"
-        />
       </div>
     );
   }
