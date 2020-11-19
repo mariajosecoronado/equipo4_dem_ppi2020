@@ -103,13 +103,13 @@ justify-content: space-evenly;
 .mensajes_admin {
   text-align: center;
 }
-.Busqueda {
+.Search {
   display: flex;
-  justify-content: center;
   border: 1px solid white;
-  background-color: #14dd28;
-  text-align: right;
   border: 2px solid rgb(8, 8, 8);
+  text-align: center;
+  
+
 }
 .Lupa {
   margin-top: 20px;
@@ -157,6 +157,8 @@ height:180px;
 .icon-p {
   text-align: center;
 }
+
+
 
 .public-flex {
   display: flex;

@@ -10,8 +10,9 @@ class buscar extends React.Component {
   render() {
     return (
       <div>
-         <nav class="navbar navbar-dark">
+         <nav class="navbar navbar-dark" py-5>
         <>
+        
           <Nav className="justify-content-center " activeKey="/home">
             <Nav.Item>
               <Nav.Link eventKey="link-1" className="encabezado">
@@ -34,6 +35,7 @@ class buscar extends React.Component {
             </Nav.Item>
           </Nav>
           <img
+              
             className="icon-p"
             src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
             alt="logo"
@@ -43,19 +45,22 @@ class buscar extends React.Component {
 
 
           <Nav.Link  eventKey="Busqueda" className="encabezado ">
-            <h1>
+            <h1  >
               {" "}
               
             </h1>
+            
           </Nav.Link>
           </> 
         
           </nav>
-          <Form inline>
+          <Form inline >
             <FormControl
               type="text"
-              placeholder="Search"
-              className="Busqueda"
+              placeholder="Busque una receta"
+              className="Search"
+              
+            
             />
             <Nav.Item>
               <Nav.Link href="recetaDulce" eventKey="Busqueda" className="Lupa">

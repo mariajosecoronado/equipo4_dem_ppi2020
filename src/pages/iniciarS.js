@@ -4,18 +4,22 @@ import { Form, Button } from "react-bootstrap";
 
 class iniciarS extends React.Component {
   render() {
-    return (
+    return ( 
+    
       <div className="container-fluid ">
         <div className="row">
           <div className="col">
+           
             <img
-              className="d-block w-50"
-              src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
-              alt="logo"
-              width="100"
-            />
-
+              
+            className="icon-p"
+            src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
+            alt="logo"
+            width="200"
+            height="150"
+          />
             <h1 className="titulo-IR">
+            
               BIENVENID@ A COOK TO WORK <br />
               INICIE SESIÓN AQUÍ
             </h1>
