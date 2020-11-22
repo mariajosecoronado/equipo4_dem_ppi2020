@@ -12,10 +12,19 @@ import Swal from "sweetalert2";
 
 class recetaDulce extends React.Component {
   _Alerta() {
-    Swal.fire("Publicación reportada");
+    Swal.fire({
+      icon: 'success',
+      text: 'Publicación reportada!',
+      
+    })
   }
   _Alert() {
-    Swal.fire("¡EXCELENTE!", "Receta descargada correctamente", "success");
+    Swal.fire({
+      icon: 'warning',
+      title: 'Lo sentimos',
+      text: 'Esta opción no esta disponible ahora',
+      
+    })
   }
   render() {
     return (

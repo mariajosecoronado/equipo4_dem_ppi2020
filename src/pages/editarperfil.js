@@ -10,8 +10,20 @@ import Swal from "sweetalert2";;
 
 class editarPerfil extends React.Component {
   _Alerta()  {
-    Swal.fire("¡EXCELENTE!", "Tus cambios han sido guardados correctamente", "success");
-  }
+    
+      Swal.fire({
+        title: "Está publicación ha sido eliminada",
+        showCancelButton: true,
+        confirmButtonColor: "#14dd28",
+        cancelButtonColor: "#14dd28",
+        confirmButtonText: "Aceptar",
+        cancelButtonText: "Cancelar"
+      }).then((resultado) => {
+        if (resultado.value) {
+          window.location.href = "/Perfil";
+        }
+      });
+    }
   _Alert() {
     Swal.fire("¡EXCELENTE!","Foto cambiada correctamente",  "success");
   }

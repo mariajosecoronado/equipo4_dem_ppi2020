@@ -11,15 +11,20 @@ import Swal from "sweetalert2"
 import {} from "react-bootstrap";
 
 class recetaSalada extends React.Component {
-  _Alerta(){
-    Swal.fire("Publicación reportada")
+  _Alerta() {
+    Swal.fire({
+      icon: 'success',
+      text: 'Publicación reportada!',
+      
+    })
   }
-  _Alert(){
-    Swal.fire(
-      '¡EXCELENTE!',
-      'Receta descargada correctamente',
-      'success'
-    )
+  _Alert() {
+    Swal.fire({
+      icon: 'warning',
+      title: 'Lo sentimos',
+      text: 'Esta opción no esta disponible ahora',
+      
+    })
   }
   
   render() {

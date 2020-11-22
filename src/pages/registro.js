@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/style.css";
+
 import { Form, Button } from "react-bootstrap";
 
 class registro extends React.Component {
@@ -21,11 +22,11 @@ class registro extends React.Component {
             </h1>
             <div>
               <Form>
-                <Form.Group controlId="formBasicEmail">
+                <Form.Group controlId="formBasicEmail" >
                   <Form.Label>NOMBRE</Form.Label>
                   <Form.Control
                     className="campo-registro"
-                    type="email"
+                    type="name"
                     placeholder="Ingrese su nombre"
                   />
                 </Form.Group>
@@ -34,7 +35,7 @@ class registro extends React.Component {
                   <Form.Label>APELLIDO</Form.Label>
                   <Form.Control
                     className="campo-registro"
-                    type="password"
+                    type="name"
                     placeholder="Ingrese su apellido"
                   />
                 </Form.Group>
@@ -63,8 +64,8 @@ class registro extends React.Component {
                     placeholder="Confirme su contraseña"
                   />
                 </Form.Group>
-
-                <Button href="/iniciarS" className="boton-I">
+              
+                <Button href="/" className="boton-I">
                   REGISTRARSE
                 </Button>
                 <br></br>
