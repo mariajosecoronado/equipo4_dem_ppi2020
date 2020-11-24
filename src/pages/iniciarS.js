@@ -5,7 +5,8 @@ import axios from 'axios';
 import md5 from 'md5';
 import Cookies from 'universal-cookie';
 
-const baseUrl="https://bj1li.sse.codesandbox.io/usuarios";
+const baseUrl="http://localhost:3000/usuarios";
+
 const cookies = new Cookies();
 
 class iniciarS extends Component{
@@ -52,11 +53,22 @@ await axios.get(baseUrl, {params: {username: this.state.form.username, password:
     if (cookies.get('username') && cookies.get('password')) {
       window.location.href = "./inicio";
     }
+   
   }
 
   CrearCuenta() {
     window.location.href = "./registro";
   }
+  
+  Administrador(){
+    
+window.location.href = "./inicio_admin";
+    
+    
+  }
+  
+  
+  
 
     render(){
         return(
@@ -88,7 +100,7 @@ await axios.get(baseUrl, {params: {username: this.state.form.username, password:
                 <br />
     
                 <button className="btn btn-success  " onClick={() => this.iniciarSesion()}>INICIAR SESIÓN COMO USUARIO</button>
-                <button className="btn btn-success  " onClick={() => this.iniciarSesion()}>INICIAR SESIÓN COMO ADMINISTRADOR</button>
+                <button className="btn btn-success  " onClick={() => this.Administrador()} >INICIAR SESIÓN COMO ADMINISTRADOR</button>
                 <button className="btn btn-success  " onClick={() => this.CrearCuenta()}>REGISTRARSE</button>
               </div>
             </div>

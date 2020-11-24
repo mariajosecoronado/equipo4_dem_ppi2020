@@ -5,7 +5,7 @@ import axios from 'axios';
 import md5 from 'md5';
 import Cookies from 'universal-cookie';
 
-const url = "https://bj1li.sse.codesandbox.io/usuarios";
+const url = "http://localhost:3000/usuarios";
 const cookies = new Cookies();
 
 class registro extends Component {
@@ -44,7 +44,7 @@ class registro extends Component {
       password: md5(this.state.form.password)
     }).then(response => {
       alert('Registro exitoso!')
-      window.location.href = "./";
+      window.location.href = "./iniciarS";
     }).catch(error => {
       console.log(error.message);
     })
@@ -131,11 +131,7 @@ class registro extends Component {
             />
            
            <button className="btn btn-success " onClick={() => this.peticionesPost()}>Enviar</button>
-           <br></br>
-                <br></br>
-                <button href="/iniciarS" className="btn btn-success ">
-                  Atrás
-                </button>
+           
             
                   
                

@@ -6,15 +6,11 @@ import {Table,Container,Modal,ModalHeader,ModalBody,FormGroup,ModalFooter,
 import { FontAwesomeIcon, faEdit,faTrashAlt  } from '@fortawesome/react-fontawesome';
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
-import { Card } from "react-bootstrap";
-import { Button } from "react-bootstrap";
-import { BsStar } from "react-icons/bs";
-import { AiOutlineFileAdd } from "react-icons/ai";
-import { AiFillClockCircle } from "react-icons/ai";
+
 import { BsArrowLeft } from "react-icons/bs";
 import Swal from "sweetalert2";;
 
-const url ="https://bj1li.sse.codesandbox.io/RECETAS";
+const url ="http://localhost:3000/RECETAS";
 
 class nuevaReceta extends React.Component {
   _Alert()  {
@@ -175,6 +171,10 @@ class nuevaReceta extends React.Component {
                 <div className="col-md-4 ">
                   <div className="card  mt-4" key={indice}>
                   <p className="card-title"> {receta.Ingredientes}</p>
+                  <p className="card-title"> {receta.Tipo_recetas}</p>
+                  <p className="card-title"> {receta.Preparacion}</p>
+                  <p className="card-title"> {receta.Tiempo}</p>
+                  <p className="card-title"> {receta.Fecha}</p>
          <img src={receta.Video} alt="Img"></img>
                 
                 <div  >
@@ -268,7 +268,7 @@ class nuevaReceta extends React.Component {
           <button className="button">
             {" "}
             <Nav.Link href="/mensaje" className="black">
-            punto  CLICK AQUÍ
+              CLICK AQUÍ
             </Nav.Link>{" "}
           </button>
           <Nav.Link href="/mensaje" className="black"></Nav.Link>{" "}
