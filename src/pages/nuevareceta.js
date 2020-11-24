@@ -1,6 +1,9 @@
 import React from "react";
 import "../style/style.css";
-
+import axios from 'axios';
+import {Table,Container,Modal,ModalHeader,ModalBody,FormGroup,ModalFooter,
+} from "reactstrap";
+import { FontAwesomeIcon, faEdit,faTrashAlt  } from '@fortawesome/react-fontawesome';
 import { BsSearch } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
 import { Card } from "react-bootstrap";
@@ -10,6 +13,8 @@ import { AiOutlineFileAdd } from "react-icons/ai";
 import { AiFillClockCircle } from "react-icons/ai";
 import { BsArrowLeft } from "react-icons/bs";
 import Swal from "sweetalert2";;
+
+const url ="https://bj1li.sse.codesandbox.io/RECETAS";
 
 class nuevaReceta extends React.Component {
   _Alert()  {
@@ -38,11 +43,104 @@ class nuevaReceta extends React.Component {
     });
    
   }
- 
-  render() {
-    return (
-      <div>
-        <div className="encabezado">
+  constructor(){
+    super();
+    this.state = {
+      data:[],
+      modalInsertar: false,
+      modalEliminar: false,
+      form:{
+        id: '',
+        Ingredientes: '',
+        Tipo_receta: '',
+        Preparacion: '',
+        Tiempo: '',
+        Video: '',
+        Fecha: ''
+      }
+    }}
+    modalInsertar=()=>{
+      this.setState({modalInsertar: !this.state.modalInsertar});
+    }
+
+    seleccionarCarro=(receta)=>{
+      this.setState({
+        tipoModal: 'actualizar',
+        form: {
+           id: receta.id,
+           Ingredientes: receta.Ingredientes,
+           Tipo_receta: receta.Tipo_receta,
+           Preparacion: receta.Preparacion,
+           Tiempo: receta.Tiempo,
+           Video: receta.Video,
+           Fecha: receta.Fecha,
+       
+        }
+      })
+     }
+     peticionesGet=()=>{
+      axios.get(url).then(response => {
+        //console.log(response.data) 
+        //asignaremos al estado
+        this.setState({data: response.data})
+      }).catch(error=>{
+        console.log(error.message);
+      })
+    }
+    
+    //Petición tipo POST
+    peticionesPost=async()=>{
+      await axios.post(url,this.state.form).then(response=>{
+        this.modalInsertar();
+        this.peticionesGet();
+      }).catch(error=>{
+        console.log(error.message);
+      })
+    }
+    
+    //Peticiones tipo PUT
+    peticionesPut=()=>{
+      axios.put(url+this.state.form.id, this.state.form).then(response=>{
+        this.modalInsertar();
+        this.peticionesGet();
+      }).catch(error=>{
+        console.log(error.message);
+      })
+    }
+    
+    PeticionesDelete=()=>{
+      axios.delete(url+this.state.form.id).then(response=> {
+        this.setState({modalEliminar: false});
+         this.peticionesGet();
+      }).catch(error=>{
+        console.log(error.message);
+      })
+    }
+    
+    //carpturar lo que el usuario inserte en las cajas de texto
+    //como se ejecuta en segundo plano debe ser asíncrono
+    handleChange= async e=>{
+    e.persist();
+    await this.setState({
+      form:{
+        ...this.state.form,
+        [e.target.name]: e.target.value
+      }
+    });
+    console.log(this.state.form)
+    }
+    
+    //primer ciclo de vida de los componentes
+    
+    componentDidMount(){
+      this.peticionesGet();
+    }
+ render(){
+   const {form}=this.state;
+
+   return(
+     <div>
+       <div className="encabezado">
           <Nav.Link eventKey="link-1" className="encabezado" href="perfil">
             <h1>
               <BsArrowLeft />
@@ -64,95 +162,125 @@ class nuevaReceta extends React.Component {
             </h1>
           </Nav.Link>
         </div>
-
-        <Nav className="justify-content-end" activeKey="/home">
-          <Nav.Item></Nav.Item>
-        </Nav>
-        <hr />
-        <Nav.Link className="black" onClick={this._Alert2}>
-          <AiOutlineFileAdd className="edit-public" />
-        </Nav.Link>
-        <br />
-        <hr />
-        <div>
-          <Nav activeKey="/home">
-            <Nav.Item>
-              <Nav.Link
-                eventKey="link-1"
-           
-                className="perfil-enlace  black"
-              >
-                <img
-                  className="foto-perfil"
-                  alt="foto de perfil"
-                  src="https://elhombreconfuso.files.wordpress.com/2010/11/alejandrosalgueirosexyhunk01.jpg"
-                />
-                <input placeholder="¿Qué preparaste?" />
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item></Nav.Item>
-          </Nav>
+        <br/>
+        <div  className="icono">
+        <button className="btn btn-success"  onClick={()=>{this.setState({form: null, tipoModal:'insertar'});this.modalInsertar()}}>Agregar receta</button>
         </div>
-        <br />
-        <Nav className="justify-content-end" activeKey="/home">
-          <Nav.Item>
-            <p className="nombredereceta">Nombre de tu receta</p>
-
-            <BsStar />
-            <BsStar />
-            <BsStar />
-            <BsStar />
-            <BsStar />
+        <br/><br/>
+        <section className="contenedorEjercicios  ">
           
-          </Nav.Item>
-          <Nav.Item></Nav.Item>
-        </Nav>
-        <br />
-        <div className="public-flex">
-          <Card border="success" style={{ width: "18rem" }}>
-            <Card.Header>Ingredientes</Card.Header>
-            <Card.Body>
-              <Card.Text>
-                Escribe aquí los ingredientes que se utilizaron para la
-                elaboración de esta receta
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <br></br>
-          <Card border="success" style={{ width: "18rem" }}>
-            <Card.Header>
-            
-              Preparación - Tiempo <AiFillClockCircle />
-            </Card.Header>
-
-            <Card.Body>
-              <Card.Text>..</Card.Text>
-            </Card.Body>
-          </Card>
-        </div>
-        <div className="boton">
-          <Button onClick={this._Alert}  className="boton-I">
-            Publicar
-          </Button>
-          <Button href="/Perfil" className="boton-I">
+          <ul className="card-deck mb-3 text-center">
+            {this.state.data.map((receta, indice) => {
+              return (
+                <div className="col-md-4 ">
+                  <div className="card  mt-4" key={indice}>
+                  <p className="card-title"> {receta.Ingredientes}</p>
+         <img src={receta.Video} alt="Img"></img>
+                
+                <div  >
+                  <li>{receta.Tipo_receta}</li>
+                </div>
+                <button
+                    type="button"
+                    className="btn btn-success"
+                  >
+                    <a href={receta.ruta}>¿Cómo se hace?</a>{" "}
+                  </button>
+                  <button className="btn btn-success" onClick={()=>{this.seleccionarCarro(receta);this.modalInsertar()}}><FontAwesomeIcon icon={faEdit}/>Actualizar</button>
+                      {" "}
+                      <button className="btn btn-success" onClick={()=>{this.seleccionarCarro(receta);this.setState({modalEliminar: true})}}><FontAwesomeIcon icon={faTrashAlt}/>Eliminar</button>
+                    
+                </div>
+                </div>
+              );
+            })}
+          </ul>
           
-            Cancelar
-          </Button>
-        </div>
+          
+        </section>
 
-        <footer className="header">
+        <div className="container text-center">
+        <Modal id="formContent" isOpen={this.state.modalInsertar}>
+        
+          <img
+            className="icono"
+            src="https://raw.githubusercontent.com/Saracas-022/holamundo/main/logotipo.jpeg"
+            alt="logo"
+            width="200"
+            height="150"
+          />
+          <h1 className="icono">Nueva receta </h1>
+          <ModalHeader style={{display: 'block'}}>
+          </ModalHeader>
+          <ModalBody>
+        
+            <div className="form-group wrapper fadeInDown">
+              <label htmlFor="PLACA">Id</label><br />
+              <input className="form-control" type="text" name="id" id="id"   onChange={this.handleChange} value={form?form.id: '' }/>
+              <br/>
+              <label htmlFor="nomejercicio">Descripción receta</label>
+              <input className="form-control" type="text" name="Descripcion" id="Descripcion"  onChange={this.handleChange} value={form?form.Descripcion: '' }/>
+              <br/>
+              <label htmlFor="descripcion">Tipo de receta</label>
+              <input className="form-control" type="text" name="Tipo_receta" id="Tipo_receta" onChange={this.handleChange} value={form?form.Tipo_receta: ''}/>
+             <br/>
+             <label htmlFor="MODELO">Preparación</label>
+              <input className="form-control" type="text" name="Preparacion" id="Preparacion" onChange={this.handleChange} value={form?form.Preparacion:''}/>
+              <br/>
+              <label htmlFor="MODELO">Tiempo</label>
+              <input className="form-control" type="text" name="Tiempo" id="Tiempo" onChange={this.handleChange} value={form?form.Tiempo:''}/>
+              <br/>
+              <label htmlFor="MODELO">Video</label>
+              <input className="form-control" type="text" name="Video" id="Video" onChange={this.handleChange} value={form?form.Video:''}/>
+              <br/>
+              <label htmlFor="MODELO">Fecha</label>
+              <input className="form-control" type="text" name="Fecha" id="Fecha" onChange={this.handleChange} value={form?form.Fecha:''}/>
+              <br/>
+              </div>
+          
+          </ModalBody>
+          <ModalFooter >
+            {this.state.tipoModal=='insertar'}
+            <button className="btn btn-success" onClick={()=>this.peticionesPost()}>
+              Insertar
+            </button>
+             <button className="btn btn-success" onClick={()=>this.peticionesPut()}>
+              Actualizar
+            </button>
+            <button className="btn btn-success" onClick={()=>this.modalInsertar()}>
+              Cancelar
+            </button>
+          </ModalFooter>
+      
+        </Modal>
+        </div>
+       <Modal isOpen={this.state.modalEliminar}>
+         <ModalBody>
+           Está seguro de eliminar esta receta {form && form.PLACA}
+         </ModalBody>
+         <ModalFooter>
+           <button className="btn btn-danger" onClick={()=>this.PeticionesDelete()}>Sí</button>
+           <button className="btn btn-success" onClick={()=>this.setState({modalEliminar: false})}>No</button>
+         </ModalFooter>
+       </Modal>
+       <footer className="header">
           CONTÁCTENOS
           <button className="button">
             {" "}
             <Nav.Link href="/mensaje" className="black">
-              CLICK AQUÍ
+            punto  CLICK AQUÍ
             </Nav.Link>{" "}
           </button>
           <Nav.Link href="/mensaje" className="black"></Nav.Link>{" "}
         </footer>
-      </div>
-    );
-  }
+      </div>  
+   );
+ }
+
 }
+            
+          
+   
 
 export default nuevaReceta;
+
